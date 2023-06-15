@@ -1,0 +1,359 @@
+[
+  {
+    "objectID": "AGD et questions ouvertes.html#enjeux-de-la-statistique-textuelle",
+    "href": "AGD et questions ouvertes.html#enjeux-de-la-statistique-textuelle",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Enjeux de la statistique (textuelle)",
+    "text": "Enjeux de la statistique (textuelle)\n\nExplorer : faire naître des idées, détecter des similitudes, des différences, des anomalies, ….\nRésumer les données à l’aide d’ indicateurs, de profils\nPrésenter des résultats …\n\n\n\n\n\n\nmais aussi :\n\nStructurer : le corpus en base de données et le nettoyer"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#les-données-textuelles",
+    "href": "AGD et questions ouvertes.html#les-données-textuelles",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Les données textuelles",
+    "text": "Les données textuelles\nDéfinir une question ouverte taille des textes, etc …\nL’ensemble de textes sur lesquels se base l’étude est le corpus.\nUne question ouverte est une question posée sans grille de réponse préétablie, dont la réponse peut être numérique ou textuelle (Lebart, Salemm 1994).\nUnité textuelle = réponse"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#un-peu-de-vocabulaire-de-statistique-textuelle",
+    "href": "AGD et questions ouvertes.html#un-peu-de-vocabulaire-de-statistique-textuelle",
+    "title": "Introduction à la statistique textuelle",
+    "section": "un peu de vocabulaire de Statistique textuelle",
+    "text": "un peu de vocabulaire de Statistique textuelle\n\nMot, forme graphique, forme racine, lemme, terme …\nCalcul de fréquences des “mots” (occurrences) ou de “type de mots” = s’intéresser à la forme des textes en faisant abstraction de leur structure.\nDétection de cooccurrences = présence simultanée de plusieurs “mots” dans des unités de textes afin de repérer des champs lexicaux.\n\nS’appuyer sur des métadonnées sur les textes"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#lanalyse-des-données",
+    "href": "AGD et questions ouvertes.html#lanalyse-des-données",
+    "title": "Introduction à la statistique textuelle",
+    "section": "L’Analyse des Données",
+    "text": "L’Analyse des Données"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#la-lexicométrie",
+    "href": "AGD et questions ouvertes.html#la-lexicométrie",
+    "title": "Introduction à la statistique textuelle",
+    "section": "La lexicométrie",
+    "text": "La lexicométrie\nEnsemble de méthodes permettant d’opérer des réorganisations unités textuelles et des analyses statistiques portant sur le vocabulaired’un corpus de texte.\n\nCalcul de répartitions ou de spécificités\nAnalyses multivariées (Analyses Factorielles, Classifications) = Pour faire émerger des thématiques sans a priori\n\nLogiciels  historiques  (Spad, Lexico, Alceste, Hyperbase) aujourd’hui open source écrits à partir de R (tm, R.temis, TXM, Quanteda, IRaMuteQ ou Xplortext ….)\nLes méthodes s’appliquent à des corpus qui diffèrent par leur nature mais qui sont transformés en tableaux de même structure : les tableaux lexicaux"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#afficher-des-concordances",
+    "href": "AGD et questions ouvertes.html#afficher-des-concordances",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Afficher des concordances",
+    "text": "Afficher des concordances\nLe concordancier : indispensable tout au long d’une analyse de texte, quel qu’il soit :\n La concordance correspond à l’ensemble des lignes de contexte se rapportant à un même “mot”."
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#usage-croissant",
+    "href": "AGD et questions ouvertes.html#usage-croissant",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Usage croissant",
+    "text": "Usage croissant"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#collecter-corpus-et-métadonnées",
+    "href": "AGD et questions ouvertes.html#collecter-corpus-et-métadonnées",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Collecter Corpus et métadonnées",
+    "text": "Collecter Corpus et métadonnées\nQuels sont les textes les plus semblables en ce qui concerne le vocabulaire et la fréquence des formes utilisées ? Quelles sont les formes qui caractérisent chaque texte, par leur présence ou leur absence ? (Lebart & Salem, 1994, p.135)\nNe pas oublier les métadonnées\nLes questionner, les contextualiser : disponibilités/droits, sources, limites…"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#nettoyer-les-données",
+    "href": "AGD et questions ouvertes.html#nettoyer-les-données",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Nettoyer les données",
+    "text": "Nettoyer les données\n= Etape de l’analyse à ne pas sous-estimer\nDiffère selon les types de corpus (questions ouvertes, entretiens, romans, articles, pages Web etc..)\n= nettoyer, normaliser, corriger ( encodage, orthographe, abreviations …)"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#exemple-de-question-ouverte-dans-un-questionnaire",
+    "href": "AGD et questions ouvertes.html#exemple-de-question-ouverte-dans-un-questionnaire",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Exemple de question ouverte dans un questionnaire",
+    "text": "Exemple de question ouverte dans un questionnaire"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#le-tableau-lexical-entier-tle",
+    "href": "AGD et questions ouvertes.html#le-tableau-lexical-entier-tle",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Le tableau lexical entier (TLE)",
+    "text": "Le tableau lexical entier (TLE)\nTableau à double entrée dont les lignes sont constituées par les unités de texte et les colonnes les “mots” du corpus. \nTableaux dits hyper-creux. Présence/absence de mots dans les textes (Valeur positive ou nulle). L’ordre des mots n’est pas pris en compte (sacs de mots)"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#lecture-du-lexique",
+    "href": "AGD et questions ouvertes.html#lecture-du-lexique",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Lecture du lexique",
+    "text": "Lecture du lexique\n\nLes mots vont constituer le dictionnaire ou lexique associé au corpus et deviennent des descripteurs : les termes\n\n\n\n\n\n\nLecture des mots par ordre de fréquence (occurrence), ordre alphabétique."
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#méthodologie-embarquée",
+    "href": "AGD et questions ouvertes.html#méthodologie-embarquée",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Méthodologie embarquée",
+    "text": "Méthodologie embarquée\nRéduire la taille du lexique Via l’opération de lemmatisation\n= rattacher un ou plusieurs mots à une forme dite racine (Lebart, Salem, 1994)\nConvertir :\n\nles formes verbales à l’infinitif\nles substantifs au singulier\nles adjectifs au masculin singulier\n\nOpération automatisée avec des dictionnaires et/ou manuelle"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-le-tableau-lexical-entier",
+    "href": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-le-tableau-lexical-entier",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Analyse des correspondances sur le tableau lexical entier",
+    "text": "Analyse des correspondances sur le tableau lexical entier\nLes plans factoriels permettent de visualiser des proximités de mots, des oppositions et ainsi de repérer des champs lexicaux\n\n(Enquête Populations, Espaces de vie, Environnements, Ined 1992)\nDeux mots sont d’autant plus proches que leurs contextes d’utilisation se ressemblent et d’autant plus éloignés qu’ils sont rarement utilisés ensemble"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#classification-sur-tableau-lexical",
+    "href": "AGD et questions ouvertes.html#classification-sur-tableau-lexical",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Classification sur Tableau Lexical",
+    "text": "Classification sur Tableau Lexical\nObtenir un classement des unités de textes en fonction de la ressemblance ou de la dissemblance des mots dans ces textes et d’ordonner les textes en cernant les homologies et les oppositions (Rouré, Reinert, 1993)\n\nMéthode Alceste ( Reinert, 1983), aujourd’hui implantée dans le package Rainette (J. Barnier)"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#les-spécificités",
+    "href": "AGD et questions ouvertes.html#les-spécificités",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Les spécificités",
+    "text": "Les spécificités\nUtilisation d’un test statistique pour dire si l’écart entre la fréquence relative d’une forme dans une partition (par modalité) et la fréquence globale calculée sur l’ensemble des réponses est significatif ou non\n\n(Enquête Populations, Espaces de vie, Environnements, Ined 1992)\nLes mots ou textes caractéristiques de ces partitions sont restitués selon leur degré de spécificité"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#le-tableau-lexical-agrégé-tla",
+    "href": "AGD et questions ouvertes.html#le-tableau-lexical-agrégé-tla",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Le tableau lexical agrégé (TLA)",
+    "text": "Le tableau lexical agrégé (TLA)\nTableau de contingence qui croise les mots du lexique et les modalités des métadonnées.\n\n(Populations, Espaces de vie, Environnements, Ined, 1992)"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-un-tableau-lexical-agrégé",
+    "href": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-un-tableau-lexical-agrégé",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Analyse des correspondances sur un Tableau Lexical Agrégé",
+    "text": "Analyse des correspondances sur un Tableau Lexical Agrégé\nLe plan factoriel permet d’observer la position réciproque des “mots” et des métadonnées et de faire émerger des champs lexicaux propres à des sous-populations\n\n(Enquête Populations, Espaces de vie, Environnements, Ined 1992)\n\n2 mots proches = proximité des individus - profils lignes\n2 caractéristiques proches = univers lexicaux proches - profils colonnes"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#affiner-lanalyse",
+    "href": "AGD et questions ouvertes.html#affiner-lanalyse",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Affiner l’analyse",
+    "text": "Affiner l’analyse\n\nSupprimer certains mots …\nAugmenter le nombre de classes …\nPersonnaliser la lemmatisation …\nExtraire des sous-corpus à l’aide metadonnées …"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#les-outils",
+    "href": "AGD et questions ouvertes.html#les-outils",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Les outils",
+    "text": "Les outils\n\nListe non exhaustive"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#package-tm-text-mining-de-r",
+    "href": "AGD et questions ouvertes.html#package-tm-text-mining-de-r",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Package tm (Text Mining) de R",
+    "text": "Package tm (Text Mining) de R\nFeinerer, Hornik, Meyer Wirtschaftsuniversity de Wien, in Journal of Statistical Software (Mars 2008)\n\nConstruction de tableaux lexicaux (Document Term Matrix), comptage de mots, calcul d’associations, … = fonctions de tm\nRapporte les mots à leurs radicaux (stemming) ou supprime les mots outils (i.e articles) = options de tm"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#package-r.temis-de-r",
+    "href": "AGD et questions ouvertes.html#package-r.temis-de-r",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Package R.temis de R",
+    "text": "Package R.temis de R\nFacilite les étapes essentielles de l’analyse textuelle en s’appuyant au maximum sur les packages existants (tm, FactoMineR, explor, igraph…).\nR.temis implémente les méthodes suivantes :\n\nimportation de corpus au format .csv, .txt\nsuppression des mots vides, lemmatisation modifiable,\ncalcul d’occurrences, nuage de mots,\ncalcul de spécificités,\ndétection de cooccurrences,\nrecherche de concordances,\nanalyse des correspondances et classification,\ngraphes de mots"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#conclusion",
+    "href": "AGD et questions ouvertes.html#conclusion",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nAnalyse de données (non structurées)\nExplorer les données autrement - sans a priori\nComplémentarité des méthodes (qualitative/quantitative)\nUtilisation conjointe de l’informatique tout-automatique et de l’intuition humaine"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#statistique-textuelle-quali-quanti-viz",
+    "href": "AGD et questions ouvertes.html#statistique-textuelle-quali-quanti-viz",
+    "title": "Introduction à la statistique textuelle",
+    "section": "Statistique textuelle : Quali + Quanti + Viz",
+    "text": "Statistique textuelle : Quali + Quanti + Viz\nCalculs statistiques appliqués à des corpus\n\nChiffres & Mots : Occurrences & Cooccurrences, …\nCalcul de spécificités, profils, …\nVisualisations : nuages de mots, graphe de mots, plan factoriels (Analyse des correspondances), dendrogrammes (classifications)\n\nAides à l’interprétation indispensables : les concordances"
+  },
+  {
+    "objectID": "biblio.html",
+    "href": "biblio.html",
+    "title": "Quelques ressources",
+    "section": "",
+    "text": "Bastin G., Bouchet-Valat M. 2014 - Media corpora, text mining, and the sociological imagination – A free software text mining approach to the framing of Julian Assange by three news agencies using R.TeMiS. Bulletin de Méthodologie Sociologique, 121 (1), p. 5-25.\nBécue-Bertaut M., Morin A., Murtagh F. 2018 - Analyse Textuelle avec R, Presses Universitaires de Rennes (Pratique De La Statistique), 190 p.\nBenzécri, J. P., 1984 - Description des textes et analyse documentaire, Cahiers de l’analyse des données, Tome 9,no. 2, p. 205-211\nBenzécri J.-P. 1973 - L’analyse des Données (tome 1 et 2). Dunod, Paris\nGarnier B., Guérin-Pace F. 2010 - Appliquer les méthodes de la statistique textuelle, Ceped, les clefs pour, Paris\nGuérin-Pace F. 1997. La statistique textuelle : un outil exploratoire en sciences sociales. In: Population, 52ᵉ année, n°4, 1997. pp. 865-887\nHusson F., Jégou N., Cornillon P.-A., Josse J., Rouvière L., Matzner-Løber É., Guyader A., Thieurmel B., Klutchikoff N., 2018. R pour la statistique et la science des données, Rennes, PUR, 462p.\nLebart L., Salem A. 1994. Statistique textuelle. Paris, Dunod, 342 p. http://www.dtmvic.com/\nLebart L., Pincemin B., Poudat C. 2020. Analyse des données textuelles, Mesure et évaluation, Presses de l’Université du Québec\nReinert, Max. 1983. Une méthode de classification descendante hiérarchique : application à l’analyse lexicale par contexte. Les cahiers de l’analyse des données, Tome 8 no. 2, pp. 187-198"
+  },
+  {
+    "objectID": "biblio.html#applications",
+    "href": "biblio.html#applications",
+    "title": "Quelques ressources",
+    "section": "Applications",
+    "text": "Applications\n\nBaril E., Guérin-Pace F. 2016. Compétences à l’écrit des adultes et événements marquants de l’enfance : le traitement de l’enquête Information et vie quotidienne à l’aide des méthodes de la statistique textuelle, Economie et statistique, N° 490\nBonvalet C., Gotman A., Grafmeyer Y., Bertaux-Wiame I., Le Bras H., Maison D.1999. La famille et ses proches : l’aménagement des territoires, Travaux et documents N°143, Ined\nBrennetot A., Emsellem K., Guérin-Pace F., Garnier B. 2013. Dire l’Europe à travers le monde.Les mots des étudiants dans l’enquête EuroBroadMap, Cybergéo\nCoulomb Ph., Guérin-Pace F. 1998. Les contours du mot « environnement » : enseignements de la statistique textuelle. L’espace géographique. 41 (1)\nGarnier B., Guérin-Pace F. 1998. La statistique textuelle pour traiter une question ouverte suivie d’une relance. JADT 1998. Actes des 4èmes journées internationales d’analyse statistique des données textuelles, p. 315-324.\nGuérin-Pace F., Garnier B. . 1996. La statistique textuelle pour le traitement simultané de réponses à des questions ouvertes et fermées sur le thème de l’environnement. JADT 1995. Actes des 3èmes Journées internationales d’analyse statistique des données textuelles, p. 37-45.\nGuérin-Pace F., Saint-Julien T. 2012 - Les mots de L’Espace Géographique. Une analyse lexicale des titres et mots-clés de 1972 à 2010. L’espace géographique. 41 (1)\nLabbé C., Labbé D. 2005. How to measure the meanings of words ? Amour in Corneille’s work. Language Resources and Evaluation, 39, pp.335-351. ⟨halshs-00090077⟩\nLabbé C., Labbé D. Le sens des mots : l’Europe dans le vocabulaire de Jacques Chirac, https://halshs.archives-ouvertes.fr/halshs-02299918v3\nMarpsat, M. 2010. Écrire la rue : de la survie physique à la résistance au stigmate. Une analyse textuelle et thématique du journal d’Albert Vanderburg, sans domicile et auteur de blog, Sociologie N°1, vol. 1, https://sociologie.revues.org/130\nParasie, S. & Cointet, J. 2012. La presse en ligne au service de la démocratie locale: Une analyse morphologique de forums politiques. Revue française de science politique, vol. 62(1), 45-70. https://doi.org/10.3917/rfsp.621.0045\nSaint Léger de, M. 2008. Comment ont évolué les thématiques des 99 premiers numéros de BMS ?, Bulletin de méthodologie sociologique [En ligne], 100 | mis en ligne le 01 octobre 2011, http://journals.openedition.org/bms/3153\nVautier, C. (dir.) 2015. Nouvelles perspectives en sciences sociales : revue internationale de systémique complexe et d’études relationnelles. Volume 11, numéro 1, l’analyse de données textuelles informatisée, Prise de parole, p. 15-461"
+  },
+  {
+    "objectID": "biblio.html#sites",
+    "href": "biblio.html#sites",
+    "title": "Quelques ressources",
+    "section": "Sites",
+    "text": "Sites\n\nActes des Journées d’Analyse des Données Textuelles : http://lexicometrica.univ-paris3.fr/\nWebinaires du réseau Mate SHS : http://mate-shs.cnrs.fr/?les-tutos-mate\nProjet Textometrie : http://textometrie.ens-lyon.fr/\nLe Descriptoire : Recueil et analyse de texte avec R\nCours de Ricco Rakotomalala\n\n\nLes packages\n\nR.temis\nquanteda\nRainette\nXplortext\n\nLes autres outils\n\nIRaMuTeQ\nVoyant-Tools : environnement en ligne de lecture et d’analyse de textes\n\net les séminaires :\n\nR à l’Usage des Sciences Sociales (RUSS)\nLes Rencontres de Statistique Appliquée (RSA)"
+  },
+  {
+    "objectID": "Exercices_enonces.html",
+    "href": "Exercices_enonces.html",
+    "title": "Application avec R.temis dans RStudio",
+    "section": "",
+    "text": "Pas à Pas de l’analyse de réponses à la question ouverte K1 Enquête “Population, Espace de Vie, Environnement”, Ined 1992 avec caractéristiques des répondants : QO_Pee_K1.html\net aussi le Pas à Pas montrant toutes les fonctionnalités de R.temis appliqué sur un autre texte court https://rtemis.hypotheses.org/r-temis-dans-rstudio\nExtraire les scripts nécessaires des pages citées plus haut\nFichiers fournis\n\nExtrait des données de l’enquête : PEE_K1_extract.csv\nLemmatiseur construit à partir du lexique associé aux données : Pee_dic_lem_extract.csv\nLemmatiseur adapté de Lexique 3 base de données lexicales du français contenant des représentations orthographiques et phonémiques, des lemmes associés ainsi que leur catégorie grammaticale … : Lexique383_simplifié.csv\n\n\n\n\nCréer un répertoire/dossier pour l’analyse sur votre ordinateur. Dans ce dossier, créér un sous répertoire appelé par exemple data pour y placer les données à utiliser.\nCréer un projet R dans le dossier de l’analyse [File/New Project …]. Créer un script [File/New File …].\nTélécharger les données extraites de l’enquête PEE (textes et métadonnées) (PEE_K1_extract.csv) dans le répertoire data en exécutant le script ci-dessous.\n\n\nlibrary(readr)\nPEE_K1_extract <- read.csv(\"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/PEE_K1_extract.csv\", sep=\";\")\n\nwrite.csv2(PEE_K1_extract,file=\"data/PEE_K1_extract.csv\")\n\nVisualiser les données à traiter\n\n\n\nImporter ce fichier contenant une variable textuelle et des métadonnées avec le package R.temis.\n\nImporter le fichier import_corpus.\nCréer le tableau lexical (avec mots-outils) build_dtm.\nRepérer le nombre de répondants et le nombre de mots différents cités dans les réponses.\nCréer le dictionnaire dictionary puis le visualiser View. Le trier, repérer les mots les plus cités, les lemmes générés par R.\nAfficher des concordances avec des mots (au choix) concordances.\nAfficher le nuage de mots associés au lexique word_cloud. Faire ce nuage de mots avec et sans les mots-outils. Calculer les éléments qui permettront d’ajouter une légende frequent_terms.\n\n\n\n\n\nChercher des cooccurrences à certains mots (au choix) cooc_terms.\nProduire un graphe de mots pour détecter les cooccurrences autour des mots les plus fréquents terms_graph. Que remarquez-vous ?\nFaire une analyse factorielle sur le tableau lexical corpus_ca puis explorer les résulats avec l’interface explor. Afficher des concordances concordances.\n\n\n\n\n\nVisualiser le tableau des métadonnnées View(meta(corpus)). Compter le nombre de répondants(package questionr) selon 3 métadonnées (au choix).\nFaire le bilan lexical pour au moins une métadonnée (au choix)lexical_summary.\nRepérer le vocabulaire spécifique pour quelques métadonnées (au choix)specific_terms.\nFaire une analyse factorielle sur le tableau croisant les mots du lexique et des caractéristiques des répondants (au choix) corpus_ca. Explorer les résulats explor. Afficher des concordances concordances, des réponses spécifiques extreme_docs.\n\n\n\n\nIl s’agit ici d’affiner peu à peu l’analyse en supprimant des mots et/ou en modifiant la lemmatisation.\n\n\n\nCréer une la liste de mots à enlever du corpus (prendre ici : “sur”,“que”,“qu”). La supprimer du tableau lexical et du lexique, puis exporter le dictionnaire dictionary.\nOuvrir ce dictionnaire avec un tableur. Corrigez si besoin les formes lemmatisées automatiquement par R.\nRécupérer le lemmatiseur “associé à Pee” (Pee_dic_lem_extract.csv) et le copier dans le répertoire data du dossier créé pour l’analyse. et l’importer dans le projet (toujours le répertoire data) read.csv2. Pour cela, exécuter le scipt ci-dessous.\n\n\nlibrary(readr)\ndic_lem1 <- read.csv2(\"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Pee_dic_lem_extract.csv\", sep=\";\",row.names=1)\n\n\nLemmatiser le tableau lexical à l’aide de ce lemmatiseur combine_terms.\nCompter le nombre de mots distincts restants après cette lemmatisation par exemple avec lexical_summary\nExcécuter des analyses précédentes avec ce nouveau lexique\n\n\n\n\n\nRécupérer le lemmatiseur adapté de lexique3 (Lexique383_simplifie.csv) dans le répertoire data de l’analyse en exécutant le script.\n\n\nlexique3 <- read.csv2(\"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Lexique383_simplifie.csv\", sep=\",\", fileEncoding=\"UTF-8\")\n\n\nGarder les mots de catégories grammaticales “utiles” et lemmatiser à nouveau le dictionnaire issu du tableau lexical initial\nRelancer quelques analyses au choix….\n\n\n\n\n\n\nFaire une classification sur le tableau lexical associé aux réponses avec corpus_ca. Décrire les classe specific_terms puis joindre exporter la variable de classe aux metadonnées..\n\n\n\n\n\nTravailler sur des sous-corpus\nUtiliser le package Rainette pour faire la classification sur le tableau lexical https://juba.github.io/rainette/articles/introduction_usage.html …………."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Analyser des questions ouvertes au moyen de la statistique textuelle",
+    "section": "",
+    "text": "L’objectif de cet atelier de 3h est de comprendre les concepts mis en oeuvre en statistique textuelle et d’acquérir les clés pour explorer par étapes une question ouverte.\nLa mise en pratique des méthodes se fait au moyen de Spad et du package R.temis.\nBénédicte Garnier (Ined)"
+  },
+  {
+    "objectID": "Intro.html",
+    "href": "Intro.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "Slides"
+  },
+  {
+    "objectID": "QO_Pee_K1.html",
+    "href": "QO_Pee_K1.html",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "",
+    "text": "library(R.temis)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#données",
+    "href": "QO_Pee_K1.html#données",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Données",
+    "text": "Données\nLe corpus utilisé dans cet exemple contient un extrait des réponses à une question ouverte issue de l’enquête Populations, Espaces de Vie, Environnements (Ined, 1992). L’intitulé de la question est celui-ci :Si je vous dis Environnement, qu’est ce que cela évoque pour vous ?.\nPour chaque enquêté, on dispose de caractéristiques socio-démographiques (https://data.ined.fr/index.php/catalog/41).\nLes données sont stockées dans un tableau, dit individus x variables, contenant 2017 lignes (le nombre de répondants) et 16 colonnes. Ces colonnes correspondent aux variables suivantes : identifiant du questionnaire, caractéristiques des répondants (ou métadonnées) et en 16ème colonne la variable correspondant à la question ouverte ( variable textuelle). Les textes des réponses constituent le corpus.\n\ncorpus <- import_corpus(\"data/PEE_K1_extract.csv\", format=\"csv\",textcolumn=16,language=\"fr\")"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#affichage",
+    "href": "QO_Pee_K1.html#affichage",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Affichage",
+    "text": "Affichage\n\n# des metadonnées\nView(meta(corpus))\n\n# des réponses à la QO\nView(sapply(corpus,as.character))\n\n# d'un extrait du Tableau lexical\ninspect(dtm)\n#as.matrix(dtm[1:10, c(\"de\", \"abus\")])"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#explorer-le-lexique",
+    "href": "QO_Pee_K1.html#explorer-le-lexique",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Explorer le lexique",
+    "text": "Explorer le lexique\nLa fonction dictionary crée le dictionnaire associé au lexique. On peut explorer via RStudio : affichage des mots par ordre alphabétique ou par fréquence.\nOn affiche la liste des mots les plus fréquents avec la fonction frequent_terms.\n\ndic<-dictionary(dtm,remove_stopwords = F)\n\nfrequent_terms(dtm, n=20)\n\n          Global occ.  Global %\nla               1112 9.0983472\nnature            888 7.2655866\nde                823 6.7337588\nles               417 3.4118802\nle                406 3.3218786\nvie               382 3.1255114\nce                362 2.9618720\nqui               352 2.8800524\nautour            193 1.5791196\nest               192 1.5709377\ntout              190 1.5545737\nentoure           183 1.4973000\ncadre             173 1.4154803\npollution         146 1.1945672\nnous              135 1.1045655\non                129 1.0554737\noù                119 0.9736541\ncampagne          111 0.9081983\nqualité           108 0.8836524\nbien              105 0.8591065\n\n\nLe mot nature est évoqué 888 fois dans cet extrait des réponses à la question ouverte (PEE) et représente plus de 7% des occurrences."
+  },
+  {
+    "objectID": "QO_Pee_K1.html#terme-le-plus-associé-positivement-ou-négativement-à-un-terme",
+    "href": "QO_Pee_K1.html#terme-le-plus-associé-positivement-ou-négativement-à-un-terme",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Terme le plus associé (positivement ou négativement) à un terme",
+    "text": "Terme le plus associé (positivement ou négativement) à un terme\nOn utilise la fonction cooc_terms qui affiche les termes coocurrents à un mots choisi (ici logement) dans l’ensemble du corpus.\n\ncooc_terms(dtm,\"logement\", n=10)\n\n          % Term/Cooc. % Cooc./Term   Global % Cooc. Global   t value  Prob.\nlogement    10.6194690  100.0000000 0.09818360    12     12       Inf 0.0000\ndu           4.4247788   11.9047619 0.34364261     5     42  3.944244 0.0000\nmon          3.5398230   10.0000000 0.32727868     4     40  3.296309 0.0005\nalentours    2.6548673    9.6774194 0.25364098     3     31  2.762872 0.0029\npersonnes    1.7699115   16.6666667 0.09818360     2     12  2.558003 0.0053\nenquêté      0.8849558   50.0000000 0.01636393     1      2  2.087832 0.0184\nprincipal    0.8849558   50.0000000 0.01636393     1      2  2.087832 0.0184\nvivent       0.8849558   50.0000000 0.01636393     1      2  2.087832 0.0184\n---------           NA           NA         NA    NA     NA        NA     NA\nla           3.5398230    0.3597122 9.09834724     4   1112 -2.063841 0.0195\nnature       0.8849558    0.1126126 7.26558665     1    888 -2.894881 0.0019\n\n\nParmi les réponses contenant logement, mon représente 3,5% de l’ensemble des occurrences. Plus de 10% des occurrences de mon sont présentes quand logement est aussi donné dans les réponses.\nOn verra par la suite qu’on peut produire un graphe de mots."
+  },
+  {
+    "objectID": "QO_Pee_K1.html#analyse-factorielle-sur-un-tableau-lexical-entier",
+    "href": "QO_Pee_K1.html#analyse-factorielle-sur-un-tableau-lexical-entier",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Analyse factorielle sur un tableau lexical entier",
+    "text": "Analyse factorielle sur un tableau lexical entier\nL’analyse factorielle sur un tableau lexical met en évidence les mots les plus cooccurrents. La lecture des mots les plus contributifs aux axes et les concordances permettent d’identifier des champs lexicaux. Par la suite, elle peut aider à de justifier (ou non) la lemmatisation de certains mots (partie suivante).\n\nresTLE <-corpus_ca(corpus,dtm, sparsity=0.985)\n\n37 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X75, X114, X130, X197, X284, X377, X402, X554, X561, X585, X725, X776, X844, X861, X909, X911, X917, X940, X1026, X1108, X1141, X1148, X1154, X1396, X1470, X1512, X1522, X1565, X1576, X1608, X1720, X1743, X1789, X1796, X1871, X1877, X1983.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#explor(resTLE)\nres <- explor::prepare_results(resTLE)\nexplor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = TRUE, var_sup = FALSE,\n    var_sup_choice = , var_hide = \"Row\", var_lab_min_contrib = 0, col_var = \"Position\",\n    symbol_var = \"Type\", size_var = \"Contrib\", size_range = c(23.4375, 312.5),\n    labels_size = 10, point_size = 25, transitions = TRUE, labels_positions = NULL,\n    xlim = c(-3, 2.91), ylim = c(-2.42, 3.49))\n\n\n\n\n\nLes aides à l’interprétation classiques (valeurs propres, contributions, coordonnées, …) sont stockées dans resTLE que l’on explore avec grâce à la fonction explor (RShiny)."
+  },
+  {
+    "objectID": "QO_Pee_K1.html#répartitions",
+    "href": "QO_Pee_K1.html#répartitions",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Répartitions",
+    "text": "Répartitions\nVérifie la répartition des caractéristiques des enquêté pour chaque métadonnée.\n\nlibrary (questionr)\n\ntable(meta(corpus)$sexe)\ntable(meta(corpus)$aget)\ntable(meta(corpus)$matrim)\ntable(meta(corpus)$pratique)\ntable(meta(corpus)$enf)\ntable(meta(corpus)$activite)\ntable(meta(corpus)$prof)\ntable(meta(corpus)$dipl)\ntable(meta(corpus)$vote)\ntable(meta(corpus)$habitat)\ntable(meta(corpus)$localite)\ntable(meta(corpus)$revenu)\ntable(meta(corpus)$region)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#nombre-de-mots-par-sous-corpus",
+    "href": "QO_Pee_K1.html#nombre-de-mots-par-sous-corpus",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Nombre de mots par sous-corpus",
+    "text": "Nombre de mots par sous-corpus\nIci on compte les mots de chaque sous-corpus crée à partir de la variable Region de l’enquête.\n\nlexical_summary(dtm, corpus,\"region\", unit = \"global\")           \n\n                           \nPer category total:             Bretagne       Centre   Jura_Alpes\n  Number of terms            2142.000000   686.000000  1702.000000\n  Number of unique terms      411.000000   162.000000   383.000000\n  Percent of unique terms      19.187675    23.615160    22.502938\n  Number of hapax legomena    239.000000    95.000000   244.000000\n  Percent of hapax legomena    11.157796    13.848397    14.336075\n  Number of words            2142.000000   686.000000  1702.000000\n                           \nPer category total:         Mediterrannée         Nord S_BassinParis\n  Number of terms             1256.000000  1907.000000    842.000000\n  Number of unique terms       304.000000   361.000000    237.000000\n  Percent of unique terms       24.203822    18.930257     28.147268\n  Number of hapax legomena     181.000000   204.000000    156.000000\n  Percent of hapax legomena     14.410828    10.697431     18.527316\n  Number of words             1256.000000  1907.000000    842.000000\n                           \nPer category total:              S_Ouest        Seine Corpus total\n  Number of terms            1445.000000  2242.000000 12222.000000\n  Number of unique terms      306.000000   472.000000  1157.000000\n  Percent of unique terms      21.176471    21.052632     9.466536\n  Number of hapax legomena    182.000000   279.000000   650.000000\n  Percent of hapax legomena    12.595156    12.444246     5.318279\n  Number of words            1445.000000  2242.000000 12222.000000\n\n\nLe corpus contient 12222 mots dont 1157 mots distincts, alors que le corpus des enquêtés de la région Seine contient 2242 mots dont 472 mots distints. On pourrait comparer ici le % de mots distincts (indicateur de richesse du vocabulaire) 9,5% vs 21% en région Seine."
+  },
+  {
+    "objectID": "QO_Pee_K1.html#specificités",
+    "href": "QO_Pee_K1.html#specificités",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Specificités",
+    "text": "Specificités\n\nMots spécifiques par modalités\n\n# selon le région\nspecific_terms(dtm,meta(corpus)$aget, n=10)\n\n$`20-29ans`\n          % Term/Level % Level/Term   Global % Level Global occ.   t value\npollution    2.3171615    21.917808 1.19456717    32         146  3.597375\nnature       9.7031137    15.090090 7.26558665   134         888  3.520068\nla          11.4409848    14.208633 9.09834724   158        1112  3.079918\nécologie     1.0861694    23.437500 0.52364588    15          64  2.622351\nhabite       0.5068791    31.818182 0.18000327     7          22  2.385060\nflore        0.2172339    60.000000 0.04090983     3           5  2.254811\nplanète      0.2172339    60.000000 0.04090983     3           5  2.254811\nfutur        0.1448226   100.000000 0.01636393     2           2  2.233463\n---------           NA           NA         NA    NA          NA        NA\nvivre        0.0724113     1.694915 0.48273605     1          59 -2.451376\npas          0.0724113     1.587302 0.51546392     1          63 -2.600224\n           Prob.\npollution 0.0002\nnature    0.0002\nla        0.0010\nécologie  0.0044\nhabite    0.0085\nflore     0.0121\nplanète   0.0121\nfutur     0.0128\n---------     NA\nvivre     0.0071\npas       0.0047\n\n$`30-39ans`\n        % Term/Level % Level/Term   Global % Level Global occ.   t value  Prob.\nespace     1.5224913     44.89796 0.80183276    44          98  4.535542 0.0000\nvert       0.5536332     48.48485 0.27000491    16          33  2.949616 0.0016\ntravail    0.3114187     56.25000 0.13091147     9          16  2.575370 0.0050\naux        0.2422145     63.63636 0.09000164     7          11  2.548321 0.0054\nespaces    0.6920415     40.00000 0.40909835    20          50  2.441736 0.0073\nbeauté     0.2768166     53.33333 0.12272950     8          15  2.249163 0.0123\nme         0.1384083     80.00000 0.04090983     4           5  2.236567 0.0127\ntissus     0.1038062    100.00000 0.02454590     3           3  2.219964 0.0132\nqualité    1.2456747     33.33333 0.88365243    36         108  2.199543 0.0139\n-------           NA           NA         NA    NA          NA        NA     NA\ndes        0.3460208     10.75269 0.76092293    10          93 -3.020565 0.0013\n\n$`40-49ans`\n         % Term/Level % Level/Term   Global % Level Global occ.   t value\nvie         3.8917717     27.48691 3.12551137   105         382  2.476145\nodeurs      0.2594514     58.33333 0.09818360     7          12  2.459497\ncela        0.1482580     80.00000 0.04090983     4           5  2.335376\nproduits    0.1111935    100.00000 0.02454590     3           3  2.299162\npureté      0.1482580     66.66667 0.04909180     4           6  1.974445\nrespirer    0.1482580     66.66667 0.04909180     4           6  1.974445\nchoix       0.1111935     75.00000 0.03272787     3           4  1.800639\nsurvie      0.1111935     75.00000 0.03272787     3           4  1.800639\nqualité     1.1860638     29.62963 0.88365243    32         108  1.745680\n--------           NA           NA         NA    NA          NA        NA\nespaces     0.1482580      8.00000 0.40909835     4          50 -2.420948\n          Prob.\nvie      0.0066\nodeurs   0.0070\ncela     0.0098\nproduits 0.0107\npureté   0.0242\nrespirer 0.0242\nchoix    0.0359\nsurvie   0.0359\nqualité  0.0404\n--------     NA\nespaces  0.0077\n\n$`50-59ans`\n           % Term/Level % Level/Term   Global % Level Global occ.   t value\nplaisir       0.4329004    41.176471 0.13909344     7          17  2.647314\nautour        2.2881880    19.170984 1.57911962    37         193  2.253119\nsur           0.3092146    41.666667 0.09818360     5          12  2.190012\ncampagnard    0.1236858   100.000000 0.01636393     2           2  2.108485\nconstruits    0.1236858   100.000000 0.01636393     2           2  2.108485\nessayer       0.1236858   100.000000 0.01636393     2           2  2.108485\nphysiques     0.1236858   100.000000 0.01636393     2           2  2.108485\npolitiques    0.1236858   100.000000 0.01636393     2           2  2.108485\n----------           NA           NA         NA    NA          NA        NA\npollution     0.5565863     6.164384 1.19456717     9         146 -2.603730\neau           0.0000000     0.000000 0.38455245     0          47 -3.022971\n            Prob.\nplaisir    0.0041\nautour     0.0121\nsur        0.0143\ncampagnard 0.0175\nconstruits 0.0175\nessayer    0.0175\nphysiques  0.0175\npolitiques 0.0175\n----------     NA\npollution  0.0046\neau        0.0013\n\n$`60ans+`\n           % Term/Level % Level/Term   Global % Level Global occ.   t value\ncoin         0.11001100    100.00000 0.03272787     4           4  2.417029\nchoses       0.30253025     57.89474 0.15545737    11          19  2.333884\njardin       0.19251925     70.00000 0.08181967     7          10  2.324512\nsans         0.16501650     75.00000 0.06545574     6           8  2.298140\n----------           NA           NA         NA    NA          NA        NA\nprotection   0.08250825     10.00000 0.24545901     3          30 -2.327551\ncadre        1.01760176     21.38728 1.41548028    37         173 -2.398498\nespace       0.49504950     18.36735 0.80183276    18          98 -2.450984\nqualité      0.55005501     18.51852 0.88365243    20         108 -2.549664\nvie          2.28272827     21.72775 3.12551137    83         382 -3.519802\nnature       5.85808581     23.98649 7.26558665   213         888 -3.932301\n            Prob.\ncoin       0.0078\nchoses     0.0098\njardin     0.0100\nsans       0.0108\n----------     NA\nprotection 0.0100\ncadre      0.0082\nespace     0.0071\nqualité    0.0054\nvie        0.0002\nnature     0.0000\n\n\nLes mots pollution et nature sont plus employés par les répondants les plus jeunes (moins de 30ans)…\n\n\nRéponses spécifiques par modalités\nLa fonction characteristic_docs affiche les documents représentatifs d’une catégorie donnée de répondants ici.\nRemarque : Le calcul de la distance est fondé sur la métrique du Khi2 et mesure l’écart entre le profil d’un document et le profil moyen du document de la catégorie. Ce critère a tendance à favoriser les textes longs car plus ils contiennent de “mots”, plus ils ont de chance de contenir de “mots” communs, et donc de se rapprocher du profil moyen.\n\n#Réponses spécifiques selon la région\ncharacteristic_docs(corpus,dtm,meta(corpus)$region, ndocs=5)\n\nDocuments characteristic of: Bretagne \nX1426: distance 4.44 \nla nature, le cadre de vie\n\nX1499: distance 4.505 \nla nature, ce qui est autour de nous\n\nX21: distance 5.345 \nla nature, cadre de vie\n\nX1243: distance 5.611 \nqualité de vie, la nature, la pollution\n\nX148: distance 5.682 \nla nature\n\nDocuments characteristic of: Centre \nX1262: distance 4.234 \nla nature, tout ce qui est autour de moi\n\nX1303: distance 4.234 \ntout ce qui est autour de moi, la nature\n\nX1025: distance 4.446 \ntout ce qui est autour de moi, les gens, la nature\n\nX1076: distance 5.269 \nla nature, tout ce qui m'entoure\n\nX1358: distance 5.269 \nla nature, tout ce qui m'entoure\n\nDocuments characteristic of: Jura_Alpes \nX978: distance 4.388 \nle cadre de vie, la nature\n\nX1777: distance 4.667 \ntout ce qui est autour de nous, la nature\n\nX264: distance 4.934 \ntout ce qui est autour de moi, la nature\n\nX241: distance 5.002 \nla nature, qualité de la vie, cadre de vie\n\nX24: distance 5.906 \nla nature\n\nDocuments characteristic of: Mediterrannée \nX1787: distance 5.44 \nla qualité de vie, tout ce qui nous entoure\n\nX299: distance 6.101 \ncadre de vie, tout ce qui nous entoure\n\nX103: distance 6.237 \nla nature\n\nX430: distance 6.237 \nla nature\n\nX742: distance 6.237 \nla nature\n\nDocuments characteristic of: Nord \nX988: distance 4.565 \nc'est le cadre de vie, la qualité de la vie\n\nX464: distance 5.121 \ncadre de vie, la nature\n\nX1832: distance 5.121 \ncadre de vie, la nature\n\nX65: distance 5.423 \nla nature\n\nX98: distance 5.423 \nla nature\n\nDocuments characteristic of: S_BassinParis \nX171: distance 4.469 \nle cadre de vie, la pollution, la nature\n\nX491: distance 5.596 \nce qui est autour de moi, la nature\n\nX100: distance 6.188 \nla nature\n\nX221: distance 6.188 \nla nature\n\nX372: distance 6.188 \nla nature\n\nDocuments characteristic of: S_Ouest \nX516: distance 4.349 \nla nature, le cadre de vie\n\nX193: distance 4.667 \nla nature, ce qui est autour de nous\n\nX1766: distance 5.055 \ntout ce qui nous entoure, la nature, la pollution\n\nX236: distance 5.199 \nla nature, cadre de vie\n\nX1229: distance 5.225 \nl'endroit où on vit, tout ce qui est autour de nous, la nature, la pollution\n\nDocuments characteristic of: Seine \nX461: distance 4.415 \nle cadre de vie, la nature\n\nX763: distance 4.415 \nle cadre de vie, la nature\n\nX118: distance 6.047 \nla nature\n\nX174: distance 6.047 \nla nature\n\nX412: distance 6.047 \nla nature"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#choix-des-metadonnées",
+    "href": "QO_Pee_K1.html#choix-des-metadonnées",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Choix des metadonnées",
+    "text": "Choix des metadonnées\n\nresTLA<-corpus_ca(corpus,dtm, variables =c(\"sexe\",\"aget\",   \"matrim\",\"pratique\",\"enf\",\"activite\",\"prof\",\"dipl\",\"vote\",  \"habitat\"   ,\"localite\",\"revenu\"),sparsity=0.98)\n\n71 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X22, X29, X32, X75, X114, X128, X130, X131, X140, X142, X197, X284, X360, X377, X402, X496, X514, X532, X554, X561, X563, X583, X585, X609, X619, X632, X685, X725, X766, X768, X776, X777, X787, X798, X844, X861, X909, X911, X917, X940, X971, X1010, X1026, X1065, X1086, X1108, X1116, X1141, X1148, X1154, X1186, X1239, X1280, X1370, X1377, X1396, X1470, X1512, X1522, X1565, X1576, X1608, X1657, X1720, X1743, X1779, X1789, X1796, X1871, X1877, X1983.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#explor(resTLA)\nres <- explor::prepare_results(resTLA)\nexplor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = FALSE, var_sup = FALSE,\n    var_sup_choice = , var_hide = \"None\", var_lab_min_contrib = 2, col_var = \"Position\",\n    symbol_var = \"Type\", size_var = \"Contrib\", size_range = c(26.25, 350), labels_size = 10,\n    point_size = 28, transitions = TRUE, labels_positions = NULL, xlim = c(-0.393,\n        0.447), ylim = c(-0.413, 0.426))\n\n\n\n\n\nOn affiche les réponses les plus contributives aux axes 1 à 3 (fonction extreme_docs).\n\n#Documents les plus illustratifs par axe\nextreme_docs(corpus,resTLA,axis=1,ndocs=3)\n\nMost extreme documents on the positive side of axis 1:\n\n\n Most extreme documents on the negative side of axis 1:\nX53 \nécologie\nX417 \nécologie\nX755 \nécologie\n\nextreme_docs(corpus,resTLA,axis=2,ndocs=3)\n\nMost extreme documents on the positive side of axis 2:\n\n\n Most extreme documents on the negative side of axis 2:\nX155 \nespaces verts, bois, rivières\nX635 \nespaces verts\nX1479 \nespaces verts\n\nextreme_docs(corpus,resTLA,axis=3,ndocs=3)\n\nMost extreme documents on the positive side of axis 3:\nX259 \ndestruction des biens, poubelles, égouts\nX696 \ndes champs, des bois\nX1968 \npaysages environnents, fréquentation des personnes\n\n\n Most extreme documents on the negative side of axis 3:"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#de-façon-personnalisée",
+    "href": "QO_Pee_K1.html#de-façon-personnalisée",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "De façon personnalisée",
+    "text": "De façon personnalisée\nOn voit ici comment créer son lemmatiseur.\n\nSuppression de mots\nOn crée une liste de mots que l’on a choisi de supprimer du tableau lexical et du dictinnaire.\nIci, comme à tout moment de l’analyse, il est important d’afficher les concordances d’un mot pour ensuite faire un choix (le supprimer, le regrouper avec un autre, …).\nPour l’exemple, on supprime les mots sur, que et qu.\n\n#concordances(corpus,dtm,\"sur\")\n# liste des mots à supprimer\nasupp <- c(\"sur\",\"que\",\"qu\") \n# on enlève les mots de la liste dans le tableau lexical\ndtm2 <-dtm[, !colnames(dtm) %in% asupp]\n\nOn crée le nouveau dictionnaire associé au lexique avec la fonction dictionnarysans les mots-outils et sans les mots que l’on a choisit de ne pas garder pour l’analyse.\n\ndic<-dictionary(dtm,remove_stopwords = T)\n# on enlève les mots de la liste dans le dictionnaire\ndic2 <- dic[!rownames(dic) %in% asupp,]\n\nPour créér son propre lemmatiseur, on exporte ce dictionnaire (ici dic2.csv) afin de le modifier si besoin, mots après mot (par exemple avec un tableur).\n\nwrite.csv2(dic2, file=\"dic2_lem.csv\")\n\n\n\nCorrection de la lemmatisation de R\nOn pourrait utiliser la colonne Terms du dictionnaire pour lemmatiser mais celle-ci ne nous satisfait pas. On décide alors de remplacer les racines de certians mots issues de la lemmatisation automatique et on enregiste ce nouveau dictionnaire qui sera notre lemmatiseur personnalisé.\nIci encore, on s’aide des concordances. Par exemple : concordances(corpus,dtm,c(\"écologie\",\"écolo\",\"écologique\",\"écologiques\",\"écologiste\",\"écologistes\",\"écolos\"))\nPour cette analyse, on utilise un lemmatiseur déjà produit lors d’une analyse précédente (avec Spad). On importe ce lemmatiseur dans R et on utilise la fonction combine_terms pour lemmatiser.\n\ndic_lem1 <- read.csv2(\"data/Pee_dic_lem_extract.csv\",row.names=1)\n\n#setdiff(rownames(dic2), rownames(dic_lem1))\n\ndtmlem1 <-combine_terms(dtm2, dic_lem1)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#lexique-après-lemmatisation",
+    "href": "QO_Pee_K1.html#lexique-après-lemmatisation",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Lexique après lemmatisation",
+    "text": "Lexique après lemmatisation\n\nfrequent_terms(dtmlem1, n=30)\n\n          Global occ.   Global %\nnature            891 12.5087744\nvie               382  5.3629089\nentoure           195  2.7376106\nautour            193  2.7095325\ntout              190  2.6674154\ncadre             174  2.4427910\npollution         156  2.1900884\noù                119  1.6706444\ncampagne          114  1.6004492\nqualité           108  1.5162151\nbien              106  1.4881370\ncalme             103  1.4460199\nair                99  1.3898638\nespace             98  1.3758248\nêtre               95  1.3337077\npropreté           95  1.3337077\ngens               77  1.0810052\nécologie           73  1.0248491\nlieu               64  0.8984978\nverdure            62  0.8704198\nvivre              59  0.8283027\narbre              58  0.8142637\nvit                53  0.7440685\nespaces            50  0.7019514\npaysage            49  0.6879124\nrespect            49  0.6879124\neau                47  0.6598343\nagréable           46  0.6457953\nverts              46  0.6457953\nvoisinage          45  0.6317563"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#utilisation-de-lexique3",
+    "href": "QO_Pee_K1.html#utilisation-de-lexique3",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Utilisation de lexique3",
+    "text": "Utilisation de lexique3\n\nPour selectionner les mots à analyser\nIci on reprend le tableau lexical et le dictionnaire initiaux (dtm et dic) càd sans suppression de mots au choix ni de lemmatisation personnalisée.\nOn utilise le lemmatiseur crée à partir de lexique 3 (https://chrplr.github.io/openlexicon/datasets-info/Lexique382/README-Lexique.html) qui nous permet dans un premier temps de repérer la catégorie grammaticale de chaque mot du corpus. On peut ensuite ne garder que les mots des catégories qui nous intéressent pour l’analyse (ici les adverbes ADV, les verbes VER, les adjectifs ADJ, les noms NOM, et les pronoms personnels et possessifs PRO:per,PRO:pos). On gardera pour l’analyse également les mots qui n’ont pas été identifiés grâce à Lexique3 ( mis dans la liste nr).\n\nlibrary(dplyr)\n\nWarning: le package 'dplyr' a été compilé avec la version R 4.1.3\n\n\n\nAttachement du package : 'dplyr'\n\n\nLes objets suivants sont masqués depuis 'package:stats':\n\n    filter, lag\n\n\nLes objets suivants sont masqués depuis 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlexique3 <- read.csv(\"data/Lexique383_simplifie.csv\", fileEncoding=\"UTF-8\")\nlexique3 <- arrange(lexique3, desc(freqlivres))\nlexique3 <- lexique3[!duplicated(lexique3$ortho),]\nvoc_actif <- lexique3[lexique3$cgram %in% c(\"ADV\", \"VER\", \"ADJ\", \"NOM\", \"PRO:per\",\"PRO:pos\"),]\ndic_total <- merge(dic, voc_actif, by.x=\"row.names\", by.y=\"ortho\", all.x=TRUE)\ndic_total <- mutate(dic_total, Term=coalesce(lemme, Term))\nrownames(dic_total) <- dic_total$Row.names\n\n# Lister les mots non reconnus par Lexique 3  \nnr <- filter(dic_total, is.na(lemme))"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#lemmatisation-automatique-avec-lexique3",
+    "href": "QO_Pee_K1.html#lemmatisation-automatique-avec-lexique3",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Lemmatisation automatique avec lexique3",
+    "text": "Lemmatisation automatique avec lexique3\nCette opération permet à la fois de ne retenir que certaines catégories de mots mais aussi à les remplacer par leur forme racine.\n\ndtmlem2 <- combine_terms(dtm, dic_total)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#lexique-après-lemmatisation-avec-lexique3",
+    "href": "QO_Pee_K1.html#lexique-après-lemmatisation-avec-lexique3",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Lexique après lemmatisation avec Lexique3",
+    "text": "Lexique après lemmatisation avec Lexique3\n\nfrequent_terms(dtmlem2, n=30)\n\n          Global occ.   Global %\nnature            888 12.4491799\nvie               382  5.3553904\ntout              216  3.0281789\nentourer          195  2.7337726\nautour            193  2.7057339\ncadre             173  2.4253470\nespace            148  2.0748633\npollution         147  2.0608440\noù                119  1.6683023\nvivre             116  1.6262442\ncampagne          112  1.5701668\nqualité           108  1.5140894\nbien              106  1.4860508\ncalme             103  1.4439927\nair                99  1.3879153\nêtre               97  1.3598766\nlieu               83  1.1636058\nvert               82  1.1495864\npropreté           81  1.1355671\ngens               77  1.0794897\nécologie           64  0.8972382\nverdure            62  0.8691995\narbre              60  0.8411608\npaysage            49  0.6869480\neau                47  0.6589093\nmaison             47  0.6589093\nagréable           46  0.6448899\nforêt              43  0.6028319\nrespect            43  0.6028319\nvoisinage          43  0.6028319"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#graphe-de-mots",
+    "href": "QO_Pee_K1.html#graphe-de-mots",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Graphe de mots",
+    "text": "Graphe de mots\n\narbre <- terms_graph(dtmlem2, min_occ = 30, interactive=F)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#suite-à-la-lemmatisation-avec-lexique3",
+    "href": "QO_Pee_K1.html#suite-à-la-lemmatisation-avec-lexique3",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Suite à la lemmatisation avec lexique3",
+    "text": "Suite à la lemmatisation avec lexique3\n\nresTLElem2 <-corpus_ca(corpus,dtmlem2,sparsity=0.985 )\n\n92 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X75, X76, X112, X114, X128, X130, X175, X179, X181, X184, X195, X197, X248, X284, X338, X377, X402, X492, X501, X554, X561, X598, X600, X604, X649, X676, X696, X725, X728, X761, X776, X785, X803, X844, X861, X878, X898, X909, X917, X940, X971, X977, X1007, X1010, X1026, X1094, X1108, X1141, X1148, X1154, X1206, X1257, X1289, X1338, X1374, X1393, X1396, X1403, X1404, X1437, X1461, X1470, X1496, X1504, X1512, X1514, X1515, X1522, X1539, X1565, X1576, X1608, X1652, X1657, X1697, X1704, X1705, X1707, X1720, X1743, X1746, X1789, X1796, X1804, X1819, X1825, X1871, X1906, X1937, X1941, X1978, X1983.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#explor(resTLElem2)\n\nres <- explor::prepare_results(resTLElem2)\nexplor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = FALSE, var_sup = FALSE,\n    var_sup_choice = , var_hide = \"Row\", var_lab_min_contrib = 0, col_var = \"Position\",\n    symbol_var = \"Type\", size_var = \"Contrib\", size_range = c(23.4375, 312.5),\n    labels_size = 10, point_size = 25, transitions = TRUE, labels_positions = NULL,\n    xlim = c(-2.55, 9.92), ylim = c(-4.66, 7.81))\n\n\n\n\n\n\nresTLAlem2<-corpus_ca(corpus,dtmlem2, variables =c(\"sexe\",\"aget\",   \"matrim\",\"pratique\",\"enf\",\"activite\",\"prof\",\"dipl\",\"vote\",  \"habitat\"   ,\"localite\",\"revenu\"),sparsity=0.98)\n\n148 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X20, X25, X75, X76, X85, X109, X111, X112, X114, X128, X130, X131, X175, X179, X181, X184, X195, X197, X242, X247, X248, X262, X284, X293, X338, X377, X402, X445, X492, X501, X552, X554, X555, X561, X570, X598, X600, X604, X609, X619, X632, X640, X649, X676, X685, X696, X725, X728, X748, X761, X776, X785, X803, X804, X819, X844, X861, X878, X898, X899, X909, X917, X940, X971, X972, X977, X1001, X1007, X1010, X1026, X1065, X1074, X1094, X1108, X1116, X1128, X1141, X1148, X1154, X1186, X1190, X1206, X1257, X1289, X1294, X1301, X1338, X1345, X1365, X1370, X1374, X1380, X1387, X1393, X1396, X1403, X1404, X1437, X1461, X1470, X1496, X1504, X1506, X1512, X1514, X1515, X1522, X1527, X1536, X1539, X1565, X1576, X1578, X1579, X1606, X1608, X1637, X1652, X1654, X1656, X1657, X1669, X1697, X1704, X1705, X1707, X1710, X1720, X1743, X1746, X1770, X1782, X1788, X1789, X1796, X1804, X1819, X1825, X1836, X1871, X1877, X1906, X1933, X1937, X1941, X1978, X1983, X1990.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#explor(resTLAlem2)\nres <- explor::prepare_results(resTLAlem2)\nexplor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = FALSE, var_sup = FALSE,\n    var_sup_choice = , var_hide = \"None\", var_lab_min_contrib = 0, col_var = \"Position\",\n    symbol_var = \"Type\", size_var = \"Contrib\", size_range = c(22.5, 300), labels_size = 10,\n    point_size = 24, transitions = TRUE, labels_positions = NULL, xlim = c(-0.544,\n        0.517), ylim = c(-0.482, 0.579))"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#correction-de-la-lemmatisation-de-lexique3",
+    "href": "QO_Pee_K1.html#correction-de-la-lemmatisation-de-lexique3",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Correction de la lemmatisation de Lexique3",
+    "text": "Correction de la lemmatisation de Lexique3\nOn adapte le lemmatiseur (dic_total) en créant un autre dictionnaire (dicor) avec une colonne contenant les mots qui n’ont pas été lemmatisés automatiquement. Puis on lemmatisera le tableau lexical avec les “mots” (Term) de cette nouvelle colonne. On trouve ces mots dans la liste des mots non reconnus (nr)\n\ndic_total_c <- dic_total\n\ndic_total_c$Term[dic_total_c$Term == \"bretagn\"] <- \"bretagne\"\ndic_total_c$Term[dic_total_c$Term == \"tranquil\"] <- \"tranquilité\"\n\ndtmlem22 <- combine_terms(dtm, dic_total_c)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#analyser-des-sous-corpus",
+    "href": "QO_Pee_K1.html#analyser-des-sous-corpus",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Analyser des sous-corpus",
+    "text": "Analyser des sous-corpus\nOn créer des sous corpus à l’aide des métadonnées ou de mots au choix."
+  },
+  {
+    "objectID": "QO_Pee_K1.html#classifications-du-tableau-lexical",
+    "href": "QO_Pee_K1.html#classifications-du-tableau-lexical",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Classifications du tableau lexical",
+    "text": "Classifications du tableau lexical\nVa regrouper les réponses contenant des mots cooccurrents. Permet de repérer des champs lexicaux.\n\navec R.temis\n\nclusTLE <- corpus_ca(corpus, dtmlem2,variables = NULL, ncp =  6, sparsity = 0.98)\n\n148 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X20, X25, X75, X76, X85, X109, X111, X112, X114, X128, X130, X131, X175, X179, X181, X184, X195, X197, X242, X247, X248, X262, X284, X293, X338, X377, X402, X445, X492, X501, X552, X554, X555, X561, X570, X598, X600, X604, X609, X619, X632, X640, X649, X676, X685, X696, X725, X728, X748, X761, X776, X785, X803, X804, X819, X844, X861, X878, X898, X899, X909, X917, X940, X971, X972, X977, X1001, X1007, X1010, X1026, X1065, X1074, X1094, X1108, X1116, X1128, X1141, X1148, X1154, X1186, X1190, X1206, X1257, X1289, X1294, X1301, X1338, X1345, X1365, X1370, X1374, X1380, X1387, X1393, X1396, X1403, X1404, X1437, X1461, X1470, X1496, X1504, X1506, X1512, X1514, X1515, X1522, X1527, X1536, X1539, X1565, X1576, X1578, X1579, X1606, X1608, X1637, X1652, X1654, X1656, X1657, X1669, X1697, X1704, X1705, X1707, X1710, X1720, X1743, X1746, X1770, X1782, X1788, X1789, X1796, X1804, X1819, X1825, X1836, X1871, X1877, X1906, X1933, X1937, X1941, X1978, X1983, X1990.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#Afficher le dendrogramme\n#plot(clusTLE$call$tree)\n#clusTLE$desc.var\n\nIci on selectionne 7 classes\n\nclus <- corpus_clustering(clusTLE,7)"
+  },
+  {
+    "objectID": "QO_Pee_K1.html#description-des-classes",
+    "href": "QO_Pee_K1.html#description-des-classes",
+    "title": "Pas à pas pour analyser une question ouverte avec R.temis",
+    "section": "Description des classes",
+    "text": "Description des classes\nPour chaque numéro de classe déterminé dans l’étape précédente, R affiche les mots et textes spécifiques qui vont permettre de déterminer les champs lexicaux de chacune.\nOn ajoute la variable de classe (clus) aux métadonnées initiales.\n\ncorpus_cl <- add_clusters(corpus,clus)\n\n#View(meta(corpus_cl))\n\n#clusTLE$desc.var\n\n\nMots spécifiques\nOn se sert de cette variable issue de la classification pour calculer les spécificités\n\nspecific_terms(dtmlem2,meta(corpus_cl)$clus, n=5)\n\nWarning in rollup.simple_triplet_matrix(t(x), 2L, INDEX[as.character(k)], :\nNA(s) in 'index'\n\n\n$`1`\n       % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nautour   31.1111111    87.046632 2.8669043   168         193       Inf     0\nmaison    5.5555556    63.829787 0.6981581    30          47       Inf     0\nchez      3.3333333    62.068966 0.4307784    18          29  7.244759     0\ntout      8.3333333    20.833333 3.2085561    45         216  5.947763     0\n------           NA           NA        NA    NA          NA        NA    NA\nvie       0.9259259     1.308901 5.6743910     5         382 -5.839226     0\n\n$`2`\n           % Term/Level % Level/Term    Global % Level Global occ.   t value\nentourage     42.105263   57.1428571  0.62388592    24          42       Inf\nconstruire     3.508772   66.6666667  0.04456328     2           3  3.526962\nnaturel        3.508772   11.7647059  0.25252525     2          17  2.372694\nconstituer     1.754386   50.0000000  0.02970885     1           2  2.123318\n----------           NA           NA          NA    NA          NA        NA\nnature         3.508772    0.2252252 13.19073084     2         888 -2.187406\n            Prob.\nentourage  0.0000\nconstruire 0.0002\nnaturel    0.0088\nconstituer 0.0169\n----------     NA\nnature     0.0144\n\n$`3`\n         % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nentourer   21.5528782   82.5641026  2.896613   161         195       Inf     0\ntout       14.5917001   50.4629630  3.208556   109         216       Inf     0\n--------           NA           NA        NA    NA          NA        NA    NA\ncadre       0.1338688    0.5780347  2.569816     1         173 -5.447507     0\nvie         1.2048193    2.3560209  5.674391     9         382 -6.466817     0\nnature      5.2208835    4.3918919 13.190731    39         888 -7.473485     0\n\n$`4`\n        % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\ncadre     11.5920763    91.329480  2.569816   158         173       Inf     0\nqualité    6.9699193    87.962963  1.604278    95         108       Inf     0\nvie       23.9178283    85.340314  5.674391   326         382       Inf     0\n-------           NA           NA        NA    NA          NA        NA    NA\nautour     0.7336757     5.181347  2.866904    10         193 -5.920745     0\nnature     6.0161409     9.234234 13.190731    82         888 -9.408410     0\n\n$`5`\n       % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nbien      10.221286    91.509434  1.574569    97         106       Inf     0\nêtre       8.956797    87.628866  1.440879    85          97       Inf     0\noù         6.849315    54.621849  1.767677    65         119       Inf     0\nvivre      8.746048    71.551724  1.723113    83         116       Inf     0\n------           NA           NA        NA    NA          NA        NA    NA\nnature     5.057956     5.405405 13.190731    48         888 -8.760695     0\n\n$`6`\n          % Term/Level % Level/Term   Global % Level Global occ.    t value\nécologie     3.7199125    79.687500  0.9506833    51          64        Inf\nnature      33.9897885    52.477477 13.1907308   466         888        Inf\npollution    7.8045222    72.789116  2.1836007   107         147        Inf\n---------           NA           NA         NA    NA          NA         NA\nentourer     0.0000000     0.000000  2.8966132     0         195  -9.164544\nvie          0.6564551     2.356021  5.6743910     9         382 -10.725412\n          Prob.\nécologie      0\nnature        0\npollution     0\n---------    NA\nentourer      0\nvie           0\n\n$`7`\n         % Term/Level % Level/Term  Global % Level Global occ. t value Prob.\narbre        3.401760     96.66667 0.8912656    58          60     Inf     0\ncalme        5.043988     83.49515 1.5300059    86         103     Inf     0\ncampagne     5.043988     76.78571 1.6636958    86         112     Inf     0\nespace       5.571848     64.18919 2.1984551    95         148     Inf     0\nforêt        2.287390     90.69767 0.6387403    39          43     Inf     0\n\n\n\n\nRéponses specifiques\nspecific_terms(dtmlem2,meta(corpus_cl)$clus, n=5)\n\ncharacteristic_docs(corpus_cl,dtmlem2,meta(corpus_cl)$clu, ndocs=3)\n\nWarning in rollup.simple_triplet_matrix(t(x), 2L, INDEX[as.character(k)], :\nNA(s) in 'index'\n\n\nDocuments characteristic of: 1 \nX264: distance 4.79 \ntout ce qui est autour de moi, la nature\n\nX1262: distance 4.79 \nla nature, tout ce qui est autour de moi\n\nX1303: distance 4.79 \ntout ce qui est autour de moi, la nature\n\nDocuments characteristic of: 2 \nX1053: distance 14.11 \nnature, entourage\n\nX1255: distance 14.11 \nentourage, nature\n\nX801: distance 23.59 \nl'entourage, l'espace\n\nDocuments characteristic of: 3 \nX267: distance 4.355 \nce qui nous entoure, toute la nature\n\nX568: distance 4.355 \ntout ce qui nous entoure, la nature\n\nX1076: distance 4.355 \nla nature, tout ce qui m'entoure\n\nDocuments characteristic of: 4 \nX241: distance 2.946 \nla nature, qualité de la vie, cadre de vie\n\nX21: distance 3.928 \nla nature, cadre de vie\n\nX236: distance 3.928 \nla nature, cadre de vie\n\nDocuments characteristic of: 5 \nX422: distance 7.17 \nla qualité de vie, le bien être, la nature\n\nX309: distance 7.198 \nnature, bien être de vivre\n\nX1945: distance 7.198 \nla nature, le bien être à vivre\n\nDocuments characteristic of: 6 \nX24: distance 5.062 \nla nature\n\nX35: distance 5.062 \nnature\n\nX65: distance 5.062 \nla nature\n\nDocuments characteristic of: 7 \nX334: distance 9.761 \nnature, la vie en campagne, propreté\n\nX1616: distance 10.46 \nverdure, nature, espace de vie\n\nX896: distance 10.55 \nnature, calme, vie au grand air, propreté\n\n\n\n\navec Rainette (type Alceste)\nOn pourrait également faire une classification des questions ouvertes avec le package Rainette. En savoir plus sur https://juba.github.io/rainette/articles/introduction_usage.html\nSon utilisation nesessite aussi d’appeler le package quanteda.\nAttention risque de conflit entre les packages tm (chargé par R.temis) et quanteda : il ne faut pas lancer library(quanteda).\nIci on utilise le crpus non lemmatisé\n\nlibrary(rainette)\ncorpus\n\n# On adapte le TLE pour quanteda\ndfm <- quanteda::as.dfm(dtm)\nquanteda::docvars(dfm, \"doc_id\") <- 1:nrow(dfm)\n\n# On exécute rainette\n\nresrai <- rainette(dfm, min_uc_size = 3, k = 10, doc_id = \"doc_id\", cc_test = 0.3,\n  tsj = 3)\n\nExploration interactive\n\nrainette_explor(resrai,dfm)\n\ngroups <-cutree_rainette(resrai, k = 10)\n\n\nDescription des classes\n\nrainette_stats(groups, dfm, n_terms = 5)\n\nOn récupère la variable issue de la classification Rainette pour des traitements ultérieurs\n\nmeta(corpus, \"classe\") <- cutree_rainette(resrai, k = 10)\n#View(meta(corpus))"
+  }
+]

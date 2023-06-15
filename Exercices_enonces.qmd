@@ -1,0 +1,115 @@
+---
+title: "Application avec R.temis dans RStudio"
+---
+
+# Ressources
+
+**Pas à Pas** de l'analyse de réponses à la question ouverte K1 [Enquête "Population, Espace de Vie, Environnement", Ined 1992](<https://data.ined.fr/index.php/catalog/41>) avec caractéristiques des répondants : *QO_Pee_K1.html*\
+et aussi le *Pas à Pas montrant toutes les fonctionnalités de R.temis* appliqué sur un autre texte court <https://rtemis.hypotheses.org/r-temis-dans-rstudio>
+
+***Extraire les scripts nécessaires des pages citées plus haut***
+
+**Fichiers fournis**
+
+-   Extrait des données de l'enquête : *PEE_K1_extract.csv*
+
+-   Lemmatiseur construit à partir du lexique associé aux données : *Pee_dic_lem_extract.csv*
+
+-   Lemmatiseur adapté de Lexique 3 [base de données lexicales du français](https://chrplr.github.io/openlexicon/datasets-info/Lexique382/README-Lexique.html) contenant des représentations orthographiques et phonémiques, des lemmes associés ainsi que leur catégorie grammaticale ... : *Lexique383_simplifié.csv*
+
+## Etape 1 : Créer son environnement de travail
+
+1.  Créer un répertoire/dossier pour l'analyse sur votre ordinateur. Dans ce dossier, créér un sous répertoire appelé par exemple *data* pour y placer les données à utiliser.
+
+2.  Créer un projet R dans le dossier de l'analyse \[*File/New Project* ...\]. Créer un script \[*File/New File* ...\].
+
+3. Télécharger les données extraites de l'enquête PEE (textes et métadonnées) (**PEE_K1_extract.csv***)* dans le répertoire *data* en exécutant le script ci-dessous.
+
+```{r data, eval=FALSE,message=FALSE}
+library(readr)
+PEE_K1_extract <- read.csv("https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/PEE_K1_extract.csv", sep=";")
+
+write.csv2(PEE_K1_extract,file="data/PEE_K1_extract.csv")
+```
+
+Visualiser les données à traiter
+
+
+## Etape 2 : Importer les données dans R
+
+Importer ce fichier contenant une variable textuelle et des métadonnées avec le *package R.temis*.
+
+1.  Importer le fichier `import_corpus`.
+
+2.  Créer le tableau lexical (avec mots-outils) `build_dtm`.
+
+3.  Repérer le nombre de répondants et le nombre de mots différents cités dans les réponses.
+
+4.  Créer le dictionnaire `dictionary` puis le visualiser `View`. Le trier, repérer les mots les plus cités, les lemmes générés par R.
+
+5.  Afficher des concordances avec des mots (au choix) `concordances`.
+
+6.  Afficher le nuage de mots associés au lexique `word_cloud`. Faire ce nuage de mots avec et sans les mots-outils. Calculer les éléments qui permettront d'ajouter une légende `frequent_terms`.
+
+## Etape 3 : Repérer des cooccurrences
+
+1.  Chercher des cooccurrences à certains mots (au choix) `cooc_terms`.
+
+2.  Produire un graphe de mots pour détecter les cooccurrences autour des mots les plus fréquents `terms_graph`. Que remarquez-vous ?
+
+3.  Faire une analyse factorielle sur le tableau lexical `corpus_ca` puis explorer les résulats avec l'interface `explor`. Afficher des concordances `concordances`.
+
+## Etape 4 : Utiliser les métadonnées
+
+1.  Visualiser le tableau des métadonnnées `View(meta(corpus))`. Compter le nombre de répondants(*package questionr*) selon 3 métadonnées (au choix).
+
+2.  Faire le bilan lexical pour au moins une métadonnée (au choix)`lexical_summary`.
+
+3.  Repérer le vocabulaire spécifique pour quelques métadonnées (au choix)`specific_terms`.
+
+4.  Faire une analyse factorielle sur le tableau croisant les mots du lexique et des caractéristiques des répondants (au choix) `corpus_ca`. Explorer les résulats `explor`. Afficher des concordances `concordances`, des réponses spécifiques `extreme_docs`.
+
+## Etape 5 : Lemmatiser
+
+Il s'agit ici d'affiner peu à peu l'analyse en supprimant des mots et/ou en modifiant la lemmatisation.
+
+### Avec un lemmatiseur personnalisé
+
+1.  Créer une la liste de mots à enlever du corpus (prendre ici : "sur","que","qu"). La supprimer du tableau lexical et du lexique, puis exporter le dictionnaire `dictionary`.
+
+2.  Ouvrir ce dictionnaire avec un tableur. Corrigez si besoin les formes lemmatisées automatiquement par R.
+
+3.  Récupérer le lemmatiseur "associé à Pee" (**Pee_dic_lem_extract.csv)** et le copier dans le répertoire data du dossier créé pour l'analyse.
+et l'importer dans le projet (toujours le répertoire data) `read.csv2`.
+Pour cela, exécuter le scipt ci-dessous.
+
+```{r lempers, eval=FALSE,message=FALSE}
+library(readr)
+dic_lem1 <- read.csv2("https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Pee_dic_lem_extract.csv", sep=";",row.names=1)
+```
+
+
+5.  Lemmatiser le tableau lexical à l'aide de ce lemmatiseur `combine_terms`.
+6.  Compter le nombre de mots distincts restants après cette lemmatisation par exemple avec `lexical_summary`
+7.  Excécuter des analyses précédentes avec ce nouveau lexique
+
+### Avec Lexique3
+
+1.  Récupérer le lemmatiseur adapté de lexique3 (**Lexique383_simplifie.csv**) dans le répertoire data de l'analyse en exécutant le script.
+
+```{r lemlex3, eval=FALSE,message=FALSE}
+lexique3 <- read.csv2("https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Lexique383_simplifie.csv", sep=",", fileEncoding="UTF-8")
+```
+
+
+2.  Garder les mots de catégories grammaticales "utiles" et lemmatiser à nouveau le dictionnaire issu du tableau lexical initial
+3.  Relancer quelques analyses au choix....
+
+## Etape 6 : Classer les réponses
+
+-   Faire une classification sur le tableau lexical associé aux réponses avec `corpus_ca`. Décrire les classe `specific_terms` puis joindre exporter la variable de classe aux metadonnées..
+
+## Etape 7 : Aller plus loin
+
+-   Travailler sur des sous-corpus
+-   Utiliser le *package Rainette* pour faire la classification sur le tableau lexical <https://juba.github.io/rainette/articles/introduction_usage.html> .............

@@ -1,0 +1,8 @@
+---
+title: "Introduction"
+---
+
+
+```{r embed-xaringan, echo=FALSE, fig.cap="[Slides](AGD et questions ouvertes.html)"}
+xaringanExtra::embed_xaringan(url = "AGD et questions ouvertes.html", ratio = "16:9")
+```

@@ -1,0 +1,29 @@
+project: 
+  type: website
+  output-dir: docs
+  
+website:
+  title: "L'AGD pour le traitement des questions ouvertes"
+  
+  navbar:
+    type: inverse
+    left:
+      - text: "Supports"
+        menu:
+        - text: "Présentation générale"
+          href: Intro.qmd
+        - text: "Pas-à-pas"
+          href : QO_Pee_K1.qmd
+      - text: "Exercices"
+        href: Exercices_enonces.html
+        
+      - text: "Ressources"
+        href: biblio.html
+    right:
+      - icon: github
+        href: https://benegarbi.github.io/AGD_QO
+format:
+  html: 
+    theme: cosmo
+    toc: true
+    toc-depth: 3

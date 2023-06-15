@@ -1,0 +1,89 @@
+---
+title: "Quelques ressources"
+---
+
+## Méthodes
+
+-   Bastin G., Bouchet-Valat M. 2014 - Media corpora, text mining, and the sociological imagination -- A free software text mining approach to the framing of Julian Assange by three news agencies using R.TeMiS. [Bulletin de Méthodologie Sociologique](https://journal.r-project.org/archive/2013-1/bouchetvalat-bastin.pdf), 121 (1), p. 5-25.
+
+-   Bécue-Bertaut M., Morin A., Murtagh F. 2018 - Analyse Textuelle avec R, Presses Universitaires de Rennes (Pratique De La Statistique), 190 p.
+
+-   Benzécri, J. P., 1984 - Description des textes et analyse documentaire, [Cahiers de l'analyse des données, Tome 9,no. 2, p. 205-211](http://www.numdam.org/item/CAD_1984__9_2_205_0/)
+
+-   Benzécri J.-P. 1973 - L'analyse des Données (tome 1 et 2). Dunod, Paris
+
+-   Garnier B., Guérin-Pace F. 2010 - Appliquer les méthodes de la statistique textuelle, [Ceped, les clefs pour](http://www.ceped.org/fr/publications-ressources/editions-du-ceped-1988-2012/les-clefs-pour/article/appliquer-les-methodes-de-la), Paris
+
+-   Guérin-Pace F. 1997. La statistique textuelle : un outil exploratoire en sciences sociales. [In: Population,](https://www.persee.fr/doc/pop_0032-4663_1997_num_52_4_6471) 52ᵉ année, n°4, 1997. pp. 865-887
+
+-   Husson F., Jégou N., Cornillon P.-A., Josse J., Rouvière L., Matzner-Løber É., Guyader A., Thieurmel B., Klutchikoff N., 2018. R pour la statistique et la science des données, Rennes, PUR, 462p.
+
+-   Lebart L., Salem A. 1994. Statistique textuelle. Paris, Dunod, 342 p. <http://www.dtmvic.com/>
+
+-   Lebart L., Pincemin B., Poudat C. 2020. Analyse des données textuelles, Mesure et évaluation, Presses de l'Université du Québec
+
+-   Reinert, Max. 1983. Une méthode de classification descendante hiérarchique : application à l'analyse lexicale par contexte. [Les cahiers de l'analyse des données, Tome 8](http://www.numdam.org/item/CAD_1983__8_2_187_0/) no. 2, pp. 187-198
+
+## Applications
+
+-   Baril E., Guérin-Pace F. 2016. Compétences à l'écrit des adultes et événements marquants de l'enfance : le traitement de l'enquête Information et vie quotidienne à l'aide des méthodes de la statistique textuelle, [Economie et statistique, N° 490](https://www.insee.fr/fr/statistiques/2527266)
+
+-   Bonvalet C., Gotman A., Grafmeyer Y., Bertaux-Wiame I., Le Bras H., Maison D.1999. La famille et ses proches : l'aménagement des territoires, Travaux et documents N°143, Ined
+
+-   Brennetot A., Emsellem K., Guérin-Pace F., Garnier B. 2013. Dire l'Europe à travers le monde.Les mots des étudiants dans l'enquête EuroBroadMap, [Cybergéo](http://cybergeo.revues.org/25684)
+
+-   Coulomb Ph., Guérin-Pace F. 1998. Les contours du mot « environnement » : enseignements de la statistique textuelle. [L'espace géographique](https://www.persee.fr/doc/spgeo_0046-2497_1998_num_27_1_1121). 41 (1)
+
+-   Garnier B., Guérin-Pace F. 1998. La statistique textuelle pour traiter une question ouverte suivie d'une relance. JADT 1998. *Actes des 4èmes journées internationales d'analyse statistique des données textuelles*, p. 315-324.
+
+-   Guérin-Pace F., Garnier B. . 1996. La statistique textuelle pour le traitement simultané de réponses à des questions ouvertes et fermées sur le thème de l'environnement. JADT 1995. *Actes des 3èmes Journées internationales d'analyse statistique des données textuelles*, p. 37-45.
+
+-   Guérin-Pace F., Saint-Julien T. 2012 - Les mots de L'Espace Géographique. Une analyse lexicale des titres et mots-clés de 1972 à 2010. [L'espace géographique. 41](https://www.cairn.info/revue-espace-geographique-2012-1-page-4.htm) (1)
+
+-   Labbé C., Labbé D. 2005. How to measure the meanings of words ? Amour in Corneille's work. *Language Resources and Evaluation*, 39, pp.335-351. [⟨halshs-00090077⟩](https://shs.hal.science/halshs-00090077)
+
+-   Labbé C., Labbé D. Le sens des mots : l'Europe dans le vocabulaire de Jacques Chirac, <https://halshs.archives-ouvertes.fr/halshs-02299918v3>
+
+-   Marpsat, M. 2010. Écrire la rue : de la survie physique à la résistance au stigmate. Une analyse textuelle et thématique du journal d'Albert Vanderburg, sans domicile et auteur de blog, Sociologie N°1, vol. 1, <https://sociologie.revues.org/130>
+
+-   Parasie, S. & Cointet, J. 2012. La presse en ligne au service de la démocratie locale: Une analyse morphologique de forums politiques. Revue française de science politique, vol. 62(1), 45-70. <https://doi.org/10.3917/rfsp.621.0045>
+
+-   Saint Léger de, M. 2008. Comment ont évolué les thématiques des 99 premiers numéros de BMS ?, Bulletin de méthodologie sociologique \[En ligne\], 100 \| mis en ligne le 01 octobre 2011, <http://journals.openedition.org/bms/3153>
+
+-   Vautier, C. (dir.) 2015. Nouvelles perspectives en sciences sociales : revue internationale de systémique complexe et d'études relationnelles. Volume 11, numéro 1, l'analyse de données textuelles informatisée, Prise de parole, p. 15-461
+
+## Sites
+
+-   Actes des Journées d'Analyse des Données Textuelles : <http://lexicometrica.univ-paris3.fr/>
+
+-   Webinaires du réseau Mate SHS : <http://mate-shs.cnrs.fr/?les-tutos-mate>
+
+-   Projet Textometrie : <http://textometrie.ens-lyon.fr/>
+
+-   Le [Descriptoire](http://perso.ens-lyon.fr/lise.vaudor/Descriptoire/_book/) : Recueil et analyse de texte avec R
+
+-   [Cours](http://tutoriels-data-science.blogspot.com/p/tutoriels-en-francais.html#6585408001920926626) de Ricco Rakotomalala
+
+<!-- -->
+
+Les **packages**
+
+-   [R.temis](http://rtemis.hypotheses.org/)
+
+-   [quanteda](http://quanteda.io/reference/quanteda-package.html)
+
+-   [Rainette](http://juba.github.io/rainette/index.html)
+
+-   [Xplortext](http://www.xplortext.org/)
+
+Les autres outils
+
+-   [IRaMuTeQ](http://www.iramuteq.org/)
+
+-   [Voyant-Tools](http://voyant-tools.org/) : environnement en ligne de lecture et d'analyse de textes
+
+et les **séminaires :**
+
+-   [R à l'Usage des Sciences Sociales](http://russ.site.ined.fr/) (RUSS)
+
+-   Les [Rencontres de Statistique Appliquée](http://statapp.site.ined.fr/fr/) (RSA)

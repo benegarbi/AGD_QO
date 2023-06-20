@@ -21,9 +21,14 @@ website:
         href: biblio.html
     right:
       - icon: github
-        href: https://benegarbi.github.io/AGD_QO
+        href: https://benegarbi.github.io
 format:
   html: 
-    theme: cosmo
+    theme: 
+     - cosmo
+     - mystyle.scss
     toc: true
     toc-depth: 3
+    
+execute:
+  freeze: auto

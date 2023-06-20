@@ -4,8 +4,8 @@ title: "Analyser des questions ouvertes au moyen de la statistique textuelle"
 
 ![](images/im_quantilille2023.png){fig-align="center"}
 
-L'objectif de cet atelier de 3h est de comprendre les concepts mis en oeuvre en statistique textuelle et d'acquérir les clés pour explorer par étapes une question ouverte.
+L'objectif de cet atelier de 3h est de comprendre les concepts mis en oeuvre en statistique textuelle et d'acquérir les clés pour explorer par étapes une question ouverte. 
 
-La mise en pratique des méthodes se fait au moyen de Spad et du *package R.temis*.
+La mise en pratique des méthodes se fait au moyen du *package R.temis* et de Spad.
 
 Bénédicte Garnier (Ined)

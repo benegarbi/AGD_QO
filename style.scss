@@ -5,9 +5,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Delius+Unicase&display=swap');
 
 $font-family-sans-serif: "Atkinson Hyperlegible", sans-serif;
-$presentation-heading-color: #75AADB;
+
+// Colors
+$orange: #f79927;
+$redorange: #f75627;
+
+// Font-style: 
+
+
+// Base document colors
+$presentation-heading-color: $orange;
 $presentation-title-slide-text-align: "left";
-$link-color: #75AADB;
+$link-color: $redorange;
 $code-block-font-size: 0.9em;
 
 /*-- scss:rules --*/
@@ -18,7 +27,7 @@ $code-block-font-size: 0.9em;
   font-size: 1.5em;
   position: absolute; 
   left: 20px; 
-  top: 20px
+  top: 20px;
 }
 
 .reveal .custom-subtitle {
@@ -325,4 +334,8 @@ $code-block-font-size: 0.9em;
   font-size: 0.35em !important;
   margin-left: 0.5em;
   text-align: right !important;
+}
+
+*[id^="h"] {
+  font-weight: italic; // Set the font weight to bold for all header elements
 }

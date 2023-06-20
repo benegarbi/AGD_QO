@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// Colors
+$light-sage-green: #D1D9CE;
+$dark-sage-green: #98A08D;
+$cream: #FDFBF7;
+$gray: #64605f;
+$light-gray: #949799;
+$purple: #AE8BD1;
+$dark: #010202;
+$white: #FFFFFF;
+$black: #000000;
+$orange: #f79927;
+$redorange: #f75627; 
+
+// Base document colors
+$navbar-bg: $orange; // navbar
+$link-color: $redorange; // hyperlinks 
+
+/*-- scss:rules --*/

@@ -1,0 +1,7 @@
+---
+title: "Spad"
+---
+
+```{r embed-xaringan, echo=FALSE, fig.cap="[Slides](QO_Pee_K1_Spad.html)"}
+xaringanExtra::embed_xaringan(url = "QO_Pee_K1_Spad.html", ratio = "16:9")
+```

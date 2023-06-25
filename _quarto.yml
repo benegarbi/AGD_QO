@@ -15,7 +15,7 @@ website:
         - text: "Pas-à-pas avec R"
           href : QO_Pee_K1.qmd
         - text: "Premiers pas avec Spad"
-          href : QO_Pee_K1_Spad.qmd
+          href : diaspad.qmd
       - text: "Mise en oeuvre avec un corpus"
         href: Exercices_enonces.html
         

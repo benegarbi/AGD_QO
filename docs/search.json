@@ -196,6 +196,13 @@
     "text": "Sites\n\nActes des Journées d’Analyse des Données Textuelles : http://lexicometrica.univ-paris3.fr/\nWebinaires du réseau Mate SHS : http://mate-shs.cnrs.fr/?les-tutos-mate\nProjet Textometrie : http://textometrie.ens-lyon.fr/\nLe Descriptoire : Recueil et analyse de texte avec R par Lise Vaudor\nCours de Ricco Rakotomalala\n\n\nLes packages\n\nR.temis\nquanteda\nRainette\nXplortext\n\nLes autres outils\n\nIRaMuTeQ\nVoyant-Tools : environnement en ligne de lecture et d’analyse de textes\n\net les séminaires\n\nR à l’Usage des Sciences Sociales (RUSS)\nLes Rencontres de Statistique Appliquée (RSA)"
   },
   {
+    "objectID": "diaspad.html",
+    "href": "diaspad.html",
+    "title": "Spad",
+    "section": "",
+    "text": "Slides"
+  },
+  {
     "objectID": "Exercices_enonces.html",
     "href": "Exercices_enonces.html",
     "title": "Application avec R.temis dans RStudio",
@@ -361,14 +368,14 @@
     "href": "QO_Pee_K1_Spad.html#contenu-de-cette-présentation",
     "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Contenu de cette présentation",
-    "text": "Contenu de cette présentation\nCaptures d’écran présentant un exemple d’analyse de question ouverte avec Spad. Les premières étapes sont détaillées afin de comprendre le fonctionnement du logiciel. La dernière diapositive synthétise l’ensemble des méthodes présentées en démo."
+    "text": "Contenu de cette présentation\nCaptures d’écran présentant un exemple d’analyse de question ouverte avec Spad. Les premières étapes sont détaillées afin de comprendre le fonctionnement du logiciel. La dernière diapositive synthétise l’ensemble des méthodes présentées en démo"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#données",
     "href": "QO_Pee_K1_Spad.html#données",
     "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Données",
-    "text": "Données\nLe corpus utilisé dans cet exemple contient un extrait des réponses à une question ouverte issue de l’enquête Populations, Espaces de Vie, Environnements (Ined, 1992). L’intitulé de la question est celui-ci :Si je vous dis Environnement, qu’est ce que cela évoque pour vous ?.\nPour chaque enquêté, on dispose de caractéristiques socio-démographiques (https://data.ined.fr/index.php/catalog/41)."
+    "text": "Données\nLe corpus utilisé dans cet exemple contient un extrait des réponses à une question ouverte issue de l’enquête Populations, Espaces de Vie, Environnements (Ined, 1992). L’intitulé de la question est celui-ci :Si je vous dis Environnement, qu’est ce que cela évoque pour vous ?\nPour chaque enquêté, on dispose de caractéristiques socio-démographiques (https://data.ined.fr/index.php/catalog/41)."
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#spad",

@@ -15,7 +15,7 @@ editor:
 Captures d'écran présentant un exemple d'analyse de question ouverte
 avec Spad. Les premières étapes sont détaillées afin de comprendre le
 fonctionnement du logiciel. La dernière diapositive synthétise
-l'ensemble des méthodes présentées en démo.
+l'ensemble des méthodes présentées en démo
 
 ------------------------------------------------------------------------
 
@@ -24,7 +24,7 @@ l'ensemble des méthodes présentées en démo.
 Le *corpus* utilisé dans cet exemple contient un extrait des réponses à
 une question ouverte issue de l'enquête Populations, Espaces de Vie,
 Environnements (Ined, 1992). L'intitulé de la question est celui-ci :*Si
-je vous dis Environnement, qu'est ce que cela évoque pour vous ?*.
+je vous dis Environnement, qu'est ce que cela évoque pour vous ?*
 
 Pour chaque enquêté, on dispose de caractéristiques socio-démographiques
 (<https://data.ined.fr/index.php/catalog/41>).
@@ -115,5 +115,3 @@ la lemmatisation
 ## Enchainement de méthodes de statistique textuelle
 
 ![](images/im_spad_synthese.png){fig-align="center"}
-
-## 

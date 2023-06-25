@@ -60,7 +60,7 @@ title: "Quelques ressources"
 
 -   Projet Textometrie : <http://textometrie.ens-lyon.fr/>
 
--   Le [Descriptoire](http://perso.ens-lyon.fr/lise.vaudor/Descriptoire/_book/) : Recueil et analyse de texte avec R
+-   Le [Descriptoire](http://perso.ens-lyon.fr/lise.vaudor/Descriptoire/_book/) : Recueil et analyse de texte avec R par Lise Vaudor
 
 -   [Cours](http://tutoriels-data-science.blogspot.com/p/tutoriels-en-francais.html#6585408001920926626) de Ricco Rakotomalala
 
@@ -82,7 +82,7 @@ Les autres outils
 
 -   [Voyant-Tools](http://voyant-tools.org/) : environnement en ligne de lecture et d'analyse de textes
 
-et les **séminaires :**
+et les **séminaires**
 
 -   [R à l'Usage des Sciences Sociales](http://russ.site.ined.fr/) (RUSS)
 

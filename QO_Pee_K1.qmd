@@ -215,7 +215,7 @@ On voit ici comment créer son *lemmatiseur*.
 
 ### Suppression de mots
 
-On crée une liste de mots que l'on a choisi de supprimer du tableau lexical et du dictinnaire.
+On crée une liste de mots que l'on a choisi de supprimer du tableau lexical et du dictionnaire.
 
 Ici, comme à tout moment de l'analyse, il est important d'afficher les *concordances* d'un mot pour ensuite faire un choix (le supprimer, le regrouper avec un autre, ...).
 
@@ -244,7 +244,7 @@ write.csv2(dic2, file="dic2_lem.csv")
 
 ### Correction de la lemmatisation de R
 
-On pourrait utiliser la colonne Terms du dictionnaire pour lemmatiser mais celle-ci ne nous satisfait pas. On décide alors de remplacer les racines de certians mots issues de la lemmatisation automatique et on enregiste ce nouveau dictionnaire qui sera notre *lemmatiseur personnalisé*.
+On pourrait utiliser la colonne Terms du dictionnaire pour lemmatiser mais celle-ci ne nous satisfait pas. On décide alors de remplacer les racines de certains mots issues de la lemmatisation automatique et on enregiste ce nouveau dictionnaire qui sera notre *lemmatiseur personnalisé*.
 
 Ici encore, on s'aide des concordances. Par exemple : `concordances(corpus,dtm,c("écologie","écolo","écologique","écologiques","écologiste","écologistes","écolos"))`
 
@@ -309,22 +309,11 @@ arbre <- terms_graph(dtmlem2, min_occ = 30, interactive=F)
 
 ![](images/graphe_mots.png)
 
-# Nouvelles AFC
+# Nouvelle analyse factorielle avec métadonnées
 
-## Suite à la lemmatisation avec lexique3
+Suite à la lemmatisation avec lexique3
 
-```{r AFC_TLElem2}
-resTLElem2 <-corpus_ca(corpus,dtmlem2,sparsity=0.985 )
-#explor(resTLElem2)
-
-res <- explor::prepare_results(resTLElem2)
-explor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = FALSE, var_sup = FALSE,
-    var_sup_choice = , var_hide = "Row", var_lab_min_contrib = 0, col_var = "Position",
-    symbol_var = "Type", size_var = "Contrib", size_range = c(23.4375, 312.5),
-    labels_size = 10, point_size = 25, transitions = TRUE, labels_positions = NULL,
-    xlim = c(-2.55, 9.92), ylim = c(-4.66, 7.81))
-```
-
+On choisit les mêmes varaibles que plus haut
 ```{r AFC_TLAlem2}
 resTLAlem2<-corpus_ca(corpus,dtmlem2, variables =c("sexe","aget",	"matrim","pratique","enf","activite","prof","dipl","vote",	"habitat"	,"localite","revenu"),sparsity=0.98)
 #explor(resTLAlem2)
@@ -340,7 +329,7 @@ explor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = FALSE, var_sup = FALSE,
 
 ## Correction de la lemmatisation de Lexique3
 
-On adapte le lemmatiseur (`dic_total`) en créant un autre dictionnaire (`dicor`) avec une colonne contenant les mots qui n'ont pas été lemmatisés automatiquement. Puis on lemmatisera le tableau lexical avec les "mots" (Term) de cette nouvelle colonne. On trouve ces mots dans la liste des mots non reconnus (nr)
+La lemmatisation automatique produite avec Lexique3 affiche les racines des mots pour certains (ex. bretagn ou tranquil). On remanie ce lemmatiseur (`dic_total`) en créant un autre dictionnaire (`dicor`) avec une colonne contenant les mots qui n'ont pas été lemmatisés automatiquement. Puis on lemmatisera le tableau lexical avec les "mots" (Term) de cette nouvelle colonne. 
 
 ```{r corr_lemm2}
 dic_total_c <- dic_total
@@ -366,9 +355,9 @@ corpus_entourage <- subset_corpus(corpus,dtm,"entourage")
 
 ## Classifications du tableau lexical
 
-Va regrouper les réponses contenant des mots cooccurrents. Permet de repérer des champs lexicaux.
+Va regrouper les réponses contenant des mots cooccurrents et permet ainsi de repérer des champs lexicaux.
 
-### avec R.temis
+### Avec R.temis
 
 ```{r clus}
 clusTLE <- corpus_ca(corpus, dtmlem2,variables = NULL, ncp =  6, sparsity = 0.98)
@@ -415,15 +404,15 @@ specific_terms(dtmlem2,meta(corpus_cl)\$clus, n=5)
 characteristic_docs(corpus_cl,dtmlem2,meta(corpus_cl)$clu, ndocs=3)
 ```
 
-### avec Rainette (type Alceste)
+### Avec Rainette (type Alceste)
 
-On pourrait également faire une classification des questions ouvertes avec le package *Rainette*. En savoir plus sur <https://juba.github.io/rainette/articles/introduction_usage.html>
+On pourrait également faire une classification avec le package *Rainette*. En savoir plus sur <https://juba.github.io/rainette/articles/introduction_usage.html>
 
 Son utilisation nesessite aussi d'appeler le package `quanteda`.
 
-Attention risque de conflit entre les packages tm (chargé par R.temis) et quanteda : il ne faut pas lancer `library(quanteda)`.
+Attention risque de conflit entre les packages tm (chargé par R.temis) et quanteda : ne pas lancer `library(quanteda)`.
 
-Ici on utilise le crpus non lemmatisé
+Ici on utilise le corpus non lemmatisé.
 
 ```{r reinert, eval=FALSE,message=FALSE}
 library(rainette)

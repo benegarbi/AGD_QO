@@ -220,25 +220,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <section id="ressources" class="level1">
 <h1>Ressources</h1>
-<p><strong>Pas à Pas</strong> de l’analyse de réponses à la question ouverte K1 <a href="https://data.ined.fr/index.php/catalog/41">Enquête “Population, Espace de Vie, Environnement”, Ined 1992</a> avec caractéristiques des répondants : <em>QO_Pee_K1.html</em><br>
+<p><strong>Pas à Pas</strong> de l’analyse de réponses à la question ouverte K1 <a href="https://data.ined.fr/index.php/catalog/41">Enquête “Population, Espace de Vie, Environnement”, Ined 1992</a> avec caractéristiques des répondants : <strong>QO_Pee_K1.html</strong><br>
 et aussi le <em>Pas à Pas montrant toutes les fonctionnalités de R.temis</em> appliqué sur un autre texte court <a href="https://rtemis.hypotheses.org/r-temis-dans-rstudio" class="uri">https://rtemis.hypotheses.org/r-temis-dans-rstudio</a></p>
 <p><strong><em>Extraire les scripts nécessaires des pages citées plus haut</em></strong></p>
-<p><strong>Fichiers fournis</strong></p>
+<p><strong>Fichiers fournis</strong> :</p>
 <ul>
 <li><p>Extrait des données de l’enquête : <em>PEE_K1_extract.csv</em></p></li>
-<li><p>Lemmatiseur construit à partir du lexique associé aux données : <em>Pee_dic_lem_extract.csv</em></p></li>
+<li><p>Lemmatiseur personnalisé construit à partir du lexique associé aux corpus PEE : <em>Pee_dic_lem_extract.csv</em></p></li>
 <li><p>Lemmatiseur adapté de Lexique 3 <a href="https://chrplr.github.io/openlexicon/datasets-info/Lexique382/README-Lexique.html">base de données lexicales du français</a> contenant des représentations orthographiques et phonémiques, des lemmes associés ainsi que leur catégorie grammaticale … : <em>Lexique383_simplifié.csv</em></p></li>
 </ul>
 <section id="etape-1-créer-son-environnement-de-travail" class="level2">
 <h2 class="anchored" data-anchor-id="etape-1-créer-son-environnement-de-travail">Etape 1 : Créer son environnement de travail</h2>
 <ol type="1">
-<li><p>Créer un répertoire/dossier pour l’analyse sur votre ordinateur. Dans ce dossier, créér un sous répertoire appelé par exemple <em>data</em> pour y placer les données à utiliser.</p></li>
+<li><p>Créer un répertoire/dossier pour l’analyse sur votre ordinateur. Dans ce dossier, créér un sous-répertoire appelé (par exemple) <em>data</em> pour y placer les données à utiliser.</p></li>
 <li><p>Créer un projet R dans le dossier de l’analyse [<em>File/New Project</em> …]. Créer un script [<em>File/New File</em> …].</p></li>
 <li><p>Télécharger les données extraites de l’enquête PEE (textes et métadonnées) (<strong>PEE_K1_extract.csv</strong><em>)</em> dans le répertoire <em>data</em> en exécutant le script ci-dessous.</p></li>
 </ol>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>PEE_K1_extract <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/PEE_K1_extract.csv"</span>, <span class="at">sep=</span><span class="st">";"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>PEE_K1_extract <span class="ot">&lt;-</span> <span class="fu">read.csv</span>(<span class="st">"https://raw.githubusercontent.com/benegarbi/AGD_QO/master/data/PEE_K1_extract.csv"</span>, <span class="at">sep=</span><span class="st">";"</span>)</span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">write.csv2</span>(PEE_K1_extract,<span class="at">file=</span><span class="st">"data/PEE_K1_extract.csv"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -248,8 +248,8 @@ et aussi le <em>Pas à Pas montrant toutes les fonctionnalités de R.temis</em> 
 <h2 class="anchored" data-anchor-id="etape-2-importer-les-données-dans-r">Etape 2 : Importer les données dans R</h2>
 <p>Importer ce fichier contenant une variable textuelle et des métadonnées avec le <em>package R.temis</em>.</p>
 <ol type="1">
-<li><p>Importer le fichier <code>import_corpus</code>.</p></li>
-<li><p>Créer le tableau lexical (avec mots-outils) <code>build_dtm</code>.</p></li>
+<li><p>Importer le fichier : <code>import_corpus</code>.</p></li>
+<li><p>Créer le tableau lexical (avec mots-outils) :<code>build_dtm</code>.</p></li>
 <li><p>Repérer le nombre de répondants et le nombre de mots différents cités dans les réponses.</p></li>
 <li><p>Créer le dictionnaire <code>dictionary</code> puis le visualiser <code>View</code>. Le trier, repérer les mots les plus cités, les lemmes générés par R.</p></li>
 <li><p>Afficher des concordances avec des mots (au choix) <code>concordances</code>.</p></li>
@@ -281,11 +281,12 @@ et aussi le <em>Pas à Pas montrant toutes les fonctionnalités de R.temis</em> 
 <ol type="1">
 <li><p>Créer une la liste de mots à enlever du corpus (prendre ici : “sur”,“que”,“qu”). La supprimer du tableau lexical et du lexique, puis exporter le dictionnaire <code>dictionary</code>.</p></li>
 <li><p>Ouvrir ce dictionnaire avec un tableur. Corrigez si besoin les formes lemmatisées automatiquement par R.</p></li>
-<li><p>Récupérer le lemmatiseur “associé à Pee” (<strong>Pee_dic_lem_extract.csv)</strong> et le copier dans le répertoire data du dossier créé pour l’analyse. et l’importer dans le projet (toujours le répertoire data) <code>read.csv2</code>. Pour cela, exécuter le scipt ci-dessous.</p></li>
+<li><p>Récupérer le lemmatiseur “associé à Pee” (<em>Pee_dic_lem_extract.csv)</em> et le copier dans le répertoire data du dossier créé pour l’analyse.</p></li>
 </ol>
+<p>4.Importer ce fichier dans le projet (toujours le répertoire data) : <code>read.csv2</code>. Pour cela, exécuter le scipt ci-dessous :</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dic_lem1 <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Pee_dic_lem_extract.csv"</span>, <span class="at">sep=</span><span class="st">";"</span>,<span class="at">row.names=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>dic_lem1 <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"https://raw.githubusercontent.com/benegarbi/AGD_QO/master/data/Pee_dic_lem_extract.csv"</span>, <span class="at">sep=</span><span class="st">";"</span>,<span class="at">row.names=</span><span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ol start="5" type="1">
 <li>Lemmatiser le tableau lexical à l’aide de ce lemmatiseur <code>combine_terms</code>.</li>
@@ -299,7 +300,7 @@ et aussi le <em>Pas à Pas montrant toutes les fonctionnalités de R.temis</em> 
 <li>Récupérer le lemmatiseur adapté de lexique3 (<strong>Lexique383_simplifie.csv</strong>) dans le répertoire data de l’analyse en exécutant le script.</li>
 </ol>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>lexique3 <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Lexique383_simplifie.csv"</span>, <span class="at">sep=</span><span class="st">","</span>, <span class="at">fileEncoding=</span><span class="st">"UTF-8"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>lexique3 <span class="ot">&lt;-</span> <span class="fu">read.csv2</span>(<span class="st">"https://raw.githubusercontent.com/benegarbi/AGD_QO/master/data/Lexique383_simplifie.csv"</span>, <span class="at">sep=</span><span class="st">","</span>, <span class="at">fileEncoding=</span><span class="st">"UTF-8"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ol start="2" type="1">
 <li>Garder les mots de catégories grammaticales “utiles” et lemmatiser à nouveau le dictionnaire issu du tableau lexical initial</li>

@@ -1,116 +1,113 @@
 ---
-title: "Introduction à la statistique textuelle"
+title: "Concepts de statistique textuelle"
 format: 
   revealjs:
     theme: style.scss 
     scrollable: true
     smaller: true
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-EN COURS DE REDACTION \## Programme
+## Contenu de cette présentation
 
--   Statistique textuelle
--   Corpus et Tableaux lexicaux
--   Méthodologie embarquée
--   Application avec des réponses à une question ouverte issue de l'enquête "[Populations, Espaces de Vie, Environnements](https://data.ined.fr/index.php/catalog/41)" (Collomb, Guerin-Pace, Ined, 1992)
--   Illustrations à partir Garnier B., Guérin-Pace F. 2010 - Appliquer les méthodes de la statistique textuelle, \[[Ceped, les clefs pour](http://www.ceped.org/fr/publications-ressources/editions-du-ceped-1988-2012/les-clefs-pour/article/appliquer-les-methodes-de-la)\], Paris
+-   Les concepts de la statistique textuelle Corpus et Tableaux lexicaux
+    Méthodologie embarquée
+-   Application avec des réponses à une question ouverte issue de
+    l'enquête "[Populations, Espaces de Vie,
+    Environnements](https://data.ined.fr/index.php/catalog/41)"
+    (Collomb, Guerin-Pace, Ined, 1992)
+-   Illustrations à partir de Garnier B., Guérin-Pace F. 2010 -
+    Appliquer les méthodes de la statistique textuelle, \[[Ceped, les
+    clefs
+    pour](http://www.ceped.org/fr/publications-ressources/editions-du-ceped-1988-2012/les-clefs-pour/article/appliquer-les-methodes-de-la)\],
+    Paris
 
 ------------------------------------------------------------------------
 
 ## Enjeux de la statistique (textuelle)
 
--   **Explorer** : *faire naître des idées*, détecter des similitudes, des différences, des anomalies, ....
--   **Résumer** les données à l'aide d' indicateurs, de profils
+-   **Explorer** : *faire naître des idées*, détecter des similitudes,
+    des différences, des anomalies ...
+-   **Résumer** les données à l'aide d'indicateurs, de profils ...
+-   **Trouver des structures**
 -   **Présenter** des résultats ...
 
 ![](images/im_nuage_couverture.png){fig-align="center" height="200"}
-
-mais aussi :
-
--   **Structurer** : le corpus en base de données et le **nettoyer**
 
 ------------------------------------------------------------------------
 
 ## Les données textuelles
 
+L'ensemble de textes sur lesquels se base l'étude est le **corpus**
 
-Définir une question ouverte taille des textes, etc ... 
+Une **question ouverte** est une question posée sans grille de réponse
+préétablie, dont la réponse peut être numérique ou textuelle (Lebart,
+Salem 1994)
 
-L'ensemble de textes sur lesquels se base l'étude est le **corpus**.
+Dans ce cas, l'**unité textuelle** est la réponse
 
-Une **question ouverte** est une question posée sans grille de réponse préétablie, dont la réponse peut être numérique ou textuelle (Lebart, Salemm 1994).
-
-Unité textuelle = réponse
-
-
-------------------------------------------------------------------------
-
-
-## un peu de vocabulaire de Statistique textuelle
-
-- Mot, forme graphique, forme racine, lemme, terme ... 
-
--   Calcul de fréquences des "mots" (**occurrences**) ou de "type de mots" = s'intéresser à la *forme* des textes en faisant abstraction de leur structure.
-
-- Détection de **cooccurrences** = présence simultanée de plusieurs "mots" dans des unités de textes afin de repérer des *champs lexicaux*.
-
-S'appuyer sur des *métadonnées* sur les textes
+Ici les textes sont composés de *quelques "mots"*, ils sont **courts**
 
 ------------------------------------------------------------------------
 
-## L'Analyse des Données
+## L'analyse des données
 
 ![](images/im_benzecri.png){fig-align="center" height="500"}
 
 ------------------------------------------------------------------------
 
-## La lexicométrie 
+## La lexicométrie
 
-Ensemble de méthodes permettant d'opérer des réorganisations unités textuelles et des analyses statistiques portant sur le vocabulaired'un corpus de texte. 
+Ensemble de méthodes permettant d'opérer des réorganisations unités
+textuelles et des analyses statistiques portant sur le vocabulaire d'un
+corpus de texte (Lebart & Salem, 1994, p.135)
 
-- Calcul de répartitions ou de spécificités 
+-   Calcul de répartitions (*occurrences*). *Quels sont les textes les
+    plus semblables en ce qui concerne le vocabulaire et la fréquence
+    des formes utilisées ?*
 
-- Analyses multivariées (Analyses Factorielles, Classifications) = Pour faire émerger des thématiques  **sans a priori**
+-   Calcul de **spécificités**. *Quelles sont les formes qui
+    caractérisent chaque texte, par leur présence ou leur absence?*
 
-Logiciels  *historiques*  (Spad, Lexico, Alceste, Hyperbase) aujourd'hui **open source** écrits *à partir de R* (tm, R.temis, TXM, Quanteda, IRaMuteQ ou Xplortext ....)
+-   Détection de **cooccurrences** au moyen de l'analyse géométrique des
+    données pour faire émerger des thématiques **sans a priori**
 
-Les méthodes s'appliquent à des corpus qui diffèrent par leur nature mais qui sont transformés en tableaux de même structure : les **tableaux lexicaux**
+Les méthodes s'appliquent à des corpus qui diffèrent par leur nature
+mais qui sont transformés en tableaux de même structure : les **tableaux
+lexicaux**
 
 ------------------------------------------------------------------------
 
 ## Afficher des concordances
 
-Le **concordancier** : indispensable tout au long d'une analyse de texte, quel qu'il soit :
+Le **concordancier** : indispensable tout au long d'une analyse
+![](images/im_concordancier_lexico3.png){fig-align="center"
+height="500"}
 
-![](images/im_concordancier_lexico3.png){fig-align="center" height="500"}
-La concordance correspond à l'ensemble des lignes de contexte se rapportant à un même "mot".
-
-
-------------------------------------------------------------------------
-
-## Usage croissant
-
-![](images/im_chronologie.png){fig-align="center" width="683" height="500"}
+Ensemble des lignes de contexte se rapportant à un même "mot"
 
 ------------------------------------------------------------------------
 
-## Collecter Corpus et métadonnées
+## Usage croissant de la statistique textuelle
 
-*Quels sont les textes les plus semblables en ce qui concerne le vocabulaire et la fréquence des formes utilisées ? Quelles sont les formes qui caractérisent chaque texte, par leur présence ou leur absence ?* (Lebart & Salem, 1994, p.135)
-
-Ne pas oublier les métadonnées
-
-Les questionner, les contextualiser : disponibilités/droits, sources, limites...
+![](images/im_chronologie.png){fig-align="center" width="804"}
 
 ------------------------------------------------------------------------
 
-## Nettoyer les données
+## Collecter corpus et métadonnées
 
-= Etape de l'analyse *à ne pas sous-estimer*
+Les questionner, les contextualiser : disponibilités/droits, sources,
+limites...
 
-Diffère selon les types de corpus (questions ouvertes, entretiens, romans, articles, pages Web etc..)
+Les *nettoyer*, normaliser, corriger = étape de l'analyse *à ne pas
+sous-estimer*
 
-= nettoyer, normaliser, corriger ( encodage, orthographe, abreviations ...)
+Diffère selon les types de corpus (questions ouvertes, entretiens,
+romans, articles, pages Web etc..)
+
+Ex. : encodage, orthographe, abreviations ...
 
 ------------------------------------------------------------------------
 
@@ -120,36 +117,39 @@ Diffère selon les types de corpus (questions ouvertes, entretiens, romans, arti
 
 ------------------------------------------------------------------------
 
-# Calcul d'occurrences
-
-------------------------------------------------------------------------
-
 ## Le tableau lexical entier (TLE)
 
-Tableau à double entrée dont les lignes sont constituées par les unités de texte et les colonnes les "mots" du corpus.
-![](images/TLE_PEE_o.png){fig-align="center" }
+Tableau à double entrée dont les lignes sont constituées par les unités
+de texte et les colonnes les "mots" du corpus
+![](images/TLE_PEE_o.png){fig-align="center"}
 
-Tableaux dits *hyper-creux*. Présence/absence de **mots** dans les textes (Valeur positive ou nulle). L'ordre des mots n'est pas pris en compte (sacs de mots)
+Tableaux dits *hyper-creux*. Présence/absence de **mots** dans les
+textes (Valeur positive ou nulle)
+
+L'ordre des mots n'est pas pris en compte (sacs de mots)
 
 ------------------------------------------------------------------------
 
-## Lecture du lexique
+## Les occurrences
 
--   Les *mots* vont constituer le dictionnaire ou **lexique** associé au corpus et deviennent des descripteurs : les **termes**
+Le calcul d'**occurrences** revient à s'intéresser à la *forme* des
+textes en faisant abstraction de leur structure. Les *mots* vont
+constituer le dictionnaire ou **lexique** associé au corpus et
+deviennent des descripteurs : les *termes*
 
 ![](images/liste_voc_pee.png){fig-align="center" height="400"}
 
-Lecture des mots par ordre de fréquence (*occurrence)*, ordre *alphabétique*.
+Lecture des mots par ordre de fréquence/ *occurrence et* ordre
+*alphabétique*
 
 ------------------------------------------------------------------------
 
-## Méthodologie embarquée
+## La lemmatisation
 
-Réduire la taille du lexique Via l'opération de **lemmatisation**
+Réduire la *taille* du lexique.
 
-= rattacher un ou plusieurs mots à une forme dite racine (Lebart, Salem, 1994)
-
-Convertir :
+= rattacher un ou plusieurs mots à une forme dite racine (Lebart &
+Salem, 1994) Convertir :
 
 -   les formes verbales à l'infinitif
 -   les substantifs au singulier
@@ -157,104 +157,120 @@ Convertir :
 
 Opération **automatisée** avec des dictionnaires et/ou manuelle
 
+Les "mots" ou formes graphiques deviendront alors des *formes racine*,
+*lemmes*, *termes* ...
+
 ------------------------------------------------------------------------
 
-# Détection des cooccurrences
+## Repérer automatiquement les cooccurrences
 
 ------------------------------------------------------------------------
 
-## Analyse des correspondances sur le tableau lexical entier
+## Analyse des correspondances sur tableau lexical entier
 
-Les plans factoriels permettent de visualiser des proximités de mots, des oppositions et ainsi de repérer des **champs lexicaux**
+Les plans factoriels permettent de visualiser des proximités de mots,
+des oppositions et ainsi de repérer des **champs lexicaux**
 
-![](images/spgeo_0046-2497_1998_num_27_1_T1_0044_0000_1.png){fig-align="center" width="600"}
+![](images/spgeo_0046-2497_1998_num_27_1_T1_0044_0000_1.png){fig-align="center"}
 
-(Enquête Populations, Espaces de vie, Environnements, Ined 1992)
-
-Deux mots sont d'autant plus proches que leurs contextes d'utilisation se ressemblent et d'autant plus éloignés qu'ils sont rarement utilisés ensemble
+Deux mots sont d'autant plus proches que leurs contextes d'utilisation
+se ressemblent et d'autant plus éloignés qu'ils sont rarement utilisés
+ensemble
 
 ------------------------------------------------------------------------
 
 ## Classification sur Tableau Lexical
 
-*Obtenir un classement des unités de textes en fonction de la ressemblance ou de la dissemblance des mots dans ces textes et d'ordonner les textes en cernant les homologies et les oppositions* (Rouré, Reinert, 1993)
+*Obtenir un classement des unités de textes en fonction de la
+ressemblance ou de la dissemblance des mots dans ces textes et
+d'ordonner les textes en cernant les homologies et les oppositions*
+(Rouré, Reinert, 1993)
 
-![](images/spgeo_0046-2497_1998_num_27_1_T1_0046_0000_1.png){fig-align="center"}
+![](images/spgeo_0046-2497_1998_num_27_1_T1_0046_0000_1.png){fig-align="center"
+width="291"}
 
-Méthode Alceste ( Reinert, 1983), aujourd'hui implantée dans le *package Rainette* (J. Barnier)
+Méthode *Alceste* ( Reinert, 1983), aujourd'hui implantée dans le
+*package Rainette* (J. Barnier)
 
 ------------------------------------------------------------------------
 
-# Mettre en relation mots et métadonnées
+## Mettre en relation mots et métadonnées
+
+Utiliser les caractéristiques ou *métadonnées* des textes pour repérer
+des structures.
+
+On *partitionne* le corpus selon les modalités de variables qualitatives
 
 ------------------------------------------------------------------------
 
 ## Les spécificités
 
-Utilisation d'un test statistique pour dire si l'écart entre la fréquence relative d'une forme dans une partition (*par modalité*) et la fréquence globale calculée sur l'ensemble des réponses est significatif ou non
+Utilisation d'un test pour dire si l'écart entre la fréquence relative
+d'une forme dans une partition (*par modalité*) et la fréquence globale
+calculée sur l'ensemble des réponses est significatif ou non
 
-![](images/specif.png){fig-align="center" width="429"}
+![](images/specif.png){fig-align="center" width="287"}
 
-(Enquête Populations, Espaces de vie, Environnements, Ined 1992)
-
-Les *mots ou textes caractéristiques* de ces partitions sont restitués selon leur degré de spécificité
+Les *mots ou textes caractéristiques* de ces partitions sont restitués
+selon leur degré de spécificité
 
 ------------------------------------------------------------------------
 
 ## Le tableau lexical agrégé (TLA)
 
-Tableau de *contingence* qui croise les *mots* du lexique et les *modalités* des métadonnées.
+Tableau de *contingence* qui croise les *mots* du lexique et les
+*modalités* des métadonnées
 
 ![](images/im_TLA2.png)
-
-(Populations, Espaces de vie, Environnements, Ined, 1992)
 
 ------------------------------------------------------------------------
 
 ## Analyse des correspondances sur un Tableau Lexical Agrégé
 
-Le plan factoriel permet d'observer la position réciproque des "mots" et des métadonnées et de faire émerger des champs lexicaux propres à des sous-populations
+Le plan factoriel permet d'observer la position réciproque des "mots" et
+des métadonnées et de faire émerger des champs lexicaux propres à des
+sous-populations
 
 <img src="images/spgeo_0046-2497_1998_num_27_1_T1_0050_0000_1.png" height="500px"/>
-
-(Enquête Populations, Espaces de vie, Environnements, Ined 1992)
-
--   2 mots proches = proximité des individus - profils lignes
--   2 caractéristiques proches = univers lexicaux proches - profils colonnes
 
 ------------------------------------------------------------------------
 
 ## Affiner l'analyse
 
--   Supprimer certains mots ...
--   Augmenter le nombre de classes ...
--   Personnaliser la lemmatisation ...
--   Extraire des sous-corpus à l'aide metadonnées ...
+-   Supprimer certains mots
+-   Personnaliser la lemmatisation
+-   Augmenter le nombre de classes
+-   Analyser des sous-corpus ...
 
 ------------------------------------------------------------------------
 
-## Les outils
+## Liste (non exhaustive) d'outils
 
 ![](images/im_outils.png){fig-align="center"}
 
-Liste non exhaustive
+Logiciels *historiques* (Spad, Lexico, Alceste, Hyperbase) aujourd'hui
+écrits *à partir de R* (tm, R.temis, TXM, Quanteda, IRaMuteQ ou
+Xplortext ....)
 
 ------------------------------------------------------------------------
 
 ## Package tm (Text Mining) de R
 
-Feinerer, Hornik, Meyer Wirtschaftsuniversity de Wien, in Journal of Statistical Software (Mars 2008)
+Feinerer, Hornik, Meyer Wirtschaftsuniversity de Wien, in Journal of
+Statistical Software (Mars 2008)
 
--   Construction de tableaux lexicaux (**Document Term Matrix**), comptage de mots, calcul d'associations, ... = fonctions de tm
--   Rapporte les mots à leurs radicaux (stemming) ou supprime les mots outils (i.e articles) = options de tm
+-   Construction de tableaux lexicaux (**Document Term Matrix**),
+    comptage de mots, calcul d'associations, ... = fonctions de tm
+-   Rapporte les mots à leurs radicaux (stemming) ou supprime les mots
+    outils (i.e articles) = options de tm
 
 ------------------------------------------------------------------------
 
 ## Package R.temis de R
 
-Facilite les étapes essentielles de l'analyse textuelle en s'appuyant au maximum sur les packages existants (tm, FactoMineR, explor, igraph...).
-
-[R.temis](https://rtemis.hypotheses.org/) implémente les méthodes suivantes :
+Facilite les étapes essentielles de l'analyse textuelle en s'appuyant au
+maximum sur les packages existants (tm, FactoMineR, explor, igraph...)
+\[ [R.temis](https://rtemis.hypotheses.org/) \] :
 
 -   importation de corpus au format .csv, .txt
 -   suppression des mots vides, lemmatisation modifiable,
@@ -267,23 +283,25 @@ Facilite les étapes essentielles de l'analyse textuelle en s'appuyant au maximu
 
 ------------------------------------------------------------------------
 
-## Conclusion
-
--   Analyse de données (non structurées)
--   Explorer les données autrement - sans a priori
--   Complémentarité des méthodes (qualitative/quantitative)
--   Utilisation conjointe de l'informatique tout-automatique et de l'intuition humaine
-
-------------------------------------------------------------------------
-
-## Statistique textuelle : Quali + Quanti + Viz
+## Quali + Quanti + Viz
 
 Calculs statistiques appliqués à des **corpus**
 
 -   Chiffres & Mots : **Occurrences & Cooccurrences**, ...
 
--   Calcul de **spécificités**, profils, ...
+-   Calcul de **spécificités**, de profils ...
 
--   **Visualisations** : nuages de mots, graphe de mots, plan factoriels (Analyse des correspondances), dendrogrammes (classifications)
+-   **Visualisations** : nuages de mots, graphe de mots, plan factoriels
+    (Analyse des correspondances), dendrogrammes (classifications)
 
 Aides à l'interprétation indispensables : les **concordances**
+
+------------------------------------------------------------------------
+
+## La statistique textuelle
+
+-   Analyse de données non structurées
+-   Exploration de données textuelles autrement - sans a priori
+-   Complémentarité des méthodes (qualitative/quantitative)
+-   Utilisation conjointe de l'informatique tout-automatique et de
+    l'intuition humaine

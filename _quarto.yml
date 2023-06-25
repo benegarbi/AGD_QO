@@ -10,11 +10,11 @@ website:
     left:
       - text: "Supports"
         menu:
-        - text: "Présentation générale"
+        - text: "Concepts de statistique textuelle"
           href: Intro.qmd
         - text: "Pas-à-pas"
           href : QO_Pee_K1.qmd
-      - text: "Exercices"
+      - text: "Mise en oeuvre"
         href: Exercices_enonces.html
         
       - text: "Ressources"

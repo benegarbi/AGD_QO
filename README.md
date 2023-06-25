@@ -4,5 +4,5 @@ L'objectif de cet atelier de 3h est de comprendre les concepts mis en oeuvre en 
 
 La mise en pratique des méthodes se fait au moyen de R et en particulier le package R.temis et de Spad.
 
-[L'AGD pour le traitement des questions ouvertes du Moduule Analyses géométriques des données en sciences sociales de QuantiLille 2023)
+[Voir le site associé - L'AGD pour le traitement des questions ouvertes - Module Analyses géométriques des données en sciences sociales de QuantiLille 2023)
 ](http://benegarbi.github.io/AGD_QO)

@@ -2,16 +2,16 @@
   {
     "objectID": "AGD et questions ouvertes.html#enjeux-de-la-statistique-textuelle",
     "href": "AGD et questions ouvertes.html#enjeux-de-la-statistique-textuelle",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Enjeux de la statistique (textuelle)",
-    "text": "Enjeux de la statistique (textuelle)\n\nExplorer : faire naître des idées, détecter des similitudes, des différences, des anomalies, ….\nRésumer les données à l’aide d’ indicateurs, de profils\nPrésenter des résultats …\n\n\n\n\n\n\nmais aussi :\n\nStructurer : le corpus en base de données et le nettoyer"
+    "text": "Enjeux de la statistique (textuelle)\n\nExplorer : faire naître des idées, détecter des similitudes, des différences, des anomalies …\nRésumer les données à l’aide d’indicateurs, de profils …\nTrouver des structures\nPrésenter des résultats …"
   },
   {
     "objectID": "AGD et questions ouvertes.html#les-données-textuelles",
     "href": "AGD et questions ouvertes.html#les-données-textuelles",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Les données textuelles",
-    "text": "Les données textuelles\nDéfinir une question ouverte taille des textes, etc …\nL’ensemble de textes sur lesquels se base l’étude est le corpus.\nUne question ouverte est une question posée sans grille de réponse préétablie, dont la réponse peut être numérique ou textuelle (Lebart, Salemm 1994).\nUnité textuelle = réponse"
+    "text": "Les données textuelles\nL’ensemble de textes sur lesquels se base l’étude est le corpus\nUne question ouverte est une question posée sans grille de réponse préétablie, dont la réponse peut être numérique ou textuelle (Lebart, Salem 1994)\nDans ce cas, l’unité textuelle est la réponse\nIci les textes sont composés de quelques “mots”, ils sont courts"
   },
   {
     "objectID": "AGD et questions ouvertes.html#un-peu-de-vocabulaire-de-statistique-textuelle",
@@ -23,37 +23,37 @@
   {
     "objectID": "AGD et questions ouvertes.html#lanalyse-des-données",
     "href": "AGD et questions ouvertes.html#lanalyse-des-données",
-    "title": "Introduction à la statistique textuelle",
-    "section": "L’Analyse des Données",
-    "text": "L’Analyse des Données"
+    "title": "Concepts de statistique textuelle",
+    "section": "L’analyse des données",
+    "text": "L’analyse des données"
   },
   {
     "objectID": "AGD et questions ouvertes.html#la-lexicométrie",
     "href": "AGD et questions ouvertes.html#la-lexicométrie",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "La lexicométrie",
-    "text": "La lexicométrie\nEnsemble de méthodes permettant d’opérer des réorganisations unités textuelles et des analyses statistiques portant sur le vocabulaired’un corpus de texte.\n\nCalcul de répartitions ou de spécificités\nAnalyses multivariées (Analyses Factorielles, Classifications) = Pour faire émerger des thématiques sans a priori\n\nLogiciels  historiques  (Spad, Lexico, Alceste, Hyperbase) aujourd’hui open source écrits à partir de R (tm, R.temis, TXM, Quanteda, IRaMuteQ ou Xplortext ….)\nLes méthodes s’appliquent à des corpus qui diffèrent par leur nature mais qui sont transformés en tableaux de même structure : les tableaux lexicaux"
+    "text": "La lexicométrie\nEnsemble de méthodes permettant d’opérer des réorganisations unités textuelles et des analyses statistiques portant sur le vocabulaire d’un corpus de texte (Lebart & Salem, 1994, p.135)\n\nCalcul de répartitions (occurrences). Quels sont les textes les plus semblables en ce qui concerne le vocabulaire et la fréquence des formes utilisées ?\nCalcul de spécificités. Quelles sont les formes qui caractérisent chaque texte, par leur présence ou leur absence?\nDétection de cooccurrences au moyen de l’analyse géométrique des données pour faire émerger des thématiques sans a priori\n\nLes méthodes s’appliquent à des corpus qui diffèrent par leur nature mais qui sont transformés en tableaux de même structure : les tableaux lexicaux"
   },
   {
     "objectID": "AGD et questions ouvertes.html#afficher-des-concordances",
     "href": "AGD et questions ouvertes.html#afficher-des-concordances",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Afficher des concordances",
-    "text": "Afficher des concordances\nLe concordancier : indispensable tout au long d’une analyse de texte, quel qu’il soit :\n La concordance correspond à l’ensemble des lignes de contexte se rapportant à un même “mot”."
+    "text": "Afficher des concordances\nLe concordancier : indispensable tout au long d’une analyse \nEnsemble des lignes de contexte se rapportant à un même “mot”"
   },
   {
     "objectID": "AGD et questions ouvertes.html#usage-croissant",
     "href": "AGD et questions ouvertes.html#usage-croissant",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Usage croissant",
     "text": "Usage croissant"
   },
   {
     "objectID": "AGD et questions ouvertes.html#collecter-corpus-et-métadonnées",
     "href": "AGD et questions ouvertes.html#collecter-corpus-et-métadonnées",
-    "title": "Introduction à la statistique textuelle",
-    "section": "Collecter Corpus et métadonnées",
-    "text": "Collecter Corpus et métadonnées\nQuels sont les textes les plus semblables en ce qui concerne le vocabulaire et la fréquence des formes utilisées ? Quelles sont les formes qui caractérisent chaque texte, par leur présence ou leur absence ? (Lebart & Salem, 1994, p.135)\nNe pas oublier les métadonnées\nLes questionner, les contextualiser : disponibilités/droits, sources, limites…"
+    "title": "Concepts de statistique textuelle",
+    "section": "Collecter corpus et métadonnées",
+    "text": "Collecter corpus et métadonnées\nLes questionner, les contextualiser : disponibilités/droits, sources, limites…\nLes nettoyer, normaliser, corriger = étape de l’analyse à ne pas sous-estimer\nDiffère selon les types de corpus (questions ouvertes, entretiens, romans, articles, pages Web etc..)\nEx. : encodage, orthographe, abreviations …"
   },
   {
     "objectID": "AGD et questions ouvertes.html#nettoyer-les-données",
@@ -65,23 +65,23 @@
   {
     "objectID": "AGD et questions ouvertes.html#exemple-de-question-ouverte-dans-un-questionnaire",
     "href": "AGD et questions ouvertes.html#exemple-de-question-ouverte-dans-un-questionnaire",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Exemple de question ouverte dans un questionnaire",
     "text": "Exemple de question ouverte dans un questionnaire"
   },
   {
     "objectID": "AGD et questions ouvertes.html#le-tableau-lexical-entier-tle",
     "href": "AGD et questions ouvertes.html#le-tableau-lexical-entier-tle",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Le tableau lexical entier (TLE)",
-    "text": "Le tableau lexical entier (TLE)\nTableau à double entrée dont les lignes sont constituées par les unités de texte et les colonnes les “mots” du corpus. \nTableaux dits hyper-creux. Présence/absence de mots dans les textes (Valeur positive ou nulle). L’ordre des mots n’est pas pris en compte (sacs de mots)"
+    "text": "Le tableau lexical entier (TLE)\nTableau à double entrée dont les lignes sont constituées par les unités de texte et les colonnes les “mots” du corpus \nTableaux dits hyper-creux. Présence/absence de mots dans les textes (Valeur positive ou nulle)\nL’ordre des mots n’est pas pris en compte (sacs de mots)"
   },
   {
     "objectID": "AGD et questions ouvertes.html#lecture-du-lexique",
     "href": "AGD et questions ouvertes.html#lecture-du-lexique",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Lecture du lexique",
-    "text": "Lecture du lexique\n\nLes mots vont constituer le dictionnaire ou lexique associé au corpus et deviennent des descripteurs : les termes\n\n\n\n\n\n\nLecture des mots par ordre de fréquence (occurrence), ordre alphabétique."
+    "text": "Lecture du lexique\n\nLes mots vont constituer le dictionnaire ou lexique associé au corpus et deviennent des descripteurs : les termes\n\n (Enquête Population, Espace de vie, Environnement, Ined 1992)\nLecture des mots par ordre de fréquence (occurrence), ordre alphabétique."
   },
   {
     "objectID": "AGD et questions ouvertes.html#méthodologie-embarquée",
@@ -93,72 +93,72 @@
   {
     "objectID": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-le-tableau-lexical-entier",
     "href": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-le-tableau-lexical-entier",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Analyse des correspondances sur le tableau lexical entier",
-    "text": "Analyse des correspondances sur le tableau lexical entier\nLes plans factoriels permettent de visualiser des proximités de mots, des oppositions et ainsi de repérer des champs lexicaux\n\n(Enquête Populations, Espaces de vie, Environnements, Ined 1992)\nDeux mots sont d’autant plus proches que leurs contextes d’utilisation se ressemblent et d’autant plus éloignés qu’ils sont rarement utilisés ensemble"
+    "text": "Analyse des correspondances sur le tableau lexical entier\nLes plans factoriels permettent de visualiser des proximités de mots, des oppositions et ainsi de repérer des champs lexicaux\n\nDeux mots sont d’autant plus proches que leurs contextes d’utilisation se ressemblent et d’autant plus éloignés qu’ils sont rarement utilisés ensemble"
   },
   {
     "objectID": "AGD et questions ouvertes.html#classification-sur-tableau-lexical",
     "href": "AGD et questions ouvertes.html#classification-sur-tableau-lexical",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Classification sur Tableau Lexical",
     "text": "Classification sur Tableau Lexical\nObtenir un classement des unités de textes en fonction de la ressemblance ou de la dissemblance des mots dans ces textes et d’ordonner les textes en cernant les homologies et les oppositions (Rouré, Reinert, 1993)\n\nMéthode Alceste ( Reinert, 1983), aujourd’hui implantée dans le package Rainette (J. Barnier)"
   },
   {
     "objectID": "AGD et questions ouvertes.html#les-spécificités",
     "href": "AGD et questions ouvertes.html#les-spécificités",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Les spécificités",
-    "text": "Les spécificités\nUtilisation d’un test statistique pour dire si l’écart entre la fréquence relative d’une forme dans une partition (par modalité) et la fréquence globale calculée sur l’ensemble des réponses est significatif ou non\n\n(Enquête Populations, Espaces de vie, Environnements, Ined 1992)\nLes mots ou textes caractéristiques de ces partitions sont restitués selon leur degré de spécificité"
+    "text": "Les spécificités\nUtilisation d’un test pour dire si l’écart entre la fréquence relative d’une forme dans une partition (par modalité) et la fréquence globale calculée sur l’ensemble des réponses est significatif ou non\n\nLes mots ou textes caractéristiques de ces partitions sont restitués selon leur degré de spécificité"
   },
   {
     "objectID": "AGD et questions ouvertes.html#le-tableau-lexical-agrégé-tla",
     "href": "AGD et questions ouvertes.html#le-tableau-lexical-agrégé-tla",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Le tableau lexical agrégé (TLA)",
-    "text": "Le tableau lexical agrégé (TLA)\nTableau de contingence qui croise les mots du lexique et les modalités des métadonnées.\n\n(Populations, Espaces de vie, Environnements, Ined, 1992)"
+    "text": "Le tableau lexical agrégé (TLA)\nTableau de contingence qui croise les mots du lexique et les modalités des métadonnées"
   },
   {
     "objectID": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-un-tableau-lexical-agrégé",
     "href": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-un-tableau-lexical-agrégé",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Analyse des correspondances sur un Tableau Lexical Agrégé",
-    "text": "Analyse des correspondances sur un Tableau Lexical Agrégé\nLe plan factoriel permet d’observer la position réciproque des “mots” et des métadonnées et de faire émerger des champs lexicaux propres à des sous-populations\n\n(Enquête Populations, Espaces de vie, Environnements, Ined 1992)\n\n2 mots proches = proximité des individus - profils lignes\n2 caractéristiques proches = univers lexicaux proches - profils colonnes"
+    "text": "Analyse des correspondances sur un Tableau Lexical Agrégé\nLe plan factoriel permet d’observer la position réciproque des “mots” et des métadonnées et de faire émerger des champs lexicaux propres à des sous-populations"
   },
   {
     "objectID": "AGD et questions ouvertes.html#affiner-lanalyse",
     "href": "AGD et questions ouvertes.html#affiner-lanalyse",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Affiner l’analyse",
-    "text": "Affiner l’analyse\n\nSupprimer certains mots …\nAugmenter le nombre de classes …\nPersonnaliser la lemmatisation …\nExtraire des sous-corpus à l’aide metadonnées …"
+    "text": "Affiner l’analyse\n\nSupprimer certains mots\nPersonnaliser la lemmatisation\nAugmenter le nombre de classes\nAnalyser des sous-corpus …"
   },
   {
     "objectID": "AGD et questions ouvertes.html#les-outils",
     "href": "AGD et questions ouvertes.html#les-outils",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Les outils",
-    "text": "Les outils\n\nListe non exhaustive"
+    "text": "Les outils\n Liste non exhaustive Logiciels  historiques  (Spad, Lexico, Alceste, Hyperbase) aujourd’hui open source écrits à partir de R (tm, R.temis, TXM, Quanteda, IRaMuteQ ou Xplortext ….)"
   },
   {
     "objectID": "AGD et questions ouvertes.html#package-tm-text-mining-de-r",
     "href": "AGD et questions ouvertes.html#package-tm-text-mining-de-r",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Package tm (Text Mining) de R",
     "text": "Package tm (Text Mining) de R\nFeinerer, Hornik, Meyer Wirtschaftsuniversity de Wien, in Journal of Statistical Software (Mars 2008)\n\nConstruction de tableaux lexicaux (Document Term Matrix), comptage de mots, calcul d’associations, … = fonctions de tm\nRapporte les mots à leurs radicaux (stemming) ou supprime les mots outils (i.e articles) = options de tm"
   },
   {
     "objectID": "AGD et questions ouvertes.html#package-r.temis-de-r",
     "href": "AGD et questions ouvertes.html#package-r.temis-de-r",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Package R.temis de R",
-    "text": "Package R.temis de R\nFacilite les étapes essentielles de l’analyse textuelle en s’appuyant au maximum sur les packages existants (tm, FactoMineR, explor, igraph…).\nR.temis implémente les méthodes suivantes :\n\nimportation de corpus au format .csv, .txt\nsuppression des mots vides, lemmatisation modifiable,\ncalcul d’occurrences, nuage de mots,\ncalcul de spécificités,\ndétection de cooccurrences,\nrecherche de concordances,\nanalyse des correspondances et classification,\ngraphes de mots"
+    "text": "Package R.temis de R\nFacilite les étapes essentielles de l’analyse textuelle en s’appuyant au maximum sur les packages existants (tm, FactoMineR, explor, igraph…) [ R.temis ] :\n\nimportation de corpus au format .csv, .txt\nsuppression des mots vides, lemmatisation modifiable,\ncalcul d’occurrences, nuage de mots,\ncalcul de spécificités,\ndétection de cooccurrences,\nrecherche de concordances,\nanalyse des correspondances et classification,\ngraphes de mots"
   },
   {
     "objectID": "AGD et questions ouvertes.html#conclusion",
     "href": "AGD et questions ouvertes.html#conclusion",
-    "title": "Introduction à la statistique textuelle",
+    "title": "Concepts de statistique textuelle",
     "section": "Conclusion",
-    "text": "Conclusion\n\nAnalyse de données (non structurées)\nExplorer les données autrement - sans a priori\nComplémentarité des méthodes (qualitative/quantitative)\nUtilisation conjointe de l’informatique tout-automatique et de l’intuition humaine"
+    "text": "Conclusion\n\nAnalyse de données non structurées\nExplorer les données autrement - sans a priori\nComplémentarité des méthodes (qualitative/quantitative)\nUtilisation conjointe de l’informatique tout-automatique et de l’intuition humaine"
   },
   {
     "objectID": "AGD et questions ouvertes.html#statistique-textuelle-quali-quanti-viz",
@@ -186,21 +186,21 @@
     "href": "biblio.html#sites",
     "title": "Quelques ressources",
     "section": "Sites",
-    "text": "Sites\n\nActes des Journées d’Analyse des Données Textuelles : http://lexicometrica.univ-paris3.fr/\nWebinaires du réseau Mate SHS : http://mate-shs.cnrs.fr/?les-tutos-mate\nProjet Textometrie : http://textometrie.ens-lyon.fr/\nLe Descriptoire : Recueil et analyse de texte avec R\nCours de Ricco Rakotomalala\n\n\nLes packages\n\nR.temis\nquanteda\nRainette\nXplortext\n\nLes autres outils\n\nIRaMuTeQ\nVoyant-Tools : environnement en ligne de lecture et d’analyse de textes\n\net les séminaires :\n\nR à l’Usage des Sciences Sociales (RUSS)\nLes Rencontres de Statistique Appliquée (RSA)"
+    "text": "Sites\n\nActes des Journées d’Analyse des Données Textuelles : http://lexicometrica.univ-paris3.fr/\nWebinaires du réseau Mate SHS : http://mate-shs.cnrs.fr/?les-tutos-mate\nProjet Textometrie : http://textometrie.ens-lyon.fr/\nLe Descriptoire : Recueil et analyse de texte avec R par Lise Vaudor\nCours de Ricco Rakotomalala\n\n\nLes packages\n\nR.temis\nquanteda\nRainette\nXplortext\n\nLes autres outils\n\nIRaMuTeQ\nVoyant-Tools : environnement en ligne de lecture et d’analyse de textes\n\net les séminaires\n\nR à l’Usage des Sciences Sociales (RUSS)\nLes Rencontres de Statistique Appliquée (RSA)"
   },
   {
     "objectID": "Exercices_enonces.html",
     "href": "Exercices_enonces.html",
     "title": "Application avec R.temis dans RStudio",
     "section": "",
-    "text": "Pas à Pas de l’analyse de réponses à la question ouverte K1 Enquête “Population, Espace de Vie, Environnement”, Ined 1992 avec caractéristiques des répondants : QO_Pee_K1.html\net aussi le Pas à Pas montrant toutes les fonctionnalités de R.temis appliqué sur un autre texte court https://rtemis.hypotheses.org/r-temis-dans-rstudio\nExtraire les scripts nécessaires des pages citées plus haut\nFichiers fournis\n\nExtrait des données de l’enquête : PEE_K1_extract.csv\nLemmatiseur construit à partir du lexique associé aux données : Pee_dic_lem_extract.csv\nLemmatiseur adapté de Lexique 3 base de données lexicales du français contenant des représentations orthographiques et phonémiques, des lemmes associés ainsi que leur catégorie grammaticale … : Lexique383_simplifié.csv\n\n\n\n\nCréer un répertoire/dossier pour l’analyse sur votre ordinateur. Dans ce dossier, créér un sous répertoire appelé par exemple data pour y placer les données à utiliser.\nCréer un projet R dans le dossier de l’analyse [File/New Project …]. Créer un script [File/New File …].\nTélécharger les données extraites de l’enquête PEE (textes et métadonnées) (PEE_K1_extract.csv) dans le répertoire data en exécutant le script ci-dessous.\n\n\nlibrary(readr)\nPEE_K1_extract <- read.csv(\"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/PEE_K1_extract.csv\", sep=\";\")\n\nwrite.csv2(PEE_K1_extract,file=\"data/PEE_K1_extract.csv\")\n\nVisualiser les données à traiter\n\n\n\nImporter ce fichier contenant une variable textuelle et des métadonnées avec le package R.temis.\n\nImporter le fichier import_corpus.\nCréer le tableau lexical (avec mots-outils) build_dtm.\nRepérer le nombre de répondants et le nombre de mots différents cités dans les réponses.\nCréer le dictionnaire dictionary puis le visualiser View. Le trier, repérer les mots les plus cités, les lemmes générés par R.\nAfficher des concordances avec des mots (au choix) concordances.\nAfficher le nuage de mots associés au lexique word_cloud. Faire ce nuage de mots avec et sans les mots-outils. Calculer les éléments qui permettront d’ajouter une légende frequent_terms.\n\n\n\n\n\nChercher des cooccurrences à certains mots (au choix) cooc_terms.\nProduire un graphe de mots pour détecter les cooccurrences autour des mots les plus fréquents terms_graph. Que remarquez-vous ?\nFaire une analyse factorielle sur le tableau lexical corpus_ca puis explorer les résulats avec l’interface explor. Afficher des concordances concordances.\n\n\n\n\n\nVisualiser le tableau des métadonnnées View(meta(corpus)). Compter le nombre de répondants(package questionr) selon 3 métadonnées (au choix).\nFaire le bilan lexical pour au moins une métadonnée (au choix)lexical_summary.\nRepérer le vocabulaire spécifique pour quelques métadonnées (au choix)specific_terms.\nFaire une analyse factorielle sur le tableau croisant les mots du lexique et des caractéristiques des répondants (au choix) corpus_ca. Explorer les résulats explor. Afficher des concordances concordances, des réponses spécifiques extreme_docs.\n\n\n\n\nIl s’agit ici d’affiner peu à peu l’analyse en supprimant des mots et/ou en modifiant la lemmatisation.\n\n\n\nCréer une la liste de mots à enlever du corpus (prendre ici : “sur”,“que”,“qu”). La supprimer du tableau lexical et du lexique, puis exporter le dictionnaire dictionary.\nOuvrir ce dictionnaire avec un tableur. Corrigez si besoin les formes lemmatisées automatiquement par R.\nRécupérer le lemmatiseur “associé à Pee” (Pee_dic_lem_extract.csv) et le copier dans le répertoire data du dossier créé pour l’analyse. et l’importer dans le projet (toujours le répertoire data) read.csv2. Pour cela, exécuter le scipt ci-dessous.\n\n\nlibrary(readr)\ndic_lem1 <- read.csv2(\"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Pee_dic_lem_extract.csv\", sep=\";\",row.names=1)\n\n\nLemmatiser le tableau lexical à l’aide de ce lemmatiseur combine_terms.\nCompter le nombre de mots distincts restants après cette lemmatisation par exemple avec lexical_summary\nExcécuter des analyses précédentes avec ce nouveau lexique\n\n\n\n\n\nRécupérer le lemmatiseur adapté de lexique3 (Lexique383_simplifie.csv) dans le répertoire data de l’analyse en exécutant le script.\n\n\nlexique3 <- read.csv2(\"https://raw.githubusercontent.com/benegarbi/AtelierQO_R/master/data/Lexique383_simplifie.csv\", sep=\",\", fileEncoding=\"UTF-8\")\n\n\nGarder les mots de catégories grammaticales “utiles” et lemmatiser à nouveau le dictionnaire issu du tableau lexical initial\nRelancer quelques analyses au choix….\n\n\n\n\n\n\nFaire une classification sur le tableau lexical associé aux réponses avec corpus_ca. Décrire les classe specific_terms puis joindre exporter la variable de classe aux metadonnées..\n\n\n\n\n\nTravailler sur des sous-corpus\nUtiliser le package Rainette pour faire la classification sur le tableau lexical https://juba.github.io/rainette/articles/introduction_usage.html …………."
+    "text": "Pas à Pas de l’analyse de réponses à la question ouverte K1 Enquête “Population, Espace de Vie, Environnement”, Ined 1992 avec caractéristiques des répondants : QO_Pee_K1.html\net aussi le Pas à Pas montrant toutes les fonctionnalités de R.temis appliqué sur un autre texte court https://rtemis.hypotheses.org/r-temis-dans-rstudio\nExtraire les scripts nécessaires des pages citées plus haut\nFichiers fournis :\n\nExtrait des données de l’enquête : PEE_K1_extract.csv\nLemmatiseur personnalisé construit à partir du lexique associé aux corpus PEE : Pee_dic_lem_extract.csv\nLemmatiseur adapté de Lexique 3 base de données lexicales du français contenant des représentations orthographiques et phonémiques, des lemmes associés ainsi que leur catégorie grammaticale … : Lexique383_simplifié.csv\n\n\n\n\nCréer un répertoire/dossier pour l’analyse sur votre ordinateur. Dans ce dossier, créér un sous-répertoire appelé (par exemple) data pour y placer les données à utiliser.\nCréer un projet R dans le dossier de l’analyse [File/New Project …]. Créer un script [File/New File …].\nTélécharger les données extraites de l’enquête PEE (textes et métadonnées) (PEE_K1_extract.csv) dans le répertoire data en exécutant le script ci-dessous.\n\n\nlibrary(readr)\nPEE_K1_extract <- read.csv(\"https://raw.githubusercontent.com/benegarbi/AGD_QO/master/data/PEE_K1_extract.csv\", sep=\";\")\n\nwrite.csv2(PEE_K1_extract,file=\"data/PEE_K1_extract.csv\")\n\nVisualiser les données à traiter\n\n\n\nImporter ce fichier contenant une variable textuelle et des métadonnées avec le package R.temis.\n\nImporter le fichier : import_corpus.\nCréer le tableau lexical (avec mots-outils) :build_dtm.\nRepérer le nombre de répondants et le nombre de mots différents cités dans les réponses.\nCréer le dictionnaire dictionary puis le visualiser View. Le trier, repérer les mots les plus cités, les lemmes générés par R.\nAfficher des concordances avec des mots (au choix) concordances.\nAfficher le nuage de mots associés au lexique word_cloud. Faire ce nuage de mots avec et sans les mots-outils. Calculer les éléments qui permettront d’ajouter une légende frequent_terms.\n\n\n\n\n\nChercher des cooccurrences à certains mots (au choix) cooc_terms.\nProduire un graphe de mots pour détecter les cooccurrences autour des mots les plus fréquents terms_graph. Que remarquez-vous ?\nFaire une analyse factorielle sur le tableau lexical corpus_ca puis explorer les résulats avec l’interface explor. Afficher des concordances concordances.\n\n\n\n\n\nVisualiser le tableau des métadonnnées View(meta(corpus)). Compter le nombre de répondants(package questionr) selon 3 métadonnées (au choix).\nFaire le bilan lexical pour au moins une métadonnée (au choix)lexical_summary.\nRepérer le vocabulaire spécifique pour quelques métadonnées (au choix)specific_terms.\nFaire une analyse factorielle sur le tableau croisant les mots du lexique et des caractéristiques des répondants (au choix) corpus_ca. Explorer les résulats explor. Afficher des concordances concordances, des réponses spécifiques extreme_docs.\n\n\n\n\nIl s’agit ici d’affiner peu à peu l’analyse en supprimant des mots et/ou en modifiant la lemmatisation.\n\n\n\nCréer une la liste de mots à enlever du corpus (prendre ici : “sur”,“que”,“qu”). La supprimer du tableau lexical et du lexique, puis exporter le dictionnaire dictionary.\nOuvrir ce dictionnaire avec un tableur. Corrigez si besoin les formes lemmatisées automatiquement par R.\nRécupérer le lemmatiseur “associé à Pee” (Pee_dic_lem_extract.csv) et le copier dans le répertoire data du dossier créé pour l’analyse.\n\n4.Importer ce fichier dans le projet (toujours le répertoire data) : read.csv2. Pour cela, exécuter le scipt ci-dessous :\n\nlibrary(readr)\ndic_lem1 <- read.csv2(\"https://raw.githubusercontent.com/benegarbi/AGD_QO/master/data/Pee_dic_lem_extract.csv\", sep=\";\",row.names=1)\n\n\nLemmatiser le tableau lexical à l’aide de ce lemmatiseur combine_terms.\nCompter le nombre de mots distincts restants après cette lemmatisation par exemple avec lexical_summary\nExcécuter des analyses précédentes avec ce nouveau lexique\n\n\n\n\n\nRécupérer le lemmatiseur adapté de lexique3 (Lexique383_simplifie.csv) dans le répertoire data de l’analyse en exécutant le script.\n\n\nlexique3 <- read.csv2(\"https://raw.githubusercontent.com/benegarbi/AGD_QO/master/data/Lexique383_simplifie.csv\", sep=\",\", fileEncoding=\"UTF-8\")\n\n\nGarder les mots de catégories grammaticales “utiles” et lemmatiser à nouveau le dictionnaire issu du tableau lexical initial\nRelancer quelques analyses au choix….\n\n\n\n\n\n\nFaire une classification sur le tableau lexical associé aux réponses avec corpus_ca. Décrire les classe specific_terms puis joindre exporter la variable de classe aux metadonnées..\n\n\n\n\n\nTravailler sur des sous-corpus\nUtiliser le package Rainette pour faire la classification sur le tableau lexical https://juba.github.io/rainette/articles/introduction_usage.html …………."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Analyser des questions ouvertes au moyen de la statistique textuelle",
     "section": "",
-    "text": "L’objectif de cet atelier de 3h est de comprendre les concepts mis en oeuvre en statistique textuelle et d’acquérir les clés pour explorer par étapes une question ouverte.\nLa mise en pratique des méthodes se fait au moyen du package R.temis et de Spad.\nBénédicte Garnier (Ined)"
+    "text": "L’objectif de cet atelier de 3h est de comprendre les concepts mis en oeuvre en statistique textuelle et d’acquérir les clés pour explorer par étapes une question ouverte.\nLa mise en pratique des méthodes se fait au moyen de R et en particulier le package R.temis et de Spad.\nBénédicte Garnier (Ined)"
   },
   {
     "objectID": "Intro.html",
@@ -284,7 +284,7 @@
     "href": "QO_Pee_K1.html#de-façon-personnalisée",
     "title": "Pas à pas pour analyser une question ouverte avec R.temis",
     "section": "De façon personnalisée",
-    "text": "De façon personnalisée\nOn voit ici comment créer son lemmatiseur.\n\nSuppression de mots\nOn crée une liste de mots que l’on a choisi de supprimer du tableau lexical et du dictinnaire.\nIci, comme à tout moment de l’analyse, il est important d’afficher les concordances d’un mot pour ensuite faire un choix (le supprimer, le regrouper avec un autre, …).\nPour l’exemple, on supprime les mots sur, que et qu.\n\n#concordances(corpus,dtm,\"sur\")\n# liste des mots à supprimer\nasupp <- c(\"sur\",\"que\",\"qu\") \n# on enlève les mots de la liste dans le tableau lexical\ndtm2 <-dtm[, !colnames(dtm) %in% asupp]\n\nOn crée le nouveau dictionnaire associé au lexique avec la fonction dictionnarysans les mots-outils et sans les mots que l’on a choisit de ne pas garder pour l’analyse.\n\ndic<-dictionary(dtm,remove_stopwords = T)\n# on enlève les mots de la liste dans le dictionnaire\ndic2 <- dic[!rownames(dic) %in% asupp,]\n\nPour créér son propre lemmatiseur, on exporte ce dictionnaire (ici dic2.csv) afin de le modifier si besoin, mots après mot (par exemple avec un tableur).\n\nwrite.csv2(dic2, file=\"dic2_lem.csv\")\n\n\n\nCorrection de la lemmatisation de R\nOn pourrait utiliser la colonne Terms du dictionnaire pour lemmatiser mais celle-ci ne nous satisfait pas. On décide alors de remplacer les racines de certians mots issues de la lemmatisation automatique et on enregiste ce nouveau dictionnaire qui sera notre lemmatiseur personnalisé.\nIci encore, on s’aide des concordances. Par exemple : concordances(corpus,dtm,c(\"écologie\",\"écolo\",\"écologique\",\"écologiques\",\"écologiste\",\"écologistes\",\"écolos\"))\nPour cette analyse, on utilise un lemmatiseur déjà produit lors d’une analyse précédente (avec Spad). On importe ce lemmatiseur dans R et on utilise la fonction combine_terms pour lemmatiser.\n\ndic_lem1 <- read.csv2(\"data/Pee_dic_lem_extract.csv\",row.names=1)\n\n#setdiff(rownames(dic2), rownames(dic_lem1))\n\ndtmlem1 <-combine_terms(dtm2, dic_lem1)"
+    "text": "De façon personnalisée\nOn voit ici comment créer son lemmatiseur.\n\nSuppression de mots\nOn crée une liste de mots que l’on a choisi de supprimer du tableau lexical et du dictionnaire.\nIci, comme à tout moment de l’analyse, il est important d’afficher les concordances d’un mot pour ensuite faire un choix (le supprimer, le regrouper avec un autre, …).\nPour l’exemple, on supprime les mots sur, que et qu.\n\n#concordances(corpus,dtm,\"sur\")\n# liste des mots à supprimer\nasupp <- c(\"sur\",\"que\",\"qu\") \n# on enlève les mots de la liste dans le tableau lexical\ndtm2 <-dtm[, !colnames(dtm) %in% asupp]\n\nOn crée le nouveau dictionnaire associé au lexique avec la fonction dictionnarysans les mots-outils et sans les mots que l’on a choisit de ne pas garder pour l’analyse.\n\ndic<-dictionary(dtm,remove_stopwords = T)\n# on enlève les mots de la liste dans le dictionnaire\ndic2 <- dic[!rownames(dic) %in% asupp,]\n\nPour créér son propre lemmatiseur, on exporte ce dictionnaire (ici dic2.csv) afin de le modifier si besoin, mots après mot (par exemple avec un tableur).\n\nwrite.csv2(dic2, file=\"dic2_lem.csv\")\n\n\n\nCorrection de la lemmatisation de R\nOn pourrait utiliser la colonne Terms du dictionnaire pour lemmatiser mais celle-ci ne nous satisfait pas. On décide alors de remplacer les racines de certains mots issues de la lemmatisation automatique et on enregiste ce nouveau dictionnaire qui sera notre lemmatiseur personnalisé.\nIci encore, on s’aide des concordances. Par exemple : concordances(corpus,dtm,c(\"écologie\",\"écolo\",\"écologique\",\"écologiques\",\"écologiste\",\"écologistes\",\"écolos\"))\nPour cette analyse, on utilise un lemmatiseur déjà produit lors d’une analyse précédente (avec Spad). On importe ce lemmatiseur dans R et on utilise la fonction combine_terms pour lemmatiser.\n\ndic_lem1 <- read.csv2(\"data/Pee_dic_lem_extract.csv\",row.names=1)\n\n#setdiff(rownames(dic2), rownames(dic_lem1))\n\ndtmlem1 <-combine_terms(dtm2, dic_lem1)"
   },
   {
     "objectID": "QO_Pee_K1.html#lexique-après-lemmatisation",
@@ -333,7 +333,7 @@
     "href": "QO_Pee_K1.html#correction-de-la-lemmatisation-de-lexique3",
     "title": "Pas à pas pour analyser une question ouverte avec R.temis",
     "section": "Correction de la lemmatisation de Lexique3",
-    "text": "Correction de la lemmatisation de Lexique3\nOn adapte le lemmatiseur (dic_total) en créant un autre dictionnaire (dicor) avec une colonne contenant les mots qui n’ont pas été lemmatisés automatiquement. Puis on lemmatisera le tableau lexical avec les “mots” (Term) de cette nouvelle colonne. On trouve ces mots dans la liste des mots non reconnus (nr)\n\ndic_total_c <- dic_total\n\ndic_total_c$Term[dic_total_c$Term == \"bretagn\"] <- \"bretagne\"\ndic_total_c$Term[dic_total_c$Term == \"tranquil\"] <- \"tranquilité\"\n\ndtmlem22 <- combine_terms(dtm, dic_total_c)"
+    "text": "Correction de la lemmatisation de Lexique3\nLa lemmatisation automatique produite avec Lexique3 affiche les racines des mots pour certains (ex. bretagn ou tranquil). On remanie ce lemmatiseur (dic_total) en créant un autre dictionnaire (dicor) avec une colonne contenant les mots qui n’ont pas été lemmatisés automatiquement. Puis on lemmatisera le tableau lexical avec les “mots” (Term) de cette nouvelle colonne.\n\ndic_total_c <- dic_total\n\ndic_total_c$Term[dic_total_c$Term == \"bretagn\"] <- \"bretagne\"\ndic_total_c$Term[dic_total_c$Term == \"tranquil\"] <- \"tranquilité\"\n\ndtmlem22 <- combine_terms(dtm, dic_total_c)"
   },
   {
     "objectID": "QO_Pee_K1.html#analyser-des-sous-corpus",
@@ -347,13 +347,97 @@
     "href": "QO_Pee_K1.html#classifications-du-tableau-lexical",
     "title": "Pas à pas pour analyser une question ouverte avec R.temis",
     "section": "Classifications du tableau lexical",
-    "text": "Classifications du tableau lexical\nVa regrouper les réponses contenant des mots cooccurrents. Permet de repérer des champs lexicaux.\n\navec R.temis\n\nclusTLE <- corpus_ca(corpus, dtmlem2,variables = NULL, ncp =  6, sparsity = 0.98)\n\n148 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X20, X25, X75, X76, X85, X109, X111, X112, X114, X128, X130, X131, X175, X179, X181, X184, X195, X197, X242, X247, X248, X262, X284, X293, X338, X377, X402, X445, X492, X501, X552, X554, X555, X561, X570, X598, X600, X604, X609, X619, X632, X640, X649, X676, X685, X696, X725, X728, X748, X761, X776, X785, X803, X804, X819, X844, X861, X878, X898, X899, X909, X917, X940, X971, X972, X977, X1001, X1007, X1010, X1026, X1065, X1074, X1094, X1108, X1116, X1128, X1141, X1148, X1154, X1186, X1190, X1206, X1257, X1289, X1294, X1301, X1338, X1345, X1365, X1370, X1374, X1380, X1387, X1393, X1396, X1403, X1404, X1437, X1461, X1470, X1496, X1504, X1506, X1512, X1514, X1515, X1522, X1527, X1536, X1539, X1565, X1576, X1578, X1579, X1606, X1608, X1637, X1652, X1654, X1656, X1657, X1669, X1697, X1704, X1705, X1707, X1710, X1720, X1743, X1746, X1770, X1782, X1788, X1789, X1796, X1804, X1819, X1825, X1836, X1871, X1877, X1906, X1933, X1937, X1941, X1978, X1983, X1990.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#Afficher le dendrogramme\n#plot(clusTLE$call$tree)\n#clusTLE$desc.var\n\nIci on selectionne 7 classes\n\nclus <- corpus_clustering(clusTLE,7)"
+    "text": "Classifications du tableau lexical\nVa regrouper les réponses contenant des mots cooccurrents et permet ainsi de repérer des champs lexicaux.\n\nAvec R.temis\n\nclusTLE <- corpus_ca(corpus, dtmlem2,variables = NULL, ncp =  6, sparsity = 0.98)\n\n148 documents have been skipped because they do not include any occurrence of the terms retained in the final document-term matrix. Increase the value of the 'sparsity' parameter if you want to include them. These documents are: X20, X25, X75, X76, X85, X109, X111, X112, X114, X128, X130, X131, X175, X179, X181, X184, X195, X197, X242, X247, X248, X262, X284, X293, X338, X377, X402, X445, X492, X501, X552, X554, X555, X561, X570, X598, X600, X604, X609, X619, X632, X640, X649, X676, X685, X696, X725, X728, X748, X761, X776, X785, X803, X804, X819, X844, X861, X878, X898, X899, X909, X917, X940, X971, X972, X977, X1001, X1007, X1010, X1026, X1065, X1074, X1094, X1108, X1116, X1128, X1141, X1148, X1154, X1186, X1190, X1206, X1257, X1289, X1294, X1301, X1338, X1345, X1365, X1370, X1374, X1380, X1387, X1393, X1396, X1403, X1404, X1437, X1461, X1470, X1496, X1504, X1506, X1512, X1514, X1515, X1522, X1527, X1536, X1539, X1565, X1576, X1578, X1579, X1606, X1608, X1637, X1652, X1654, X1656, X1657, X1669, X1697, X1704, X1705, X1707, X1710, X1720, X1743, X1746, X1770, X1782, X1788, X1789, X1796, X1804, X1819, X1825, X1836, X1871, X1877, X1906, X1933, X1937, X1941, X1978, X1983, X1990.\n\n\nVariable(s) X, qnumq have been skipped since they contain more than 100 levels.\n\n#Afficher le dendrogramme\n#plot(clusTLE$call$tree)\n#clusTLE$desc.var\n\nIci on selectionne 7 classes\n\nclus <- corpus_clustering(clusTLE,7)"
   },
   {
     "objectID": "QO_Pee_K1.html#description-des-classes",
     "href": "QO_Pee_K1.html#description-des-classes",
     "title": "Pas à pas pour analyser une question ouverte avec R.temis",
     "section": "Description des classes",
-    "text": "Description des classes\nPour chaque numéro de classe déterminé dans l’étape précédente, R affiche les mots et textes spécifiques qui vont permettre de déterminer les champs lexicaux de chacune.\nOn ajoute la variable de classe (clus) aux métadonnées initiales.\n\ncorpus_cl <- add_clusters(corpus,clus)\n\n#View(meta(corpus_cl))\n\n#clusTLE$desc.var\n\n\nMots spécifiques\nOn se sert de cette variable issue de la classification pour calculer les spécificités\n\nspecific_terms(dtmlem2,meta(corpus_cl)$clus, n=5)\n\nWarning in rollup.simple_triplet_matrix(t(x), 2L, INDEX[as.character(k)], :\nNA(s) in 'index'\n\n\n$`1`\n       % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nautour   31.1111111    87.046632 2.8669043   168         193       Inf     0\nmaison    5.5555556    63.829787 0.6981581    30          47       Inf     0\nchez      3.3333333    62.068966 0.4307784    18          29  7.244759     0\ntout      8.3333333    20.833333 3.2085561    45         216  5.947763     0\n------           NA           NA        NA    NA          NA        NA    NA\nvie       0.9259259     1.308901 5.6743910     5         382 -5.839226     0\n\n$`2`\n           % Term/Level % Level/Term    Global % Level Global occ.   t value\nentourage     42.105263   57.1428571  0.62388592    24          42       Inf\nconstruire     3.508772   66.6666667  0.04456328     2           3  3.526962\nnaturel        3.508772   11.7647059  0.25252525     2          17  2.372694\nconstituer     1.754386   50.0000000  0.02970885     1           2  2.123318\n----------           NA           NA          NA    NA          NA        NA\nnature         3.508772    0.2252252 13.19073084     2         888 -2.187406\n            Prob.\nentourage  0.0000\nconstruire 0.0002\nnaturel    0.0088\nconstituer 0.0169\n----------     NA\nnature     0.0144\n\n$`3`\n         % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nentourer   21.5528782   82.5641026  2.896613   161         195       Inf     0\ntout       14.5917001   50.4629630  3.208556   109         216       Inf     0\n--------           NA           NA        NA    NA          NA        NA    NA\ncadre       0.1338688    0.5780347  2.569816     1         173 -5.447507     0\nvie         1.2048193    2.3560209  5.674391     9         382 -6.466817     0\nnature      5.2208835    4.3918919 13.190731    39         888 -7.473485     0\n\n$`4`\n        % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\ncadre     11.5920763    91.329480  2.569816   158         173       Inf     0\nqualité    6.9699193    87.962963  1.604278    95         108       Inf     0\nvie       23.9178283    85.340314  5.674391   326         382       Inf     0\n-------           NA           NA        NA    NA          NA        NA    NA\nautour     0.7336757     5.181347  2.866904    10         193 -5.920745     0\nnature     6.0161409     9.234234 13.190731    82         888 -9.408410     0\n\n$`5`\n       % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nbien      10.221286    91.509434  1.574569    97         106       Inf     0\nêtre       8.956797    87.628866  1.440879    85          97       Inf     0\noù         6.849315    54.621849  1.767677    65         119       Inf     0\nvivre      8.746048    71.551724  1.723113    83         116       Inf     0\n------           NA           NA        NA    NA          NA        NA    NA\nnature     5.057956     5.405405 13.190731    48         888 -8.760695     0\n\n$`6`\n          % Term/Level % Level/Term   Global % Level Global occ.    t value\nécologie     3.7199125    79.687500  0.9506833    51          64        Inf\nnature      33.9897885    52.477477 13.1907308   466         888        Inf\npollution    7.8045222    72.789116  2.1836007   107         147        Inf\n---------           NA           NA         NA    NA          NA         NA\nentourer     0.0000000     0.000000  2.8966132     0         195  -9.164544\nvie          0.6564551     2.356021  5.6743910     9         382 -10.725412\n          Prob.\nécologie      0\nnature        0\npollution     0\n---------    NA\nentourer      0\nvie           0\n\n$`7`\n         % Term/Level % Level/Term  Global % Level Global occ. t value Prob.\narbre        3.401760     96.66667 0.8912656    58          60     Inf     0\ncalme        5.043988     83.49515 1.5300059    86         103     Inf     0\ncampagne     5.043988     76.78571 1.6636958    86         112     Inf     0\nespace       5.571848     64.18919 2.1984551    95         148     Inf     0\nforêt        2.287390     90.69767 0.6387403    39          43     Inf     0\n\n\n\n\nRéponses specifiques\nspecific_terms(dtmlem2,meta(corpus_cl)$clus, n=5)\n\ncharacteristic_docs(corpus_cl,dtmlem2,meta(corpus_cl)$clu, ndocs=3)\n\nWarning in rollup.simple_triplet_matrix(t(x), 2L, INDEX[as.character(k)], :\nNA(s) in 'index'\n\n\nDocuments characteristic of: 1 \nX264: distance 4.79 \ntout ce qui est autour de moi, la nature\n\nX1262: distance 4.79 \nla nature, tout ce qui est autour de moi\n\nX1303: distance 4.79 \ntout ce qui est autour de moi, la nature\n\nDocuments characteristic of: 2 \nX1053: distance 14.11 \nnature, entourage\n\nX1255: distance 14.11 \nentourage, nature\n\nX801: distance 23.59 \nl'entourage, l'espace\n\nDocuments characteristic of: 3 \nX267: distance 4.355 \nce qui nous entoure, toute la nature\n\nX568: distance 4.355 \ntout ce qui nous entoure, la nature\n\nX1076: distance 4.355 \nla nature, tout ce qui m'entoure\n\nDocuments characteristic of: 4 \nX241: distance 2.946 \nla nature, qualité de la vie, cadre de vie\n\nX21: distance 3.928 \nla nature, cadre de vie\n\nX236: distance 3.928 \nla nature, cadre de vie\n\nDocuments characteristic of: 5 \nX422: distance 7.17 \nla qualité de vie, le bien être, la nature\n\nX309: distance 7.198 \nnature, bien être de vivre\n\nX1945: distance 7.198 \nla nature, le bien être à vivre\n\nDocuments characteristic of: 6 \nX24: distance 5.062 \nla nature\n\nX35: distance 5.062 \nnature\n\nX65: distance 5.062 \nla nature\n\nDocuments characteristic of: 7 \nX334: distance 9.761 \nnature, la vie en campagne, propreté\n\nX1616: distance 10.46 \nverdure, nature, espace de vie\n\nX896: distance 10.55 \nnature, calme, vie au grand air, propreté\n\n\n\n\navec Rainette (type Alceste)\nOn pourrait également faire une classification des questions ouvertes avec le package Rainette. En savoir plus sur https://juba.github.io/rainette/articles/introduction_usage.html\nSon utilisation nesessite aussi d’appeler le package quanteda.\nAttention risque de conflit entre les packages tm (chargé par R.temis) et quanteda : il ne faut pas lancer library(quanteda).\nIci on utilise le crpus non lemmatisé\n\nlibrary(rainette)\ncorpus\n\n# On adapte le TLE pour quanteda\ndfm <- quanteda::as.dfm(dtm)\nquanteda::docvars(dfm, \"doc_id\") <- 1:nrow(dfm)\n\n# On exécute rainette\n\nresrai <- rainette(dfm, min_uc_size = 3, k = 10, doc_id = \"doc_id\", cc_test = 0.3,\n  tsj = 3)\n\nExploration interactive\n\nrainette_explor(resrai,dfm)\n\ngroups <-cutree_rainette(resrai, k = 10)\n\n\nDescription des classes\n\nrainette_stats(groups, dfm, n_terms = 5)\n\nOn récupère la variable issue de la classification Rainette pour des traitements ultérieurs\n\nmeta(corpus, \"classe\") <- cutree_rainette(resrai, k = 10)\n#View(meta(corpus))"
+    "text": "Description des classes\nPour chaque numéro de classe déterminé dans l’étape précédente, R affiche les mots et textes spécifiques qui vont permettre de déterminer les champs lexicaux de chacune.\nOn ajoute la variable de classe (clus) aux métadonnées initiales.\n\ncorpus_cl <- add_clusters(corpus,clus)\n\n#View(meta(corpus_cl))\n\n#clusTLE$desc.var\n\n\nMots spécifiques\nOn se sert de cette variable issue de la classification pour calculer les spécificités\n\nspecific_terms(dtmlem2,meta(corpus_cl)$clus, n=5)\n\nWarning in rollup.simple_triplet_matrix(t(x), 2L, INDEX[as.character(k)], :\nNA(s) in 'index'\n\n\n$`1`\n       % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nautour   31.1111111    87.046632 2.8669043   168         193       Inf     0\nmaison    5.5555556    63.829787 0.6981581    30          47       Inf     0\nchez      3.3333333    62.068966 0.4307784    18          29  7.244759     0\ntout      8.3333333    20.833333 3.2085561    45         216  5.947763     0\n------           NA           NA        NA    NA          NA        NA    NA\nvie       0.9259259     1.308901 5.6743910     5         382 -5.839226     0\n\n$`2`\n           % Term/Level % Level/Term    Global % Level Global occ.   t value\nentourage     42.105263   57.1428571  0.62388592    24          42       Inf\nconstruire     3.508772   66.6666667  0.04456328     2           3  3.526962\nnaturel        3.508772   11.7647059  0.25252525     2          17  2.372694\nconstituer     1.754386   50.0000000  0.02970885     1           2  2.123318\n----------           NA           NA          NA    NA          NA        NA\nnature         3.508772    0.2252252 13.19073084     2         888 -2.187406\n            Prob.\nentourage  0.0000\nconstruire 0.0002\nnaturel    0.0088\nconstituer 0.0169\n----------     NA\nnature     0.0144\n\n$`3`\n         % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nentourer   21.5528782   82.5641026  2.896613   161         195       Inf     0\ntout       14.5917001   50.4629630  3.208556   109         216       Inf     0\n--------           NA           NA        NA    NA          NA        NA    NA\ncadre       0.1338688    0.5780347  2.569816     1         173 -5.447507     0\nvie         1.2048193    2.3560209  5.674391     9         382 -6.466817     0\nnature      5.2208835    4.3918919 13.190731    39         888 -7.473485     0\n\n$`4`\n        % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\ncadre     11.5920763    91.329480  2.569816   158         173       Inf     0\nqualité    6.9699193    87.962963  1.604278    95         108       Inf     0\nvie       23.9178283    85.340314  5.674391   326         382       Inf     0\n-------           NA           NA        NA    NA          NA        NA    NA\nautour     0.7336757     5.181347  2.866904    10         193 -5.920745     0\nnature     6.0161409     9.234234 13.190731    82         888 -9.408410     0\n\n$`5`\n       % Term/Level % Level/Term  Global % Level Global occ.   t value Prob.\nbien      10.221286    91.509434  1.574569    97         106       Inf     0\nêtre       8.956797    87.628866  1.440879    85          97       Inf     0\noù         6.849315    54.621849  1.767677    65         119       Inf     0\nvivre      8.746048    71.551724  1.723113    83         116       Inf     0\n------           NA           NA        NA    NA          NA        NA    NA\nnature     5.057956     5.405405 13.190731    48         888 -8.760695     0\n\n$`6`\n          % Term/Level % Level/Term   Global % Level Global occ.    t value\nécologie     3.7199125    79.687500  0.9506833    51          64        Inf\nnature      33.9897885    52.477477 13.1907308   466         888        Inf\npollution    7.8045222    72.789116  2.1836007   107         147        Inf\n---------           NA           NA         NA    NA          NA         NA\nentourer     0.0000000     0.000000  2.8966132     0         195  -9.164544\nvie          0.6564551     2.356021  5.6743910     9         382 -10.725412\n          Prob.\nécologie      0\nnature        0\npollution     0\n---------    NA\nentourer      0\nvie           0\n\n$`7`\n         % Term/Level % Level/Term  Global % Level Global occ. t value Prob.\narbre        3.401760     96.66667 0.8912656    58          60     Inf     0\ncalme        5.043988     83.49515 1.5300059    86         103     Inf     0\ncampagne     5.043988     76.78571 1.6636958    86         112     Inf     0\nespace       5.571848     64.18919 2.1984551    95         148     Inf     0\nforêt        2.287390     90.69767 0.6387403    39          43     Inf     0\n\n\n\n\nRéponses specifiques\nspecific_terms(dtmlem2,meta(corpus_cl)$clus, n=5)\n\ncharacteristic_docs(corpus_cl,dtmlem2,meta(corpus_cl)$clu, ndocs=3)\n\nWarning in rollup.simple_triplet_matrix(t(x), 2L, INDEX[as.character(k)], :\nNA(s) in 'index'\n\n\nDocuments characteristic of: 1 \nX264: distance 4.79 \ntout ce qui est autour de moi, la nature\n\nX1262: distance 4.79 \nla nature, tout ce qui est autour de moi\n\nX1303: distance 4.79 \ntout ce qui est autour de moi, la nature\n\nDocuments characteristic of: 2 \nX1053: distance 14.11 \nnature, entourage\n\nX1255: distance 14.11 \nentourage, nature\n\nX801: distance 23.59 \nl'entourage, l'espace\n\nDocuments characteristic of: 3 \nX267: distance 4.355 \nce qui nous entoure, toute la nature\n\nX568: distance 4.355 \ntout ce qui nous entoure, la nature\n\nX1076: distance 4.355 \nla nature, tout ce qui m'entoure\n\nDocuments characteristic of: 4 \nX241: distance 2.946 \nla nature, qualité de la vie, cadre de vie\n\nX21: distance 3.928 \nla nature, cadre de vie\n\nX236: distance 3.928 \nla nature, cadre de vie\n\nDocuments characteristic of: 5 \nX422: distance 7.17 \nla qualité de vie, le bien être, la nature\n\nX309: distance 7.198 \nnature, bien être de vivre\n\nX1945: distance 7.198 \nla nature, le bien être à vivre\n\nDocuments characteristic of: 6 \nX24: distance 5.062 \nla nature\n\nX35: distance 5.062 \nnature\n\nX65: distance 5.062 \nla nature\n\nDocuments characteristic of: 7 \nX334: distance 9.761 \nnature, la vie en campagne, propreté\n\nX1616: distance 10.46 \nverdure, nature, espace de vie\n\nX896: distance 10.55 \nnature, calme, vie au grand air, propreté\n\n\n\n\nAvec Rainette (type Alceste)\nOn pourrait également faire une classification avec le package Rainette. En savoir plus sur https://juba.github.io/rainette/articles/introduction_usage.html\nSon utilisation nesessite aussi d’appeler le package quanteda.\nAttention risque de conflit entre les packages tm (chargé par R.temis) et quanteda : ne pas lancer library(quanteda).\nIci on utilise le corpus non lemmatisé.\n\nlibrary(rainette)\ncorpus\n\n# On adapte le TLE pour quanteda\ndfm <- quanteda::as.dfm(dtm)\nquanteda::docvars(dfm, \"doc_id\") <- 1:nrow(dfm)\n\n# On exécute rainette\n\nresrai <- rainette(dfm, min_uc_size = 3, k = 10, doc_id = \"doc_id\", cc_test = 0.3,\n  tsj = 3)\n\nExploration interactive\n\nrainette_explor(resrai,dfm)\n\ngroups <-cutree_rainette(resrai, k = 10)\n\n\nDescription des classes\n\nrainette_stats(groups, dfm, n_terms = 5)\n\nOn récupère la variable issue de la classification Rainette pour des traitements ultérieurs\n\nmeta(corpus, \"classe\") <- cutree_rainette(resrai, k = 10)\n#View(meta(corpus))"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#autre-méthodologie-embarquée",
+    "href": "AGD et questions ouvertes.html#autre-méthodologie-embarquée",
+    "title": "Concepts de statistique textuelle",
+    "section": "Autre méthodologie embarquée",
+    "text": "Autre méthodologie embarquée\nRéduire la taille du lexique Via l’opération de lemmatisation = rattacher un ou plusieurs mots à une forme dite racine (Lebart, Salem, 1994)\nConvertir :\n\nles formes verbales à l’infinitif\nles substantifs au singulier\nles adjectifs au masculin singulier\n\nOpération automatisée avec des dictionnaires et/ou manuelle\nLes “mots” ou formes graphiques deviendront alors des formes racine, lemmes, termes …"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#quali-quanti-viz",
+    "href": "AGD et questions ouvertes.html#quali-quanti-viz",
+    "title": "Concepts de statistique textuelle",
+    "section": "Quali + Quanti + Viz",
+    "text": "Quali + Quanti + Viz\nCalculs statistiques appliqués à des corpus\n\nChiffres & Mots : Occurrences & Cooccurrences, …\nCalcul de spécificités, de profils …\nVisualisations : nuages de mots, graphe de mots, plan factoriels (Analyse des correspondances), dendrogrammes (classifications)\n\nAides à l’interprétation indispensables : les concordances"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#les-références",
+    "href": "AGD et questions ouvertes.html#les-références",
+    "title": "Concepts de statistique textuelle",
+    "section": "Les références",
+    "text": "Les références\n\n\n\n\n\nQuels sont les textes les plus semblables en ce qui concerne le vocabulaire et la fréquence des formes utilisées ? Quelles sont les formes qui caractérisent chaque texte, par leur présence ou leur absence ? (Lebart & Salem, 1994, p.135)"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#la-statistique-textuelle",
+    "href": "AGD et questions ouvertes.html#la-statistique-textuelle",
+    "title": "Concepts de statistique textuelle",
+    "section": "La statistique textuelle",
+    "text": "La statistique textuelle\n\nAnalyse de données non structurées\nExploration de données textuelles autrement - sans a priori\nComplémentarité des méthodes (qualitative/quantitative)\nUtilisation conjointe de l’informatique tout-automatique et de l’intuition humaine"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#usage-croissant-de-la-statistique-textuelle",
+    "href": "AGD et questions ouvertes.html#usage-croissant-de-la-statistique-textuelle",
+    "title": "Concepts de statistique textuelle",
+    "section": "Usage croissant de la statistique textuelle",
+    "text": "Usage croissant de la statistique textuelle"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#les-occurrences",
+    "href": "AGD et questions ouvertes.html#les-occurrences",
+    "title": "Concepts de statistique textuelle",
+    "section": "Les occurrences",
+    "text": "Les occurrences\nLe calcul d’occurrences revient à s’intéresser à la forme des textes en faisant abstraction de leur structure. Les mots vont constituer le dictionnaire ou lexique associé au corpus et deviennent des descripteurs : les termes\n\n\n\n\n\nLecture des mots par ordre de fréquence/ occurrence et ordre alphabétique"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#mettre-en-relation-mots-et-métadonnées",
+    "href": "AGD et questions ouvertes.html#mettre-en-relation-mots-et-métadonnées",
+    "title": "Concepts de statistique textuelle",
+    "section": "Mettre en relation mots et métadonnées",
+    "text": "Mettre en relation mots et métadonnées\nUtiliser les caractéristiques ou métadonnées des textes pour repérer des structures.\nOn partitionne le corpus selon les modalités de variables qualitatives"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#liste-non-exhaustive-doutils",
+    "href": "AGD et questions ouvertes.html#liste-non-exhaustive-doutils",
+    "title": "Concepts de statistique textuelle",
+    "section": "Liste (non exhaustive) d’outils",
+    "text": "Liste (non exhaustive) d’outils\n\nLogiciels historiques (Spad, Lexico, Alceste, Hyperbase) aujourd’hui écrits à partir de R (tm, R.temis, TXM, Quanteda, IRaMuteQ ou Xplortext ….)"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#contenu-de-cette-présentation",
+    "href": "AGD et questions ouvertes.html#contenu-de-cette-présentation",
+    "title": "Concepts de statistique textuelle",
+    "section": "Contenu de cette présentation",
+    "text": "Contenu de cette présentation\n\nLes concepts de la statistique textuelle Corpus et Tableaux lexicaux Méthodologie embarquée\nApplication avec des réponses à une question ouverte issue de l’enquête “Populations, Espaces de Vie, Environnements” (Collomb, Guerin-Pace, Ined, 1992)\nIllustrations à partir de Garnier B., Guérin-Pace F. 2010 - Appliquer les méthodes de la statistique textuelle, [Ceped, les clefs pour], Paris"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#la-lemmatisation",
+    "href": "AGD et questions ouvertes.html#la-lemmatisation",
+    "title": "Concepts de statistique textuelle",
+    "section": "La lemmatisation",
+    "text": "La lemmatisation\nRéduire la taille du lexique.\n= rattacher un ou plusieurs mots à une forme dite racine (Lebart & Salem, 1994) Convertir :\n\nles formes verbales à l’infinitif\nles substantifs au singulier\nles adjectifs au masculin singulier\n\nOpération automatisée avec des dictionnaires et/ou manuelle\nLes “mots” ou formes graphiques deviendront alors des formes racine, lemmes, termes …"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#repérer-automatiquement-les-cooccurrences",
+    "href": "AGD et questions ouvertes.html#repérer-automatiquement-les-cooccurrences",
+    "title": "Concepts de statistique textuelle",
+    "section": "Repérer automatiquement les cooccurrences",
+    "text": "Repérer automatiquement les cooccurrences"
+  },
+  {
+    "objectID": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-tableau-lexical-entier",
+    "href": "AGD et questions ouvertes.html#analyse-des-correspondances-sur-tableau-lexical-entier",
+    "title": "Concepts de statistique textuelle",
+    "section": "Analyse des correspondances sur tableau lexical entier",
+    "text": "Analyse des correspondances sur tableau lexical entier\nLes plans factoriels permettent de visualiser des proximités de mots, des oppositions et ainsi de repérer des champs lexicaux\n\nDeux mots sont d’autant plus proches que leurs contextes d’utilisation se ressemblent et d’autant plus éloignés qu’ils sont rarement utilisés ensemble"
   }
 ]

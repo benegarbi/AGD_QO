@@ -359,70 +359,70 @@
   {
     "objectID": "QO_Pee_K1_Spad.html#contenu-de-cette-présentation",
     "href": "QO_Pee_K1_Spad.html#contenu-de-cette-présentation",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Contenu de cette présentation",
     "text": "Contenu de cette présentation\nCaptures d’écran présentant un exemple d’analyse de question ouverte avec Spad. Les premières étapes sont détaillées afin de comprendre le fonctionnement du logiciel. La dernière diapositive synthétise l’ensemble des méthodes présentées en démo."
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#données",
     "href": "QO_Pee_K1_Spad.html#données",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Données",
     "text": "Données\nLe corpus utilisé dans cet exemple contient un extrait des réponses à une question ouverte issue de l’enquête Populations, Espaces de Vie, Environnements (Ined, 1992). L’intitulé de la question est celui-ci :Si je vous dis Environnement, qu’est ce que cela évoque pour vous ?.\nPour chaque enquêté, on dispose de caractéristiques socio-démographiques (https://data.ined.fr/index.php/catalog/41)."
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#spad",
     "href": "QO_Pee_K1_Spad.html#spad",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Spad",
     "text": "Spad\nLe logiciel est commercialisé par la société Cohéris"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#interface",
     "href": "QO_Pee_K1_Spad.html#interface",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Interface",
     "text": "Interface\nSpad propose un grand nombre de méthodes d’analyses, notamment pour l’Analyse Géométrique des Données dont l’analyse textuelle (Text Mining) dans la zone Méthodes de l’interface\nOn paramètre les analyses par selection de Méthodes et choix d’options via des fenêtres. On fait un “double clic” sur les méthodes à utiliser ce qui génère une icône correspondante dans la zone Diagramme"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#import-des-données",
     "href": "QO_Pee_K1_Spad.html#import-des-données",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Import des données",
     "text": "Import des données\nDans la rubrique Import / Export de données, on sélectionne Import d’un fichier texte délimité et on indique le chemin et nom de fichier"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#paramétrage-du-type-des-variables",
     "href": "QO_Pee_K1_Spad.html#paramétrage-du-type-des-variables",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Paramétrage du type des variables",
     "text": "Paramétrage du type des variables\nLa fenêtre d’importation propose un autre onglet Métadonnées qui permet de spécifier le type de chaque variable. Par défaut, elles sont repérées comme des variables Nominales et il faut changer le type de la variable correspondant à la question ouverte (ici K1) en Textuelle\n\nAprès exécution de la méthode, les données sont chargées et on peut utiliser les méthodes de la rubrique Text Mining"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#création-du-lexique-associé-au-corpus",
     "href": "QO_Pee_K1_Spad.html#création-du-lexique-associé-au-corpus",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Création du lexique associé au corpus",
     "text": "Création du lexique associé au corpus\nOn commence par sélectionner la méthode Construction de vocabulaire. On dessine un lien entre les méthodes à l’aide de la souris. Puis dans la fenêtre de paramétrage, on peut sélectionner la variable textuelle à analyser (ici K1)\n\nAprès exécution des méthodes, les résulats s’affichent dans la zone Exécutions. Ici, c’est un fichier Excel caractérisant le lexique : nombre de mots, occurences … dans des onglets différents"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#lemmatisation",
     "href": "QO_Pee_K1_Spad.html#lemmatisation",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Lemmatisation",
     "text": "Lemmatisation\nSpad propose différents type de lemmatisation comme par exemple :\n\nSuppression des mot-outils simplement\nRacinisation\nUtilisation d’un lemmatiseur personnalisé\n\n\n\n\n\n\n\nIl convient ensuite de “brancher” la méthode voulue pour utiliser le lexique résultant"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#concordances",
     "href": "QO_Pee_K1_Spad.html#concordances",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Concordances",
     "text": "Concordances\nLa méthode Edition de contextes des mots permet de visualiser les concordances de mots au choix tout au long de l’analyse. Indispensable au moment de l’intéerprétation des résultats ou faire des choix lors de la lemmatisation"
   },
   {
     "objectID": "QO_Pee_K1_Spad.html#enchainement-de-méthodes-de-statistique-textuelle",
     "href": "QO_Pee_K1_Spad.html#enchainement-de-méthodes-de-statistique-textuelle",
-    "title": "Pas à pas pour analyser une question ouverte avec Spad",
+    "title": "Premiers pas pour analyser une question ouverte avec Spad",
     "section": "Enchainement de méthodes de statistique textuelle",
     "text": "Enchainement de méthodes de statistique textuelle"
   }

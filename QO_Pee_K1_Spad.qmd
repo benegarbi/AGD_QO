@@ -1,5 +1,5 @@
 ---
-title: "Pas à pas pour analyser une question ouverte avec Spad"
+title: "Premiers pas pour analyser une question ouverte avec Spad"
 format: 
   revealjs:
     theme: style.scss 

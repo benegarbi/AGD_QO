@@ -1,0 +1,119 @@
+---
+title: "Pas à pas pour analyser une question ouverte avec Spad"
+format: 
+  revealjs:
+    theme: style.scss 
+    scrollable: true
+    smaller: true
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Contenu de cette présentation
+
+Captures d'écran présentant un exemple d'analyse de question ouverte
+avec Spad. Les premières étapes sont détaillées afin de comprendre le
+fonctionnement du logiciel. La dernière diapositive synthétise
+l'ensemble des méthodes présentées en démo.
+
+------------------------------------------------------------------------
+
+## Données
+
+Le *corpus* utilisé dans cet exemple contient un extrait des réponses à
+une question ouverte issue de l'enquête Populations, Espaces de Vie,
+Environnements (Ined, 1992). L'intitulé de la question est celui-ci :*Si
+je vous dis Environnement, qu'est ce que cela évoque pour vous ?*.
+
+Pour chaque enquêté, on dispose de caractéristiques socio-démographiques
+(<https://data.ined.fr/index.php/catalog/41>).
+
+------------------------------------------------------------------------
+
+## Spad
+
+Le logiciel est commercialisé par la société
+[Cohéris](https://ia-data-analytics.fr/logiciel-data-mining/analyse-de-donnees/)
+
+![](images/im_coheris.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Interface
+
+Spad propose un grand nombre de méthodes d'analyses, notamment pour
+l'Analyse Géométrique des Données dont l'analyse textuelle (Text Mining)
+dans la zone *Méthodes* de l'interface
+
+On paramètre les analyses par selection de *Méthodes* et choix d'options
+via des *fenêtres.* On fait un "double clic" sur les méthodes à utiliser
+ce qui génère une icône correspondante dans la zone *Diagramme*
+
+------------------------------------------------------------------------
+
+## Import des données
+
+Dans la rubrique *Import / Export de données*, on sélectionne *Import
+d'un fichier texte délimité* et on indique le chemin et nom de fichier
+
+![](images/im_spad_import.png){fig-align="center"}
+
+------------------------------------------------------------------------
+
+## Paramétrage du type des variables
+
+La fenêtre d'importation propose un autre *onglet* *Métadonnées* qui
+permet de spécifier le type de chaque variable. Par défaut, elles sont
+repérées comme des variables *Nominales* et il faut changer le type de
+la variable correspondant à la question ouverte (ici K1) en *Textuelle*
+
+![](images/im_spad_import_type.png){fig-align="center"}
+
+Après exécution de la méthode, les données sont chargées et on peut
+utiliser les méthodes de la rubrique *Text Mining*
+
+------------------------------------------------------------------------
+
+## Création du lexique associé au corpus
+
+On commence par sélectionner la méthode *Construction de vocabulaire*.
+On dessine un *lien* entre les méthodes à l'aide de la souris. Puis dans
+la fenêtre de paramétrage, on peut sélectionner la variable textuelle à
+analyser (ici K1)
+
+![](images/im_spad_vocab.png){fig-align="center"}
+
+Après exécution des méthodes, les résulats s'affichent dans la zone
+*Exécutions.* Ici, c'est un fichier Excel caractérisant le **lexique** :
+nombre de mots, occurences ... dans des onglets différents
+
+## Lemmatisation
+
+Spad propose différents type de lemmatisation comme par exemple :
+
+-   Suppression des mot-outils simplement
+
+-   Racinisation
+
+-   Utilisation d'un lemmatiseur personnalisé
+
+![](images/im_spad_lemmatisation.png){fig-align="center"}
+
+![](images/im_spad_lemmatisation2.png)
+
+Il convient ensuite de "brancher" la méthode voulue pour utiliser le
+lexique résultant
+
+## Concordances
+
+La méthode *Edition de contextes des mots* permet de visualiser les
+concordances de mots au choix tout au long de l'analyse. Indispensable
+au moment de l'intéerprétation des résultats ou faire des choix lors de
+la lemmatisation
+
+## Enchainement de méthodes de statistique textuelle
+
+![](images/im_spad_synthese.png){fig-align="center"}
+
+## 

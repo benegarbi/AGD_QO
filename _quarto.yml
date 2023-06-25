@@ -12,9 +12,11 @@ website:
         menu:
         - text: "Concepts de statistique textuelle"
           href: Intro.qmd
-        - text: "Pas-à-pas"
+        - text: "Pas-à-pas avec R"
           href : QO_Pee_K1.qmd
-      - text: "Mise en oeuvre"
+        - text: "Premiers pas avec Spad"
+          href : QO_Pee_K1_Spad.qmd
+      - text: "Mise en oeuvre avec un corpus"
         href: Exercices_enonces.html
         
       - text: "Ressources"

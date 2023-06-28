@@ -116,5 +116,11 @@ la lemmatisation
 
 ![](images/im_spad_synthese.png){fig-align="center"}
 
+Pour en savoir plus sur l'utilisation de spad voir Garnier B.,
+Guérin-Pace F. 2010 - Appliquer les méthodes de la statistique
+textuelle, [Ceped, les clefs
+pour](http://www.ceped.org/fr/publications-ressources/editions-du-ceped-1988-2012/les-clefs-pour/article/appliquer-les-methodes-de-la),
+Paris
+
 [![](images/im_back.png){fig-align="left" width="20"
 height="21"}](https://benegarbi.github.io/AGD_QO/)

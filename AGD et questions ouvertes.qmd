@@ -36,6 +36,11 @@ editor:
 
 ![](images/im_nuage_couverture.png){fig-align="center" height="200"}
 
+![](images/im_back_d.png)
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Les données textuelles
@@ -50,11 +55,17 @@ Dans ce cas, l'**unité textuelle** est la réponse
 
 Ici les textes sont composés de *quelques "mots"*, ils sont **courts**
 
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## L'analyse des données
 
 ![](images/im_benzecri.png){fig-align="center" height="500"}
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -78,6 +89,9 @@ Les méthodes s'appliquent à des corpus qui diffèrent par leur nature
 mais qui sont transformés en tableaux de même structure : les **tableaux
 lexicaux**
 
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Afficher des concordances
@@ -88,11 +102,17 @@ height="500"}
 
 Ensemble des lignes de contexte se rapportant à un même "mot"
 
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Usage croissant de la statistique textuelle
 
 ![](images/im_chronologie.png){fig-align="center" width="804"}
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -109,11 +129,17 @@ romans, articles, pages Web etc..)
 
 Ex. : encodage, orthographe, abreviations ...
 
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Exemple de question ouverte dans un questionnaire
 
 ![](images/im_pee.png){fig-align="center" height="500"}
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -128,6 +154,9 @@ textes (Valeur positive ou nulle)
 
 L'ordre des mots n'est pas pris en compte (sacs de mots)
 
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Les occurrences
@@ -141,6 +170,9 @@ deviennent des descripteurs : les *termes*
 
 Lecture des mots par ordre de fréquence/ *occurrence et* ordre
 *alphabétique*
+
+[![](images/im_back.png){fig-align="right" width="20"
+height="21"}](https://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -160,6 +192,9 @@ Opération **automatisée** avec des dictionnaires et/ou manuelle
 Les "mots" ou formes graphiques deviendront alors des *formes racine*,
 *lemmes*, *termes* ...
 
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](https://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Repérer automatiquement les cooccurrences
@@ -171,11 +206,15 @@ Les "mots" ou formes graphiques deviendront alors des *formes racine*,
 Les plans factoriels permettent de visualiser des proximités de mots,
 des oppositions et ainsi de repérer des **champs lexicaux**
 
-![](images/spgeo_0046-2497_1998_num_27_1_T1_0044_0000_1.png){fig-align="center"}
+![](images/spgeo_0046-2497_1998_num_27_1_T1_0044_0000_1.png){fig-align="center"
+width="653"}
 
 Deux mots sont d'autant plus proches que leurs contextes d'utilisation
 se ressemblent et d'autant plus éloignés qu'ils sont rarement utilisés
 ensemble
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](http://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -187,10 +226,13 @@ d'ordonner les textes en cernant les homologies et les oppositions*
 (Rouré, Reinert, 1993)
 
 ![](images/spgeo_0046-2497_1998_num_27_1_T1_0046_0000_1.png){fig-align="center"
-width="291"}
+width="447"}
 
 Méthode *Alceste* ( Reinert, 1983), aujourd'hui implantée dans le
 *package Rainette* (J. Barnier)
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](http://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -209,10 +251,13 @@ Utilisation d'un test pour dire si l'écart entre la fréquence relative
 d'une forme dans une partition (*par modalité*) et la fréquence globale
 calculée sur l'ensemble des réponses est significatif ou non
 
-![](images/specif.png){fig-align="center" width="287"}
+![](images/specif.png){fig-align="center" width="715"}
 
 Les *mots ou textes caractéristiques* de ces partitions sont restitués
 selon leur degré de spécificité
+
+[![](images/im_back.png){fig-align="right" width="19"
+height="20"}](http://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -223,6 +268,9 @@ Tableau de *contingence* qui croise les *mots* du lexique et les
 
 ![](images/im_TLA2.png)
 
+[![](images/im_back.png){fig-align="right" width="20"
+height="21"}](http://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Analyse des correspondances sur un Tableau Lexical Agrégé
@@ -231,7 +279,10 @@ Le plan factoriel permet d'observer la position réciproque des "mots" et
 des métadonnées et de faire émerger des champs lexicaux propres à des
 sous-populations
 
-<img src="images/spgeo_0046-2497_1998_num_27_1_T1_0050_0000_1.png" height="500px"/>
+![](images/spgeo_0046-2497_1998_num_27_1_T1_0050_0000_1.png){width="662"}
+
+[![](images/im_back.png){fig-align="right" width="20"
+height="21"}](http://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -242,6 +293,9 @@ sous-populations
 -   Augmenter le nombre de classes
 -   Analyser des sous-corpus ...
 
+[![](images/im_back.png){fig-align="right" width="20"
+height="21"}](http://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Liste (non exhaustive) d'outils
@@ -250,7 +304,10 @@ sous-populations
 
 Logiciels *historiques* (Spad, Lexico, Alceste, Hyperbase) aujourd'hui
 écrits *à partir de R* (tm, R.temis, TXM, Quanteda, IRaMuteQ ou
-Xplortext ....)
+Xplortext ....), voir page Ressources
+
+[![](images/im_back.png){fig-align="right" width="20"
+height="21"}](http://benegarbi.github.io/AGD_QO/)
 
 ------------------------------------------------------------------------
 
@@ -281,6 +338,9 @@ maximum sur les packages existants (tm, FactoMineR, explor, igraph...)
 -   analyse des correspondances et classification,
 -   graphes de mots
 
+[![](images/im_back.png){fig-align="right" width="20"
+height="21"}](http://benegarbi.github.io/AGD_QO/)
+
 ------------------------------------------------------------------------
 
 ## Quali + Quanti + Viz
@@ -305,3 +365,6 @@ Aides à l'interprétation indispensables : les **concordances**
 -   Complémentarité des méthodes (qualitative/quantitative)
 -   Utilisation conjointe de l'informatique tout-automatique et de
     l'intuition humaine
+
+[![](images/im_back.png){fig-align="left" width="20"
+height="21"}](http://benegarbi.github.io/AGD_QO/)

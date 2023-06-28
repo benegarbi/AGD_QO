@@ -23,7 +23,7 @@ website:
         href: biblio.html
     right:
       - icon: github
-        href: https://benegarbi.github.io
+        href: http://github.com/benegarbi
 format:
   html: 
     theme: 

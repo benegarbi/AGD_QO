@@ -115,7 +115,7 @@ explor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = TRUE, var_sup = FALSE,
     xlim = c(-3, 2.91), ylim = c(-2.42, 3.49))
 ```
 
-Les aides à l'interprétation *classiques* (valeurs propres, contributions, coordonnées, ...) sont stockées dans *resTLE* que l'on explore avec grâce à la fonction `explor` (RShiny).
+Les aides à l'interprétation *classiques* (valeurs propres, contributions, coordonnées, ...) sont stockées dans *resTLE* que l'on explore avec grâce à la fonction `explor`.
 
 # Mettre les QO en regard avec les métadonnées
 
@@ -123,7 +123,7 @@ On dispose des variables suivantes : sexe, age en classes (aget), situation matr
 
 ## Répartitions
 
-Vérifie la répartition des caractéristiques des enquêté pour chaque métadonnée.
+Vérifier la répartition des caractéristiques des enquêté pour chaque métadonnée.
 
 ```{r repart, eval=FALSE}
 library (questionr)
@@ -145,13 +145,13 @@ table(meta(corpus)$region)
 
 ## Nombre de mots par sous-corpus
 
-Ici on compte les mots de chaque sous-corpus crée à partir de la variable *Region* de l'enquête.
+Ici on compte les mots de chaque sous-corpus (ou catégorie) crée à partir de la variable *Region* de l'enquête.
 
 ```{r BilanLex}
 lexical_summary(dtm, corpus,"region", unit = "global")           
 ```
 
-Le corpus contient 12222 mots dont 1157 mots distincts, alors que le corpus des enquêtés de la région Seine contient 2242 mots dont 472 mots distints. On pourrait comparer ici le % de mots distincts (indicateur de richesse du vocabulaire) 9,5% vs 21% en région Seine.
+Le corpus contient 12 222 mots dont 1 157 mots distincts, alors que le corpus des enquêtés de la région Seine contient 2 242 mots dont 472 mots distints. On pourrait comparer ici le % de mots distincts (indicateur de richesse du vocabulaire) 9,5% vs 21% en région Seine.
 
 ## Specificités
 
@@ -162,13 +162,20 @@ Le corpus contient 12222 mots dont 1157 mots distincts, alors que le corpus des 
 specific_terms(dtm,meta(corpus)$aget, n=10)
 ```
 
+
+*% Term/Level* indique le % du mot par rapport au total des mots de la catégorie (ici *pollution* représente 2,31 % de tous les mots cités par les personnes de 20 à 29 ans).
+*% Level/Term* indique le % du mot pour cette catégorie par rapport à l'ensemble (ici *pollution* représente 21,92 % (32/146)).
+*Global* indique le % du mot par rapport à l'ensemble des mots du corpus.
+La *t value* permet d'évaluer la significativité du test. 
+Les mots sont ordonnés selon leur significativité et une valeur négative de la significativité indique un sous-emploi du mot dans la catégorie (par exemple *espaces* pour les 40-49ans).
+
 Les mots *pollution* et *nature* sont plus employés par les répondants les plus jeunes (moins de 30ans)...
 
 ### Réponses spécifiques par modalités
 
 La fonction `characteristic_docs` affiche les documents représentatifs d'une catégorie donnée de répondants ici.
 
-Remarque : Le calcul de la distance est fondé sur la métrique du Khi2 et mesure l'écart entre le profil d'un document et le profil moyen du document de la catégorie. Ce critère a tendance à favoriser les textes longs car plus ils contiennent de "mots", plus ils ont de chance de contenir de "mots" communs, et donc de se rapprocher du profil moyen.
+Remarque : Le calcul de la distance est fondé sur la métrique du Khi2 et mesure l'écart entre le profil d'une réponse (ici) et le profil moyen de la réponse de la catégorie. Ce critère a tendance à favoriser les textes longs car plus ils contiennent de "mots", plus ils ont de chance de contenir de "mots" communs, et donc de se rapprocher du profil moyen.
 
 ```{r Rspec}
 #Réponses spécifiques selon la région
@@ -194,13 +201,15 @@ explor::CA_var_plot(res, xax = 1, yax = 2, lev_sup = FALSE, var_sup = FALSE,
         0.447), ylim = c(-0.413, 0.426))
 ```
 
+Ici encore on regarde les aides à l'interprétation *classiques* (valeurs propres, contributions, coordonnées, ...) stockées dans *resTLA* avec la fonction `explor`
+
 On affiche les réponses les plus contributives aux axes 1 à 3 (fonction `extreme_docs`).
 
 ```{r extr_doc}
 #Documents les plus illustratifs par axe
-extreme_docs(corpus,resTLA,axis=1,ndocs=3)
-extreme_docs(corpus,resTLA,axis=2,ndocs=3)
-extreme_docs(corpus,resTLA,axis=3,ndocs=3)
+extreme_docs(corpus,resTLA,axis=1,ndocs=2)
+extreme_docs(corpus,resTLA,axis=2,ndocs=2)
+extreme_docs(corpus,resTLA,axis=3,ndocs=2)
 ```
 
 # Lemmatiser

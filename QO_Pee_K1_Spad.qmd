@@ -115,3 +115,6 @@ la lemmatisation
 ## Enchainement de méthodes de statistique textuelle
 
 ![](images/im_spad_synthese.png){fig-align="center"}
+
+[![](images/im_back.png){fig-align="left" width="20"
+height="21"}](https://benegarbi.github.io/AGD_QO/)

@@ -34,12 +34,14 @@ editor:
 -   **Trouver des structures**
 -   **Présenter** des résultats ...
 
-![](images/im_nuage_couverture.png){fig-align="center" height="200"}
+------------------------------------------------------------------------
 
-![](images/im_back_d.png)
+![](images/carme2011.png){fig-align="left" width="178"}
 
-[![](images/im_back.png){fig-align="right" width="19"
-height="20"}](https://benegarbi.github.io/AGD_QO/)
+The word cloud on the cover design is based on the words of all the
+abstarcts of this CARME conference (2011), so in a certain sense, it 's
+an analysis (most frequent words, an size related to frequency), Michael
+Greenacre
 
 ------------------------------------------------------------------------
 

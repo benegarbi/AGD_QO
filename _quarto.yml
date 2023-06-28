@@ -16,7 +16,7 @@ website:
           href : QO_Pee_K1.qmd
         - text: "Premiers pas avec Spad"
           href : diaspad.qmd
-      - text: "Mise en oeuvre avec un corpus"
+      - text: "Exercice"
         href: Exercices_enonces.html
         
       - text: "Ressources"
